@@ -1,0 +1,225 @@
+{
+  "schemaVersion": "1.0.0",
+  "work": "柳如是別傳",
+  "chapter": "第三章　河東君與「吳江故相」及「雲間孝廉」之關係　附河東君嘉定之游",
+  "scope": {
+    "sourceFile": "OEBPS/text00156.html",
+    "fromBlock": "lrs-f156-b0001",
+    "toBlock": "lrs-f156-b0020",
+    "status": "first editorial pass"
+  },
+  "readingUnits": [
+    {
+      "id": "lrs-pilot-01",
+      "title": "材料的兩種偏向",
+      "blocks": ["lrs-f156-b0002", "lrs-f156-b0003"],
+      "function": "methodological-opening",
+      "note": "陳寅恪先把河東君記載分為具同情而可能隱諱、懷惡意而可能誣枉兩類；顧苓之傳雖最佳，仍須以其他材料補正。",
+      "claims": [
+        {
+          "text": "材料立場本身是史料批判的一部分。",
+          "basis": ["lrs-f156-b0002", "lrs-f156-b0003"],
+          "certainty": "explicit"
+        }
+      ]
+    },
+    {
+      "id": "lrs-pilot-02",
+      "title": "顧苓與瞿式耜家族",
+      "blocks": ["lrs-f156-b0004", "lrs-f156-b0005", "lrs-f156-b0006", "lrs-f156-b0007"],
+      "function": "source-pair",
+      "sources": [
+        {
+          "work": "牧齋外集",
+          "locator": "壹陸",
+          "item": "明經顧云美妻陸氏墓誌銘",
+          "introBlock": "lrs-f156-b0004",
+          "quotationBlocks": ["lrs-f156-b0005"]
+        },
+        {
+          "work": "同治修蘇州府志",
+          "locator": "捌捌",
+          "item": "顧苓傳",
+          "introBlock": "lrs-f156-b0006",
+          "quotationBlocks": ["lrs-f156-b0007"]
+        }
+      ],
+      "note": "兩則材料用來確立顧苓與瞿式耜家族的關係及其遺民立場。第二則引文內含陳寅恪括注，正式重排時不能把括注誤作原引文。"
+    },
+    {
+      "id": "lrs-pilot-03",
+      "title": "由顧苓立場推回《河東君傳》",
+      "blocks": ["lrs-f156-b0008", "lrs-f156-b0009", "lrs-f156-b0010"],
+      "function": "evidence-and-inference",
+      "sources": [
+        {
+          "work": "鮚埼亭外集",
+          "locator": "叁壹",
+          "item": "浩氣吟跋",
+          "introBlock": "lrs-f156-b0008",
+          "quotationBlocks": ["lrs-f156-b0009"]
+        }
+      ],
+      "claims": [
+        {
+          "text": "顧苓對錢謙益晚節的理解，不同於一般吳越遺民的苛評。",
+          "basis": ["lrs-f156-b0008", "lrs-f156-b0009"],
+          "certainty": "argued"
+        },
+        {
+          "text": "顧苓推重河東君，可能與錢柳同心復明有關。",
+          "basis": ["lrs-f156-b0010"],
+          "certainty": "inferred"
+        }
+      ],
+      "crossReferences": [
+        {
+          "label": "河東君陰助牧齋復興明室",
+          "target": "第五章",
+          "sourceText": "俟於第伍章論之",
+          "block": "lrs-f156-b0010"
+        }
+      ]
+    },
+    {
+      "id": "lrs-pilot-04",
+      "title": "「松風」手跡旁證",
+      "blocks": ["lrs-f156-b0011", "lrs-f156-b0012", "lrs-f156-b0013"],
+      "function": "scholarly-aside",
+      "sources": [
+        {
+          "work": "雪橋詩話續集",
+          "locator": "壹",
+          "introBlock": "lrs-f156-b0011",
+          "quotationBlocks": ["lrs-f156-b0012"]
+        }
+      ],
+      "claims": [
+        {
+          "text": "崇禎帝「松風」手跡可能不止一本，或與景山石刻御坐有關。",
+          "basis": ["lrs-f156-b0011", "lrs-f156-b0012", "lrs-f156-b0013"],
+          "certainty": "open-question"
+        }
+      ],
+      "note": "「俟考」不是普通尾語；前端应让它成为可检索的开放问题类型。"
+    },
+    {
+      "id": "lrs-pilot-05",
+      "title": "《河東君傳》的版本選擇",
+      "blocks": ["lrs-f156-b0014"],
+      "function": "textual-witnesses",
+      "witnesses": [
+        "殷禮在斯堂叢書《塔影園集》本",
+        "《華笑廎雜筆》本",
+        "《秦淮廣記》本",
+        "《蘼蕪紀聞》本"
+      ],
+      "preferredWitness": "《華笑廎雜筆》本",
+      "note": "正式版應允許展開四本清單，但主閱讀面只保留「四本中以范本為最善」。"
+    },
+    {
+      "id": "lrs-pilot-06",
+      "title": "羅振玉跋與陳寅恪校正",
+      "blocks": ["lrs-f156-b0015", "lrs-f156-b0016", "lrs-f156-b0017"],
+      "function": "quotation-with-correction",
+      "sources": [
+        {
+          "work": "貞松老人外集",
+          "locator": "叁",
+          "item": "顧云美書河東君傳册跋",
+          "introBlock": "lrs-f156-b0015",
+          "quotationBlocks": ["lrs-f156-b0016"]
+        }
+      ],
+      "claims": [
+        {
+          "text": "羅振玉以「雲間孝廉」為陳子龍，陳寅恪認為是特識。",
+          "basis": ["lrs-f156-b0016", "lrs-f156-b0017"],
+          "certainty": "explicit"
+        },
+        {
+          "text": "羅振玉對柳如是稱謂、攜賄入都及癸卯年齡等說法有誤。",
+          "basis": ["lrs-f156-b0017"],
+          "certainty": "explicit"
+        }
+      ]
+    },
+    {
+      "id": "lrs-pilot-07",
+      "title": "顧傳原文與史料缺口",
+      "blocks": ["lrs-f156-b0018", "lrs-f156-b0019", "lrs-f156-b0020"],
+      "function": "base-source-and-critique",
+      "sources": [
+        {
+          "work": "河東君傳",
+          "author": "顧苓",
+          "introBlock": "lrs-f156-b0018",
+          "quotationBlocks": ["lrs-f156-b0019"]
+        }
+      ],
+      "claims": [
+        {
+          "text": "顧傳不記河東君本來姓氏、籍貫及「適雲間孝廉」以前事蹟，陳寅恪判斷其中可能有所隱諱。",
+          "basis": ["lrs-f156-b0019", "lrs-f156-b0020"],
+          "certainty": "inferred"
+        },
+        {
+          "text": "早年材料稀少且多不可靠，需以直接相關者為主、間接傳聞為輔。",
+          "basis": ["lrs-f156-b0020"],
+          "certainty": "explicit"
+        }
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "id": "person-liu-rushi",
+      "label": "河東君",
+      "type": "person",
+      "aliases": ["柳如是", "柳氏", "隱雯", "柳蘼蕪"]
+    },
+    {
+      "id": "person-gu-ling",
+      "label": "顧苓",
+      "type": "person",
+      "aliases": ["顧云美", "云美"]
+    },
+    {
+      "id": "person-qian-qianyi",
+      "label": "錢謙益",
+      "type": "person",
+      "aliases": ["牧齋", "牧翁"]
+    },
+    {
+      "id": "person-qu-shisi",
+      "label": "瞿式耜",
+      "type": "person",
+      "aliases": ["瞿稼軒", "稼軒"]
+    },
+    {
+      "id": "person-chen-zilong",
+      "label": "陳子龍",
+      "type": "person",
+      "aliases": ["陳臥子", "臥子", "雲間孝廉"]
+    }
+  ],
+  "readerBehaviors": [
+    {
+      "trigger": "source-introduction",
+      "behavior": "将紧随其后的引文在视觉上归为同一材料组，正文中不显示数据库字段。"
+    },
+    {
+      "trigger": "寅恪案",
+      "behavior": "保留在原文位置；允许在侧栏聚合为作者判断，不从正文抽走。"
+    },
+    {
+      "trigger": "俟考",
+      "behavior": "标记为开放问题，可查看全书其他开放问题。"
+    },
+    {
+      "trigger": "cross-reference",
+      "behavior": "在当前阅读位置打开目标段落预览，读者确认后才跳转。"
+    }
+  ]
+}
+

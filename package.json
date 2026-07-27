@@ -1,0 +1,11 @@
+{
+  "name": "chen-yinke-research-data",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "validate": "node engineering/scripts/validate-processed.mjs",
+    "sync": "node engineering/scripts/sync-to-canvas.mjs",
+    "extract:liu-rushi": "python3 engineering/scripts/extract-liu-rushi.py",
+    "build:liu-rushi-edition": "python3 engineering/scripts/build-liu-rushi-edition.py"
+  }
+}

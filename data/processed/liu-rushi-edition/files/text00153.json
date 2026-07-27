@@ -1,0 +1,42 @@
+{
+  "schemaVersion": "1.0.0",
+  "work": "柳如是別傳",
+  "sourceFile": "OEBPS/text00153.html",
+  "fileNumber": 153,
+  "blocks": [
+    {
+      "id": "lrs-f153-b0001",
+      "sequence": 1,
+      "type": "section-title",
+      "source": {
+        "file": "OEBPS/text00153.html",
+        "tag": "h3",
+        "class": "text-title-3"
+      },
+      "text": "用前題意再賦一首。年來除從事著述外，稍以小説詞曲遣日，故詩語及之",
+      "nodes": [
+        {
+          "type": "text",
+          "text": "用前題意再賦一首。年來除從事著述外，稍以小説詞曲遣日，故詩語及之"
+        }
+      ]
+    },
+    {
+      "id": "lrs-f153-b0002",
+      "sequence": 2,
+      "type": "indented-prose",
+      "source": {
+        "file": "OEBPS/text00153.html",
+        "tag": "p",
+        "class": "bodytext1"
+      },
+      "text": "歲月猶餘幾許存。欲將心事寄閒言。推尋衰柳枯蘭意，刻畫殘山賸水痕。故紙金樓銷白日，新鶯玉茗送黄昏。夷門醇酒知難貰，聊把清歌伴濁樽。",
+      "nodes": [
+        {
+          "type": "text",
+          "text": "歲月猶餘幾許存。欲將心事寄閒言。推尋衰柳枯蘭意，刻畫殘山賸水痕。故紙金樓銷白日，新鶯玉茗送黄昏。夷門醇酒知難貰，聊把清歌伴濁樽。"
+        }
+      ]
+    }
+  ]
+}

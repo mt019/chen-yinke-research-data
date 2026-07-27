@@ -1,0 +1,123 @@
+{
+  "schemaVersion": "1.0.0",
+  "work": "柳如是別傳",
+  "author": "陳寅恪",
+  "sourceFormat": "EPUB",
+  "scope": {
+    "firstHtml": "OEBPS/text00143.html",
+    "lastHtml": "OEBPS/text00169.html",
+    "htmlFileCount": 27
+  },
+  "sections": [
+    {
+      "id": "front-matter",
+      "order": 0,
+      "title": "卷前說明與附記",
+      "sourceFiles": [
+        "OEBPS/text00143.html",
+        "OEBPS/text00144.html",
+        "OEBPS/text00145.html"
+      ],
+      "textFile": "00_front-matter.txt",
+      "characterCount": 2390,
+      "paragraphCount": 17,
+      "subheadings": [
+        "附記"
+      ]
+    },
+    {
+      "id": "chapter-1",
+      "order": 1,
+      "title": "第一章　緣起",
+      "sourceFiles": [
+        "OEBPS/text00146.html",
+        "OEBPS/text00147.html",
+        "OEBPS/text00148.html",
+        "OEBPS/text00149.html",
+        "OEBPS/text00150.html",
+        "OEBPS/text00151.html",
+        "OEBPS/text00152.html",
+        "OEBPS/text00153.html",
+        "OEBPS/text00154.html"
+      ],
+      "textFile": "01_chapter-1.txt",
+      "characterCount": 7739,
+      "paragraphCount": 51,
+      "subheadings": []
+    },
+    {
+      "id": "chapter-2",
+      "order": 2,
+      "title": "第二章　河東君最初姓氏名字之推測及其附帶問題",
+      "sourceFiles": [
+        "OEBPS/text00155.html"
+      ],
+      "textFile": "02_chapter-2.txt",
+      "characterCount": 11507,
+      "paragraphCount": 101,
+      "subheadings": []
+    },
+    {
+      "id": "chapter-3",
+      "order": 3,
+      "title": "第三章　河東君與「吳江故相」及「雲間孝廉」之關係　附河東君嘉定之游",
+      "sourceFiles": [
+        "OEBPS/text00156.html",
+        "OEBPS/text00157.html",
+        "OEBPS/text00158.html",
+        "OEBPS/text00159.html",
+        "OEBPS/text00160.html",
+        "OEBPS/text00161.html"
+      ],
+      "textFile": "03_chapter-3.txt",
+      "characterCount": 168170,
+      "paragraphCount": 1369,
+      "subheadings": [
+        "第壹期",
+        "河東君嘉定之游",
+        "第貳期",
+        "第叁期"
+      ]
+    },
+    {
+      "id": "chapter-4",
+      "order": 4,
+      "title": "第四章　河東君過訪半野堂及其前後之關係",
+      "sourceFiles": [
+        "OEBPS/text00162.html",
+        "OEBPS/text00163.html",
+        "OEBPS/text00164.html",
+        "OEBPS/text00165.html",
+        "OEBPS/text00166.html"
+      ],
+      "textFile": "04_chapter-4.txt",
+      "characterCount": 269499,
+      "paragraphCount": 2196,
+      "subheadings": [
+        "第壹期",
+        "第貳期",
+        "第叁期"
+      ]
+    },
+    {
+      "id": "chapter-5",
+      "order": 5,
+      "title": "第五章　復明運動　附錢氏家難",
+      "sourceFiles": [
+        "OEBPS/text00167.html",
+        "OEBPS/text00168.html",
+        "OEBPS/text00169.html"
+      ],
+      "textFile": "05_chapter-5.txt",
+      "characterCount": 213423,
+      "paragraphCount": 2103,
+      "subheadings": [
+        "錢氏家難"
+      ]
+    }
+  ],
+  "totals": {
+    "characterCount": 672728,
+    "paragraphCount": 5837
+  }
+}

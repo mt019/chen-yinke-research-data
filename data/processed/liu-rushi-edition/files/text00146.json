@@ -1,0 +1,91 @@
+{
+  "schemaVersion": "1.0.0",
+  "work": "柳如是別傳",
+  "sourceFile": "OEBPS/text00146.html",
+  "fileNumber": 146,
+  "blocks": [
+    {
+      "id": "lrs-f146-b0001",
+      "sequence": 1,
+      "type": "chapter-title",
+      "source": {
+        "file": "OEBPS/text00146.html",
+        "tag": "h1",
+        "class": "text-title-1-c"
+      },
+      "text": "第一章 緣起",
+      "nodes": [
+        {
+          "type": "text",
+          "text": "第一章 緣起"
+        }
+      ]
+    },
+    {
+      "id": "lrs-f146-b0002",
+      "sequence": 2,
+      "type": "section-title",
+      "source": {
+        "file": "OEBPS/text00146.html",
+        "tag": "h3",
+        "class": "text-title-3"
+      },
+      "text": "詠紅豆 并序",
+      "nodes": [
+        {
+          "type": "text",
+          "text": "詠紅豆 "
+        },
+        {
+          "type": "span-start",
+          "class": "kaiti"
+        },
+        {
+          "type": "text",
+          "text": "并序"
+        },
+        {
+          "type": "span-end"
+        },
+        {
+          "type": "text",
+          "text": " "
+        }
+      ]
+    },
+    {
+      "id": "lrs-f146-b0003",
+      "sequence": 3,
+      "type": "styled-literary-last",
+      "source": {
+        "file": "OEBPS/text00146.html",
+        "tag": "p",
+        "class": "bodytext-kt-last-np"
+      },
+      "text": "昔歲旅居昆明，偶購得常熟白茆港錢氏故園中紅豆一粒，因有箋釋錢柳因緣詩之意，迄今二十年，始克屬草。適發舊篋，此豆尚存，遂賦一詩詠之，並以略見箋釋之旨趣及所論之範圍云爾。",
+      "nodes": [
+        {
+          "type": "text",
+          "text": "昔歲旅居昆明，偶購得常熟白茆港錢氏故園中紅豆一粒，因有箋釋錢柳因緣詩之意，迄今二十年，始克屬草。適發舊篋，此豆尚存，遂賦一詩詠之，並以略見箋釋之旨趣及所論之範圍云爾。"
+        }
+      ]
+    },
+    {
+      "id": "lrs-f146-b0004",
+      "sequence": 4,
+      "type": "indented-prose",
+      "source": {
+        "file": "OEBPS/text00146.html",
+        "tag": "p",
+        "class": "bodytext1"
+      },
+      "text": "東山蔥嶺意悠悠。誰訪甘陵第一流。送客筵前花中酒，迎春湖上柳同舟。縱回楊愛千金笑，終賸歸莊萬古愁。灰劫昆明紅豆在，相思廿載待今酬。",
+      "nodes": [
+        {
+          "type": "text",
+          "text": "東山蔥嶺意悠悠。誰訪甘陵第一流。送客筵前花中酒，迎春湖上柳同舟。縱回楊愛千金笑，終賸歸莊萬古愁。灰劫昆明紅豆在，相思廿載待今酬。"
+        }
+      ]
+    }
+  ]
+}

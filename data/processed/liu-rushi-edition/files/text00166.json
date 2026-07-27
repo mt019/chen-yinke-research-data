@@ -1,0 +1,36 @@
+{
+  "schemaVersion": "1.0.0",
+  "work": "柳如是別傳",
+  "sourceFile": "OEBPS/text00166.html",
+  "fileNumber": 166,
+  "blocks": [
+    {
+      "id": "lrs-f166-b0001",
+      "sequence": 1,
+      "type": "figure",
+      "source": {
+        "file": "OEBPS/text00166.html",
+        "tag": "div",
+        "class": "zhangyue-c"
+      },
+      "text": "￼",
+      "nodes": [
+        {
+          "type": "container-start",
+          "class": "zhangyue-c"
+        },
+        {
+          "type": "image",
+          "role": "figure",
+          "src": "Image00164.jpg",
+          "alt": null,
+          "class": "zhangyue-img"
+        },
+        {
+          "type": "text",
+          "text": " "
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "schemaVersion": "1.0.0",
+  "work": "柳如是別傳",
+  "sourceFile": "OEBPS/text00149.html",
+  "fileNumber": 149,
+  "blocks": [
+    {
+      "id": "lrs-f149-b0001",
+      "sequence": 1,
+      "type": "section-title",
+      "source": {
+        "file": "OEBPS/text00149.html",
+        "tag": "h3",
+        "class": "text-title-3"
+      },
+      "text": "乙未舊曆元旦讀初學集「［崇禎］甲申元日」詩有「衰殘敢負蒼生望，重理東山舊管絃」之句，戲成一律",
+      "nodes": [
+        {
+          "type": "text",
+          "text": "乙未舊曆元旦讀初學集「［崇禎］甲申元日」詩有「衰殘敢負蒼生望，重理東山舊管絃」之句，戲成一律"
+        }
+      ]
+    },
+    {
+      "id": "lrs-f149-b0002",
+      "sequence": 2,
+      "type": "indented-prose",
+      "source": {
+        "file": "OEBPS/text00149.html",
+        "tag": "p",
+        "class": "bodytext1"
+      },
+      "text": "絳雲樓上夜吹簫。哀樂東山養望高。黄閤有書空買菜，玄都無地可栽桃。如花眷屬慙雙鬢，似水興亡送六朝。尚託惠香成狡獪，至今疑滯未能消。",
+      "nodes": [
+        {
+          "type": "text",
+          "text": "絳雲樓上夜吹簫。哀樂東山養望高。黄閤有書空買菜，玄都無地可栽桃。如花眷屬慙雙鬢，似水興亡送六朝。尚託惠香成狡獪，至今疑滯未能消。"
+        }
+      ]
+    }
+  ]
+}

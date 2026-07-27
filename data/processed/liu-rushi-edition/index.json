@@ -1,0 +1,212 @@
+{
+  "schemaVersion": "1.0.0",
+  "work": "柳如是別傳",
+  "author": "陳寅恪",
+  "model": "lossless-xhtml-block-tree",
+  "files": [
+    {
+      "sourceFile": "OEBPS/text00143.html",
+      "file": "files/text00143.json",
+      "blockCount": 7,
+      "characterCount": 1528
+    },
+    {
+      "sourceFile": "OEBPS/text00144.html",
+      "file": "files/text00144.json",
+      "blockCount": 5,
+      "characterCount": 619
+    },
+    {
+      "sourceFile": "OEBPS/text00145.html",
+      "file": "files/text00145.json",
+      "blockCount": 3,
+      "characterCount": 212
+    },
+    {
+      "sourceFile": "OEBPS/text00146.html",
+      "file": "files/text00146.json",
+      "blockCount": 4,
+      "characterCount": 159
+    },
+    {
+      "sourceFile": "OEBPS/text00147.html",
+      "file": "files/text00147.json",
+      "blockCount": 5,
+      "characterCount": 1839
+    },
+    {
+      "sourceFile": "OEBPS/text00148.html",
+      "file": "files/text00148.json",
+      "blockCount": 3,
+      "characterCount": 214
+    },
+    {
+      "sourceFile": "OEBPS/text00149.html",
+      "file": "files/text00149.json",
+      "blockCount": 2,
+      "characterCount": 110
+    },
+    {
+      "sourceFile": "OEBPS/text00150.html",
+      "file": "files/text00150.json",
+      "blockCount": 2,
+      "characterCount": 90
+    },
+    {
+      "sourceFile": "OEBPS/text00151.html",
+      "file": "files/text00151.json",
+      "blockCount": 2,
+      "characterCount": 100
+    },
+    {
+      "sourceFile": "OEBPS/text00152.html",
+      "file": "files/text00152.json",
+      "blockCount": 2,
+      "characterCount": 112
+    },
+    {
+      "sourceFile": "OEBPS/text00153.html",
+      "file": "files/text00153.json",
+      "blockCount": 2,
+      "characterCount": 96
+    },
+    {
+      "sourceFile": "OEBPS/text00154.html",
+      "file": "files/text00154.json",
+      "blockCount": 29,
+      "characterCount": 4918
+    },
+    {
+      "sourceFile": "OEBPS/text00155.html",
+      "file": "files/text00155.json",
+      "blockCount": 101,
+      "characterCount": 11306
+    },
+    {
+      "sourceFile": "OEBPS/text00156.html",
+      "file": "files/text00156.json",
+      "blockCount": 304,
+      "characterCount": 41219
+    },
+    {
+      "sourceFile": "OEBPS/text00157.html",
+      "file": "files/text00157.json",
+      "blockCount": 149,
+      "characterCount": 15019
+    },
+    {
+      "sourceFile": "OEBPS/text00158.html",
+      "file": "files/text00158.json",
+      "blockCount": 367,
+      "characterCount": 52205
+    },
+    {
+      "sourceFile": "OEBPS/text00159.html",
+      "file": "files/text00159.json",
+      "blockCount": 340,
+      "characterCount": 32419
+    },
+    {
+      "sourceFile": "OEBPS/text00160.html",
+      "file": "files/text00160.json",
+      "blockCount": 185,
+      "characterCount": 24619
+    },
+    {
+      "sourceFile": "OEBPS/text00161.html",
+      "file": "files/text00161.json",
+      "blockCount": 1,
+      "characterCount": 1
+    },
+    {
+      "sourceFile": "OEBPS/text00162.html",
+      "file": "files/text00162.json",
+      "blockCount": 4,
+      "characterCount": 844
+    },
+    {
+      "sourceFile": "OEBPS/text00163.html",
+      "file": "files/text00163.json",
+      "blockCount": 693,
+      "characterCount": 87188
+    },
+    {
+      "sourceFile": "OEBPS/text00164.html",
+      "file": "files/text00164.json",
+      "blockCount": 580,
+      "characterCount": 83216
+    },
+    {
+      "sourceFile": "OEBPS/text00165.html",
+      "file": "files/text00165.json",
+      "blockCount": 861,
+      "characterCount": 93978
+    },
+    {
+      "sourceFile": "OEBPS/text00166.html",
+      "file": "files/text00166.json",
+      "blockCount": 1,
+      "characterCount": 1
+    },
+    {
+      "sourceFile": "OEBPS/text00167.html",
+      "file": "files/text00167.json",
+      "blockCount": 1604,
+      "characterCount": 167874
+    },
+    {
+      "sourceFile": "OEBPS/text00168.html",
+      "file": "files/text00168.json",
+      "blockCount": 287,
+      "characterCount": 27357
+    },
+    {
+      "sourceFile": "OEBPS/text00169.html",
+      "file": "files/text00169.json",
+      "blockCount": 133,
+      "characterCount": 14154
+    }
+  ],
+  "totals": {
+    "fileCount": 27,
+    "blockCount": 5676,
+    "characterCount": 661397,
+    "imageOccurrenceCount": 168,
+    "uniqueImageCount": 97
+  },
+  "blockTypes": {
+    "chapter-title": 7,
+    "preface": 10,
+    "signature": 2,
+    "subsection-title": 1,
+    "section-title": 18,
+    "styled-literary-last": 12,
+    "indented-prose": 19,
+    "author-prose": 3148,
+    "styled-source-only": 2016,
+    "styled-source-first": 124,
+    "styled-source-last": 138,
+    "styled-literary-first": 21,
+    "styled-source": 152,
+    "figure": 2,
+    "styled-literary": 6
+  },
+  "sourceClasses": {
+    "h1.text-title-1-c": 7,
+    "p.preface-text": 10,
+    "p.inscribed-right": 2,
+    "h4.text-title-4": 1,
+    "h3.text-title-3": 18,
+    "p.bodytext-kt-last-np": 12,
+    "p.bodytext1": 19,
+    "p.bodytext-margin": 7,
+    "p.bodytext": 3141,
+    "p.bodytext-fs-only-np": 2016,
+    "p.bodytext-fs-first-np": 124,
+    "p.bodytext-fs-last-np": 138,
+    "p.bodytext-kt-first-np": 21,
+    "p.bodytext-fs-np": 152,
+    "div.zhangyue-c": 2,
+    "p.bodytext-kt-np": 6
+  }
+}
