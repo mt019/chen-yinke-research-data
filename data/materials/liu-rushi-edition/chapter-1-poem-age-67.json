@@ -1,0 +1,49 @@
+{
+  "schemaVersion": "2.1.0",
+  "work": "柳如是別傳",
+  "workAuthor": "陳寅恪",
+  "textAttribution": {
+    "assertionOwner": "chen-yinke",
+    "displayLabel": "陳寅恪",
+    "representation": "author-text"
+  },
+  "section": "第一章　緣起・六十七歲生日",
+  "scope": {
+    "sourceFile": "OEBPS/text00151.html",
+    "fromBlock": "lrs-f151-b0001",
+    "contentFromBlock": "lrs-f151-b0001",
+    "toBlock": "lrs-f151-b0002",
+    "status": "first editorial pass"
+  },
+  "readingUnits": [
+    {
+      "id": "lrs-f151-unit-01",
+      "blocks": [
+        "lrs-f151-b0001",
+        "lrs-f151-b0002"
+      ]
+    }
+  ],
+  "editorialDraftPolicy": {
+    "status": "machine-drafted",
+    "publicStatus": "withhold",
+    "wordingBy": "project-editor",
+    "appliesTo": [
+      "editorialDrafts"
+    ]
+  },
+  "editorialDrafts": {
+    "units": [
+      {
+        "id": "lrs-f151-unit-01",
+        "function": "writing-reflection-poem"
+      }
+    ],
+    "sourceBridges": [],
+    "chronology": [],
+    "entities": [],
+    "readerBehaviors": []
+  },
+  "publicAnnotations": [],
+  "annotationAudits": []
+}

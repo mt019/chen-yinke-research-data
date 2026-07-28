@@ -1,0 +1,140 @@
+{
+  "schemaVersion": "1.0.0",
+  "work": "柳如是別傳",
+  "workAuthor": "陳寅恪",
+  "selections": [
+    {
+      "id": "front-matter-2020-publisher-note",
+      "label": "卷前・二〇二〇年出版説明",
+      "sectionId": "front-matter",
+      "sectionOrder": 0,
+      "sourceFileOrder": 0,
+      "material": "front-matter-2020-publisher-note.json"
+    },
+    {
+      "id": "front-matter-1980-publisher-note",
+      "label": "卷前・一九八〇年出版説明",
+      "sectionId": "front-matter",
+      "sectionOrder": 0,
+      "sourceFileOrder": 1,
+      "completesSection": false,
+      "material": "front-matter-1980-publisher-note.json"
+    },
+    {
+      "id": "front-matter-author-chronology-note",
+      "label": "卷前・附記",
+      "sectionId": "front-matter",
+      "sectionOrder": 0,
+      "sourceFileOrder": 2,
+      "completesSection": true,
+      "material": "front-matter-author-chronology-note.json"
+    },
+    {
+      "id": "chapter-1-red-bean-poem",
+      "label": "第一章・詠紅豆并序",
+      "sectionId": "chapter-1",
+      "sectionOrder": 1,
+      "sourceFileOrder": 0,
+      "completesSection": false,
+      "material": "chapter-1-red-bean-poem.json"
+    },
+    {
+      "id": "chapter-1-writing-origin",
+      "label": "第一章・題牧齋初學集與撰著緣起",
+      "sectionId": "chapter-1",
+      "sectionOrder": 1,
+      "sourceFileOrder": 1,
+      "completesSection": false,
+      "material": "chapter-1-writing-origin.json"
+    },
+    {
+      "id": "chapter-1-poems-1955",
+      "label": "第一章・乙未著書感懷",
+      "sectionId": "chapter-1",
+      "sectionOrder": 1,
+      "sourceFileOrder": 2,
+      "completesSection": false,
+      "material": "chapter-1-poems-1955.json"
+    },
+    {
+      "id": "chapter-1-poem-old-calendar-new-year",
+      "label": "第一章・乙未舊曆元旦",
+      "sectionId": "chapter-1",
+      "sectionOrder": 1,
+      "sourceFileOrder": 3,
+      "completesSection": false,
+      "material": "chapter-1-poem-old-calendar-new-year.json"
+    },
+    {
+      "id": "chapter-1-poem-huang-yuqi",
+      "label": "第一章・完稿無期感賦",
+      "sectionId": "chapter-1",
+      "sectionOrder": 1,
+      "sourceFileOrder": 4,
+      "completesSection": false,
+      "material": "chapter-1-poem-huang-yuqi.json"
+    },
+    {
+      "id": "chapter-1-poem-age-67",
+      "label": "第一章・六十七歲生日",
+      "sectionId": "chapter-1",
+      "sectionOrder": 1,
+      "sourceFileOrder": 5,
+      "completesSection": false,
+      "material": "chapter-1-poem-age-67.json"
+    },
+    {
+      "id": "chapter-1-poem-age-68",
+      "label": "第一章・六十八初度",
+      "sectionId": "chapter-1",
+      "sectionOrder": 1,
+      "sourceFileOrder": 6,
+      "completesSection": false,
+      "material": "chapter-1-poem-age-68.json"
+    },
+    {
+      "id": "chapter-1-poem-second-response",
+      "label": "第一章・用前題意再賦",
+      "sectionId": "chapter-1",
+      "sectionOrder": 1,
+      "sourceFileOrder": 7,
+      "completesSection": false,
+      "material": "chapter-1-poem-second-response.json"
+    },
+    {
+      "id": "chapter-1-poems-completion",
+      "label": "第一章・粗告完畢感賦",
+      "sectionId": "chapter-1",
+      "sectionOrder": 1,
+      "sourceFileOrder": 8,
+      "completesSection": false,
+      "material": "chapter-1-poems-completion.json"
+    },
+    {
+      "id": "chapter-1-method-and-examples",
+      "label": "第一章・釋證範圍與義例",
+      "sectionId": "chapter-1",
+      "sectionOrder": 1,
+      "sourceFileOrder": 9,
+      "completesSection": true,
+      "material": "chapter-1-method-and-examples.json"
+    },
+    {
+      "id": "chapter-2-complete",
+      "label": "第二章・姓氏名字之推測",
+      "sectionId": "chapter-2",
+      "sectionOrder": 2,
+      "sourceFileOrder": 0,
+      "completesSection": true,
+      "material": "chapter-2-complete.json"
+    },
+    {
+      "id": "chapter-3-opening-chronology",
+      "label": "第三章・開篇至初遇年代考辨",
+      "sectionId": "chapter-3",
+      "sectionOrder": 3,
+      "sourceFileOrder": 0,
+      "material": "pilot-third-chapter-opening.json"
+    }
+  ]
+}

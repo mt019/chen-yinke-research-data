@@ -1,0 +1,835 @@
+{
+  "schemaVersion": "2.1.0",
+  "work": "柳如是別傳",
+  "workAuthor": "陳寅恪",
+  "textAttribution": {
+    "assertionOwner": "chen-yinke",
+    "displayLabel": "陳寅恪",
+    "representation": "author-text"
+  },
+  "section": "第二章　河東君最初姓氏名字之推測及其附帶問題",
+  "scope": {
+    "sourceFile": "OEBPS/text00155.html",
+    "fromBlock": "lrs-f155-b0001",
+    "contentFromBlock": "lrs-f155-b0001",
+    "toBlock": "lrs-f155-b0101",
+    "status": "first editorial pass"
+  },
+  "readingUnits": [
+    {
+      "id": "lrs-ch2-u01",
+      "blocks": [
+        "lrs-f155-b0001",
+        "lrs-f155-b0002"
+      ]
+    },
+    {
+      "id": "lrs-ch2-u02",
+      "blocks": [
+        "lrs-f155-b0003",
+        "lrs-f155-b0004",
+        "lrs-f155-b0005",
+        "lrs-f155-b0006",
+        "lrs-f155-b0007",
+        "lrs-f155-b0008",
+        "lrs-f155-b0009",
+        "lrs-f155-b0010",
+        "lrs-f155-b0011",
+        "lrs-f155-b0012",
+        "lrs-f155-b0013"
+      ]
+    },
+    {
+      "id": "lrs-ch2-u03",
+      "blocks": [
+        "lrs-f155-b0014",
+        "lrs-f155-b0015",
+        "lrs-f155-b0016",
+        "lrs-f155-b0017",
+        "lrs-f155-b0018",
+        "lrs-f155-b0019",
+        "lrs-f155-b0020",
+        "lrs-f155-b0021",
+        "lrs-f155-b0022",
+        "lrs-f155-b0023",
+        "lrs-f155-b0024",
+        "lrs-f155-b0025",
+        "lrs-f155-b0026",
+        "lrs-f155-b0027",
+        "lrs-f155-b0028",
+        "lrs-f155-b0029"
+      ]
+    },
+    {
+      "id": "lrs-ch2-u04",
+      "blocks": [
+        "lrs-f155-b0030",
+        "lrs-f155-b0031",
+        "lrs-f155-b0032",
+        "lrs-f155-b0033",
+        "lrs-f155-b0034",
+        "lrs-f155-b0035",
+        "lrs-f155-b0036",
+        "lrs-f155-b0037",
+        "lrs-f155-b0038",
+        "lrs-f155-b0039",
+        "lrs-f155-b0040",
+        "lrs-f155-b0041",
+        "lrs-f155-b0042",
+        "lrs-f155-b0043",
+        "lrs-f155-b0044",
+        "lrs-f155-b0045",
+        "lrs-f155-b0046",
+        "lrs-f155-b0047",
+        "lrs-f155-b0048"
+      ]
+    },
+    {
+      "id": "lrs-ch2-u05",
+      "blocks": [
+        "lrs-f155-b0049",
+        "lrs-f155-b0050",
+        "lrs-f155-b0051",
+        "lrs-f155-b0052",
+        "lrs-f155-b0053",
+        "lrs-f155-b0054",
+        "lrs-f155-b0055",
+        "lrs-f155-b0056",
+        "lrs-f155-b0057",
+        "lrs-f155-b0058",
+        "lrs-f155-b0059",
+        "lrs-f155-b0060",
+        "lrs-f155-b0061",
+        "lrs-f155-b0062",
+        "lrs-f155-b0063",
+        "lrs-f155-b0064",
+        "lrs-f155-b0065"
+      ]
+    },
+    {
+      "id": "lrs-ch2-u06",
+      "blocks": [
+        "lrs-f155-b0066",
+        "lrs-f155-b0067",
+        "lrs-f155-b0068",
+        "lrs-f155-b0069",
+        "lrs-f155-b0070",
+        "lrs-f155-b0071",
+        "lrs-f155-b0072",
+        "lrs-f155-b0073",
+        "lrs-f155-b0074",
+        "lrs-f155-b0075",
+        "lrs-f155-b0076",
+        "lrs-f155-b0077"
+      ]
+    },
+    {
+      "id": "lrs-ch2-u07",
+      "blocks": [
+        "lrs-f155-b0078",
+        "lrs-f155-b0079",
+        "lrs-f155-b0080",
+        "lrs-f155-b0081",
+        "lrs-f155-b0082",
+        "lrs-f155-b0083",
+        "lrs-f155-b0084"
+      ]
+    },
+    {
+      "id": "lrs-ch2-u08",
+      "blocks": [
+        "lrs-f155-b0085",
+        "lrs-f155-b0086",
+        "lrs-f155-b0087",
+        "lrs-f155-b0088",
+        "lrs-f155-b0089",
+        "lrs-f155-b0090"
+      ]
+    },
+    {
+      "id": "lrs-ch2-u09",
+      "blocks": [
+        "lrs-f155-b0091",
+        "lrs-f155-b0092",
+        "lrs-f155-b0093",
+        "lrs-f155-b0094",
+        "lrs-f155-b0095",
+        "lrs-f155-b0096",
+        "lrs-f155-b0097"
+      ]
+    },
+    {
+      "id": "lrs-ch2-u10",
+      "blocks": [
+        "lrs-f155-b0098",
+        "lrs-f155-b0099",
+        "lrs-f155-b0100",
+        "lrs-f155-b0101"
+      ]
+    }
+  ],
+  "editorialDraftPolicy": {
+    "status": "machine-drafted",
+    "publicStatus": "withhold",
+    "wordingBy": "project-editor",
+    "appliesTo": [
+      "editorialDrafts"
+    ]
+  },
+  "editorialDrafts": {
+    "units": [
+      {
+        "id": "lrs-ch2-u01",
+        "function": "chapter-question-and-method"
+      },
+      {
+        "id": "lrs-ch2-u02",
+        "function": "hidden-name-reading-convention"
+      },
+      {
+        "id": "lrs-ch2-u03",
+        "function": "beauty-as-specific-appellation"
+      },
+      {
+        "id": "lrs-ch2-u04",
+        "function": "evidence-for-yun-name"
+      },
+      {
+        "id": "lrs-ch2-u05",
+        "function": "yang-zhao-chaoyun-yunjuan-hypothesis"
+      },
+      {
+        "id": "lrs-ch2-u06",
+        "function": "explanatory-test-of-yunjuan-hypothesis"
+      },
+      {
+        "id": "lrs-ch2-u07",
+        "function": "evidence-for-yang-surname"
+      },
+      {
+        "id": "lrs-ch2-u08",
+        "function": "change-to-liu-yang-ai-yinglian"
+      },
+      {
+        "id": "lrs-ch2-u09",
+        "function": "yinwen-liuyin-and-yin-variant"
+      },
+      {
+        "id": "lrs-ch2-u10",
+        "function": "ayun-date-anchor-and-conclusion"
+      }
+    ],
+    "sourceBridges": [],
+    "chronology": [],
+    "entities": [
+      {
+        "id": "person-chen-yinke",
+        "label": "陳寅恪",
+        "type": "person",
+        "aliases": [
+          "寅恪"
+        ]
+      },
+      {
+        "id": "person-liu-rushi",
+        "label": "河東君",
+        "type": "person",
+        "aliases": [
+          "柳如是",
+          "柳氏",
+          "隱雯",
+          "柳蘼蕪"
+        ]
+      },
+      {
+        "id": "person-gu-ling",
+        "label": "顧苓",
+        "type": "person",
+        "aliases": [
+          "顧云美",
+          "云美"
+        ]
+      },
+      {
+        "id": "person-qian-qianyi",
+        "label": "錢謙益",
+        "type": "person",
+        "aliases": [
+          "牧齋",
+          "牧翁"
+        ]
+      },
+      {
+        "id": "person-chen-zilong",
+        "label": "陳子龍",
+        "type": "person",
+        "aliases": [
+          "陳臥子",
+          "臥子",
+          "雲間孝廉"
+        ]
+      },
+      {
+        "id": "person-song-zhengbi",
+        "label": "宋徵璧",
+        "type": "person",
+        "aliases": [
+          "宋尚木",
+          "尚木",
+          "宋讓木",
+          "讓木"
+        ],
+        "nameNote": "權威人名資料著錄字尚木；本書稱讓木，暫列文獻別稱。"
+      },
+      {
+        "id": "person-zhou-daodeng",
+        "label": "周道登",
+        "type": "person",
+        "aliases": [
+          "周文岸",
+          "文岸",
+          "周念西",
+          "念西",
+          "吳江故相"
+        ]
+      },
+      {
+        "id": "person-pan-chengzhang",
+        "label": "潘檉章",
+        "type": "person",
+        "aliases": [
+          "潘力田",
+          "力田"
+        ]
+      },
+      {
+        "id": "person-xu-fo",
+        "label": "徐佛",
+        "type": "person",
+        "aliases": [
+          "雲翾"
+        ]
+      },
+      {
+        "id": "person-li-wen",
+        "label": "李雯",
+        "type": "person",
+        "aliases": [
+          "李舒章",
+          "舒章"
+        ]
+      },
+      {
+        "id": "place-shengze",
+        "label": "盛澤鎮",
+        "type": "place",
+        "aliases": [
+          "歸家院"
+        ]
+      }
+    ],
+    "readerBehaviors": []
+  },
+  "publicQuoteAttributions": {
+    "lrs-f155-b0004": {
+      "author": "吳偉業",
+      "work": "梅村家藏稿",
+      "item": "詩話"
+    },
+    "lrs-f155-b0006": {
+      "author": "鄧漢儀",
+      "work": "天下名家詩觀",
+      "item": "黃媛介條"
+    },
+    "lrs-f155-b0008": {
+      "author": "王士禛",
+      "work": "池北偶談",
+      "item": "黃媛介詩條"
+    },
+    "lrs-f155-b0010": {
+      "author": "吳偉業",
+      "work": "清河家法述"
+    },
+    "lrs-f155-b0012": {
+      "author": "錢謙益",
+      "work": "題張天如立嗣議"
+    },
+    "lrs-f155-b0016": {
+      "author": "錢謙益",
+      "work": "觀美人手跡",
+      "item": "其1"
+    },
+    "lrs-f155-b0018": {
+      "author": "錢謙益",
+      "work": "觀美人手跡",
+      "item": "其2"
+    },
+    "lrs-f155-b0020": {
+      "author": "錢謙益",
+      "work": "觀美人手跡",
+      "item": "其3"
+    },
+    "lrs-f155-b0022": {
+      "author": "錢謙益",
+      "work": "觀美人手跡",
+      "item": "其4"
+    },
+    "lrs-f155-b0024": {
+      "author": "錢謙益",
+      "work": "觀美人手跡",
+      "item": "其5"
+    },
+    "lrs-f155-b0026": {
+      "author": "錢謙益",
+      "work": "觀美人手跡",
+      "item": "其6"
+    },
+    "lrs-f155-b0028": {
+      "author": "錢謙益",
+      "work": "觀美人手跡",
+      "item": "其7"
+    },
+    "lrs-f155-b0031": {
+      "author": "王昶編本原案",
+      "work": "陳忠裕全集"
+    },
+    "lrs-f155-b0033": {
+      "author": "王昶編本原案",
+      "work": "陳忠裕全集"
+    },
+    "lrs-f155-b0035": {
+      "author": "朱鶴齡（徐釚轉引）",
+      "work": "縆雲詩題注"
+    },
+    "lrs-f155-b0037": {
+      "author": "錢謙益",
+      "work": "吳江朱氏杜詩輯注序"
+    },
+    "lrs-f155-b0039": {
+      "author": "錢謙益",
+      "work": "歸玄恭恒軒集序"
+    },
+    "lrs-f155-b0041": {
+      "author": "錢謙益",
+      "work": "與毛子晉書"
+    },
+    "lrs-f155-b0043": {
+      "author": "錢謙益",
+      "work": "與朱長孺書"
+    },
+    "lrs-f155-b0045": {
+      "author": "朱鶴齡",
+      "work": "與吳梅村祭酒書"
+    },
+    "lrs-f155-b0047": {
+      "author": "潘檉章",
+      "work": "松陵文獻",
+      "item": "周道登傳"
+    },
+    "lrs-f155-b0050": {
+      "author": "程嘉燧",
+      "work": "今夕行",
+      "item": "序"
+    },
+    "lrs-f155-b0052": {
+      "author": "李白",
+      "work": "長相思"
+    },
+    "lrs-f155-b0054": {
+      "author": "陳子龍",
+      "work": "陳忠裕全集"
+    },
+    "lrs-f155-b0056": {
+      "author": "陳子龍",
+      "work": "陳忠裕全集"
+    },
+    "lrs-f155-b0058": {
+      "author": "陳子龍",
+      "work": "陳忠裕全集"
+    },
+    "lrs-f155-b0060": {
+      "author": "陳子龍",
+      "work": "陳忠裕全集"
+    },
+    "lrs-f155-b0062": {
+      "author": "陳子龍",
+      "work": "陳忠裕全集"
+    },
+    "lrs-f155-b0064": {
+      "author": "陳子龍",
+      "work": "陳忠裕全集"
+    },
+    "lrs-f155-b0067": {
+      "author": "《詩經》",
+      "work": "鄭風・野有蔓草",
+      "item": "上章"
+    },
+    "lrs-f155-b0068": {
+      "author": "《詩經》",
+      "work": "鄭風・野有蔓草",
+      "item": "下章"
+    },
+    "lrs-f155-b0070": {
+      "author": "錢謙益自注／《真誥》",
+      "work": "絳雲樓上梁"
+    },
+    "lrs-f155-b0072": {
+      "author": "錢謙益自注／《真誥》",
+      "work": "絳雲樓上梁"
+    },
+    "lrs-f155-b0074": {
+      "author": "錢謙益自注／《真誥》",
+      "work": "絳雲樓上梁"
+    },
+    "lrs-f155-b0076": {
+      "author": "作者未詳（錢謙益詩注轉引）",
+      "work": "西湖詩"
+    },
+    "lrs-f155-b0079": {
+      "author": "李雯",
+      "work": "坐中戲言分贈諸妓",
+      "item": "其四"
+    },
+    "lrs-f155-b0081": {
+      "author": "《真誥》",
+      "work": "萼綠華條"
+    },
+    "lrs-f155-b0083": {
+      "author": "《真誥》",
+      "work": "萼綠華條原注"
+    },
+    "lrs-f155-b0086": {
+      "author": "沈虬",
+      "work": "河東君傳"
+    },
+    "lrs-f155-b0089": {
+      "author": "乾隆《吳江縣志》",
+      "work": "周燦條"
+    },
+    "lrs-f155-b0093": {
+      "author": "作者未詳",
+      "work": "牧齋遺事"
+    },
+    "lrs-f155-b0095": {
+      "author": "鄧漢儀",
+      "work": "天下名家詩觀",
+      "item": "柳因條"
+    },
+    "lrs-f155-b0096": {
+      "author": "鄧漢儀",
+      "work": "天下名家詩觀",
+      "item": "柳因條"
+    },
+    "lrs-f155-b0099": {
+      "author": "李雯",
+      "work": "與臥子書"
+    }
+  },
+  "publicAnnotations": [
+    {
+      "id": "lrs-ann-ch2-u01-heading",
+      "annotationType": "editorial-heading",
+      "displayLabel": "編者分段",
+      "text": "問題、假設與證明方法",
+      "target": {
+        "unitId": "lrs-ch2-u01",
+        "placement": "heading"
+      },
+      "attribution": {
+        "assertionOwner": "project-editor",
+        "wordingBy": "project-editor",
+        "representation": "editorial-heading"
+      },
+      "basis": [
+        "lrs-f155-b0001",
+        "lrs-f155-b0002"
+      ],
+      "review": {
+        "status": "draft-disclosed",
+        "authorizedBy": "user",
+        "authorizedAt": "2026-07-29"
+      },
+      "publicStatus": "public"
+    },
+    {
+      "id": "lrs-ann-ch2-text-responsibility",
+      "annotationType": "editorial-note",
+      "displayLabel": "編者說明",
+      "text": "本章正文為陳寅恪所撰。章中整段排錄多種詩文、筆記與方志；引文內的「寅恪案」及「某字可注意」仍是陳寅恪按語，不屬原引作者。",
+      "target": {
+        "unitId": "lrs-ch2-u01",
+        "placement": "note"
+      },
+      "attribution": {
+        "assertionOwner": "project-editor",
+        "wordingBy": "project-editor",
+        "representation": "editorial-note"
+      },
+      "basis": [
+        "lrs-f155-b0002",
+        "lrs-f155-b0004",
+        "lrs-f155-b0060",
+        "lrs-f155-b0070",
+        "lrs-f155-b0100"
+      ],
+      "review": {
+        "status": "draft-disclosed",
+        "authorizedBy": "user",
+        "authorizedAt": "2026-07-29"
+      },
+      "publicStatus": "public"
+    },
+    {
+      "id": "lrs-ann-ch2-u02-heading",
+      "annotationType": "editorial-heading",
+      "displayLabel": "編者分段",
+      "text": "詩文暗藏姓名的解碼慣例",
+      "target": {
+        "unitId": "lrs-ch2-u02",
+        "placement": "heading"
+      },
+      "attribution": {
+        "assertionOwner": "project-editor",
+        "wordingBy": "project-editor",
+        "representation": "editorial-heading"
+      },
+      "basis": [
+        "lrs-f155-b0003",
+        "lrs-f155-b0013"
+      ],
+      "review": {
+        "status": "draft-disclosed",
+        "authorizedBy": "user",
+        "authorizedAt": "2026-07-29"
+      },
+      "publicStatus": "public"
+    },
+    {
+      "id": "lrs-ann-ch2-u03-heading",
+      "annotationType": "editorial-heading",
+      "displayLabel": "編者分段",
+      "text": "「美人」作為專稱",
+      "target": {
+        "unitId": "lrs-ch2-u03",
+        "placement": "heading"
+      },
+      "attribution": {
+        "assertionOwner": "project-editor",
+        "wordingBy": "project-editor",
+        "representation": "editorial-heading"
+      },
+      "basis": [
+        "lrs-f155-b0014",
+        "lrs-f155-b0029"
+      ],
+      "review": {
+        "status": "draft-disclosed",
+        "authorizedBy": "user",
+        "authorizedAt": "2026-07-29"
+      },
+      "publicStatus": "public"
+    },
+    {
+      "id": "lrs-ann-ch2-u04-heading",
+      "annotationType": "editorial-heading",
+      "displayLabel": "編者分段",
+      "text": "由〈縆雲詩〉推出初名含「雲」",
+      "target": {
+        "unitId": "lrs-ch2-u04",
+        "placement": "heading"
+      },
+      "attribution": {
+        "assertionOwner": "project-editor",
+        "wordingBy": "project-editor",
+        "representation": "editorial-heading"
+      },
+      "basis": [
+        "lrs-f155-b0030",
+        "lrs-f155-b0048"
+      ],
+      "review": {
+        "status": "draft-disclosed",
+        "authorizedBy": "user",
+        "authorizedAt": "2026-07-29"
+      },
+      "publicStatus": "public"
+    },
+    {
+      "id": "lrs-ann-ch2-u05-heading",
+      "annotationType": "editorial-heading",
+      "displayLabel": "編者分段",
+      "text": "從「楊朝／朝雲」到「雲娟」假說",
+      "target": {
+        "unitId": "lrs-ch2-u05",
+        "placement": "heading"
+      },
+      "attribution": {
+        "assertionOwner": "project-editor",
+        "wordingBy": "project-editor",
+        "representation": "editorial-heading"
+      },
+      "basis": [
+        "lrs-f155-b0049",
+        "lrs-f155-b0065"
+      ],
+      "review": {
+        "status": "draft-disclosed",
+        "authorizedBy": "user",
+        "authorizedAt": "2026-07-29"
+      },
+      "publicStatus": "public"
+    },
+    {
+      "id": "lrs-ann-ch2-yunjuan-caution",
+      "annotationType": "editorial-note",
+      "displayLabel": "編者說明",
+      "text": "「雲娟」是陳寅恪以「竊疑」提出的初名假說；後續材料用來檢驗其解釋力，不能改標為已確證姓名。",
+      "target": {
+        "unitId": "lrs-ch2-u05",
+        "placement": "note"
+      },
+      "attribution": {
+        "assertionOwner": "project-editor",
+        "wordingBy": "project-editor",
+        "representation": "editorial-note"
+      },
+      "basis": [
+        "lrs-f155-b0053",
+        "lrs-f155-b0065",
+        "lrs-f155-b0066"
+      ],
+      "review": {
+        "status": "draft-disclosed",
+        "authorizedBy": "user",
+        "authorizedAt": "2026-07-29"
+      },
+      "publicStatus": "public"
+    },
+    {
+      "id": "lrs-ann-ch2-u06-heading",
+      "annotationType": "editorial-heading",
+      "displayLabel": "編者分段",
+      "text": "以「有美」「絳雲」檢驗假說",
+      "target": {
+        "unitId": "lrs-ch2-u06",
+        "placement": "heading"
+      },
+      "attribution": {
+        "assertionOwner": "project-editor",
+        "wordingBy": "project-editor",
+        "representation": "editorial-heading"
+      },
+      "basis": [
+        "lrs-f155-b0066",
+        "lrs-f155-b0077"
+      ],
+      "review": {
+        "status": "draft-disclosed",
+        "authorizedBy": "user",
+        "authorizedAt": "2026-07-29"
+      },
+      "publicStatus": "public"
+    },
+    {
+      "id": "lrs-ann-ch2-u07-heading",
+      "annotationType": "editorial-heading",
+      "displayLabel": "編者分段",
+      "text": "本姓楊氏的證據",
+      "target": {
+        "unitId": "lrs-ch2-u07",
+        "placement": "heading"
+      },
+      "attribution": {
+        "assertionOwner": "project-editor",
+        "wordingBy": "project-editor",
+        "representation": "editorial-heading"
+      },
+      "basis": [
+        "lrs-f155-b0078",
+        "lrs-f155-b0084"
+      ],
+      "review": {
+        "status": "draft-disclosed",
+        "authorizedBy": "user",
+        "authorizedAt": "2026-07-29"
+      },
+      "publicStatus": "public"
+    },
+    {
+      "id": "lrs-ann-ch2-u08-heading",
+      "annotationType": "editorial-heading",
+      "displayLabel": "編者分段",
+      "text": "改姓柳與「楊愛／影憐」",
+      "target": {
+        "unitId": "lrs-ch2-u08",
+        "placement": "heading"
+      },
+      "attribution": {
+        "assertionOwner": "project-editor",
+        "wordingBy": "project-editor",
+        "representation": "editorial-heading"
+      },
+      "basis": [
+        "lrs-f155-b0085",
+        "lrs-f155-b0090"
+      ],
+      "review": {
+        "status": "draft-disclosed",
+        "authorizedBy": "user",
+        "authorizedAt": "2026-07-29"
+      },
+      "publicStatus": "public"
+    },
+    {
+      "id": "lrs-ann-ch2-u09-heading",
+      "annotationType": "editorial-heading",
+      "displayLabel": "編者分段",
+      "text": "「隱雯」「柳隱」與「柳因」",
+      "target": {
+        "unitId": "lrs-ch2-u09",
+        "placement": "heading"
+      },
+      "attribution": {
+        "assertionOwner": "project-editor",
+        "wordingBy": "project-editor",
+        "representation": "editorial-heading"
+      },
+      "basis": [
+        "lrs-f155-b0091",
+        "lrs-f155-b0097"
+      ],
+      "review": {
+        "status": "draft-disclosed",
+        "authorizedBy": "user",
+        "authorizedAt": "2026-07-29"
+      },
+      "publicStatus": "public"
+    },
+    {
+      "id": "lrs-ann-ch2-u10-heading",
+      "annotationType": "editorial-heading",
+      "displayLabel": "編者分段",
+      "text": "「阿雲」年代錨點與章末補證",
+      "target": {
+        "unitId": "lrs-ch2-u10",
+        "placement": "heading"
+      },
+      "attribution": {
+        "assertionOwner": "project-editor",
+        "wordingBy": "project-editor",
+        "representation": "editorial-heading"
+      },
+      "basis": [
+        "lrs-f155-b0098",
+        "lrs-f155-b0101"
+      ],
+      "review": {
+        "status": "draft-disclosed",
+        "authorizedBy": "user",
+        "authorizedAt": "2026-07-29"
+      },
+      "publicStatus": "public"
+    }
+  ],
+  "annotationAudits": []
+}

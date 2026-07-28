@@ -1,225 +1,4992 @@
 {
-  "schemaVersion": "1.0.0",
+  "schemaVersion": "2.1.0",
   "work": "柳如是別傳",
+  "workAuthor": "陳寅恪",
+  "textAttribution": {
+    "assertionOwner": "chen-yinke",
+    "displayLabel": "陳寅恪",
+    "representation": "author-text"
+  },
   "chapter": "第三章　河東君與「吳江故相」及「雲間孝廉」之關係　附河東君嘉定之游",
+  "editorialDraftPolicy": {
+    "status": "machine-drafted",
+    "publicStatus": "withhold",
+    "wordingBy": "project-editor",
+    "appliesTo": [
+      "editorialDrafts"
+    ],
+    "meaning": "editorialDrafts 全部是研究編者建立或外部整理的未審核內容，不是陳寅恪原文；逐條人工覆核並另建 publicAnnotations 前，不得進入前端快照。"
+  },
+  "publicAnnotations": [
+    {
+      "id": "lrs-ann-u01-heading",
+      "annotationType": "editorial-heading",
+      "displayLabel": "編者分段",
+      "text": "材料的兩種偏向",
+      "target": {
+        "unitId": "lrs-pilot-01",
+        "placement": "heading"
+      },
+      "attribution": {
+        "assertionOwner": "project-editor",
+        "wordingBy": "project-editor",
+        "representation": "editorial-heading"
+      },
+      "basis": [
+        "lrs-f156-b0002",
+        "lrs-f156-b0003"
+      ],
+      "review": {
+        "status": "draft-disclosed",
+        "authorizedBy": "user",
+        "authorizedAt": "2026-07-29"
+      },
+      "publicStatus": "public"
+    },
+    {
+      "id": "lrs-ann-u01-note",
+      "annotationType": "editorial-note",
+      "displayLabel": "編者說明",
+      "text": "陳寅恪先把河東君記載分為具同情而可能隱諱、懷惡意而可能誣枉兩類；顧苓之傳雖最佳，仍須以其他材料補正。",
+      "target": {
+        "unitId": "lrs-pilot-01",
+        "placement": "note"
+      },
+      "attribution": {
+        "assertionOwner": "project-editor",
+        "wordingBy": "project-editor",
+        "representation": "editorial-note"
+      },
+      "basis": [
+        "lrs-f156-b0002",
+        "lrs-f156-b0003"
+      ],
+      "review": {
+        "status": "draft-disclosed",
+        "authorizedBy": "user",
+        "authorizedAt": "2026-07-29"
+      },
+      "publicStatus": "public"
+    },
+    {
+      "id": "lrs-ann-u01-interpretation-01",
+      "annotationType": "editorial-inference",
+      "displayLabel": "編者解讀",
+      "text": "材料立場本身是史料批判的一部分。",
+      "target": {
+        "unitId": "lrs-pilot-01",
+        "placement": "interpretation"
+      },
+      "attribution": {
+        "assertionOwner": "project-editor",
+        "wordingBy": "project-editor",
+        "representation": "editorial-inference"
+      },
+      "sourceStance": "explicit",
+      "basis": [
+        "lrs-f156-b0002",
+        "lrs-f156-b0003"
+      ],
+      "review": {
+        "status": "draft-disclosed",
+        "authorizedBy": "user",
+        "authorizedAt": "2026-07-29"
+      },
+      "publicStatus": "public"
+    },
+    {
+      "id": "lrs-ann-u02-heading",
+      "annotationType": "editorial-heading",
+      "displayLabel": "編者分段",
+      "text": "顧苓與瞿式耜家族",
+      "target": {
+        "unitId": "lrs-pilot-02",
+        "placement": "heading"
+      },
+      "attribution": {
+        "assertionOwner": "project-editor",
+        "wordingBy": "project-editor",
+        "representation": "editorial-heading"
+      },
+      "basis": [
+        "lrs-f156-b0004",
+        "lrs-f156-b0005",
+        "lrs-f156-b0006",
+        "lrs-f156-b0007"
+      ],
+      "review": {
+        "status": "draft-disclosed",
+        "authorizedBy": "user",
+        "authorizedAt": "2026-07-29"
+      },
+      "publicStatus": "public"
+    },
+    {
+      "id": "lrs-ann-u02-note",
+      "annotationType": "editorial-note",
+      "displayLabel": "編者說明",
+      "text": "兩則材料用來確立顧苓與瞿式耜家族的關係及其遺民立場。第二則引文內含陳寅恪括注，正式重排時不能把括注誤作原引文。",
+      "target": {
+        "unitId": "lrs-pilot-02",
+        "placement": "note"
+      },
+      "attribution": {
+        "assertionOwner": "project-editor",
+        "wordingBy": "project-editor",
+        "representation": "editorial-note"
+      },
+      "basis": [
+        "lrs-f156-b0004",
+        "lrs-f156-b0005",
+        "lrs-f156-b0006",
+        "lrs-f156-b0007"
+      ],
+      "review": {
+        "status": "draft-disclosed",
+        "authorizedBy": "user",
+        "authorizedAt": "2026-07-29"
+      },
+      "publicStatus": "public"
+    },
+    {
+      "id": "lrs-ann-u02-interpretation-01",
+      "annotationType": "editorial-inference",
+      "displayLabel": "編者解讀",
+      "text": "陳寅恪據顧苓嫁女瞿氏、懸掛崇禎帝御書等事，認為顧苓是不忘故國舊君的明末遺老。",
+      "target": {
+        "unitId": "lrs-pilot-02",
+        "placement": "interpretation"
+      },
+      "attribution": {
+        "assertionOwner": "project-editor",
+        "wordingBy": "project-editor",
+        "representation": "editorial-inference"
+      },
+      "sourceStance": "argued",
+      "basis": [
+        "lrs-f156-b0005",
+        "lrs-f156-b0007",
+        "lrs-f156-b0008"
+      ],
+      "review": {
+        "status": "draft-disclosed",
+        "authorizedBy": "user",
+        "authorizedAt": "2026-07-29"
+      },
+      "publicStatus": "public"
+    },
+    {
+      "id": "lrs-ann-u03-heading",
+      "annotationType": "editorial-heading",
+      "displayLabel": "編者分段",
+      "text": "由顧苓立場推回《河東君傳》",
+      "target": {
+        "unitId": "lrs-pilot-03",
+        "placement": "heading"
+      },
+      "attribution": {
+        "assertionOwner": "project-editor",
+        "wordingBy": "project-editor",
+        "representation": "editorial-heading"
+      },
+      "basis": [
+        "lrs-f156-b0008",
+        "lrs-f156-b0009",
+        "lrs-f156-b0010"
+      ],
+      "review": {
+        "status": "draft-disclosed",
+        "authorizedBy": "user",
+        "authorizedAt": "2026-07-29"
+      },
+      "publicStatus": "public"
+    },
+    {
+      "id": "lrs-ann-u03-interpretation-01",
+      "annotationType": "editorial-inference",
+      "displayLabel": "編者解讀",
+      "text": "顧苓對錢謙益晚節的理解，不同於一般吳越遺民的苛評。",
+      "target": {
+        "unitId": "lrs-pilot-03",
+        "placement": "interpretation"
+      },
+      "attribution": {
+        "assertionOwner": "project-editor",
+        "wordingBy": "project-editor",
+        "representation": "editorial-inference"
+      },
+      "sourceStance": "argued",
+      "basis": [
+        "lrs-f156-b0008",
+        "lrs-f156-b0009"
+      ],
+      "review": {
+        "status": "draft-disclosed",
+        "authorizedBy": "user",
+        "authorizedAt": "2026-07-29"
+      },
+      "publicStatus": "public"
+    },
+    {
+      "id": "lrs-ann-u03-interpretation-02",
+      "annotationType": "editorial-inference",
+      "displayLabel": "編者解讀",
+      "text": "顧苓推重河東君，可能與錢柳同心復明有關。",
+      "target": {
+        "unitId": "lrs-pilot-03",
+        "placement": "interpretation"
+      },
+      "attribution": {
+        "assertionOwner": "project-editor",
+        "wordingBy": "project-editor",
+        "representation": "editorial-inference"
+      },
+      "sourceStance": "inferred",
+      "basis": [
+        "lrs-f156-b0010"
+      ],
+      "review": {
+        "status": "draft-disclosed",
+        "authorizedBy": "user",
+        "authorizedAt": "2026-07-29"
+      },
+      "publicStatus": "public"
+    },
+    {
+      "id": "lrs-ann-u04-heading",
+      "annotationType": "editorial-heading",
+      "displayLabel": "編者分段",
+      "text": "「松風」手跡旁證",
+      "target": {
+        "unitId": "lrs-pilot-04",
+        "placement": "heading"
+      },
+      "attribution": {
+        "assertionOwner": "project-editor",
+        "wordingBy": "project-editor",
+        "representation": "editorial-heading"
+      },
+      "basis": [
+        "lrs-f156-b0011",
+        "lrs-f156-b0012",
+        "lrs-f156-b0013"
+      ],
+      "review": {
+        "status": "draft-disclosed",
+        "authorizedBy": "user",
+        "authorizedAt": "2026-07-29"
+      },
+      "publicStatus": "public"
+    },
+    {
+      "id": "lrs-ann-u04-note",
+      "annotationType": "editorial-note",
+      "displayLabel": "編者說明",
+      "text": "「俟考」不是普通尾語；前端应让它成为可检索的开放问题类型。",
+      "target": {
+        "unitId": "lrs-pilot-04",
+        "placement": "note"
+      },
+      "attribution": {
+        "assertionOwner": "project-editor",
+        "wordingBy": "project-editor",
+        "representation": "editorial-note"
+      },
+      "basis": [
+        "lrs-f156-b0011",
+        "lrs-f156-b0012",
+        "lrs-f156-b0013"
+      ],
+      "review": {
+        "status": "draft-disclosed",
+        "authorizedBy": "user",
+        "authorizedAt": "2026-07-29"
+      },
+      "publicStatus": "public"
+    },
+    {
+      "id": "lrs-ann-u04-interpretation-01",
+      "annotationType": "editorial-inference",
+      "displayLabel": "編者解讀",
+      "text": "崇禎帝「松風」手跡可能不止一本，或與景山石刻御坐有關。",
+      "target": {
+        "unitId": "lrs-pilot-04",
+        "placement": "interpretation"
+      },
+      "attribution": {
+        "assertionOwner": "project-editor",
+        "wordingBy": "project-editor",
+        "representation": "editorial-inference"
+      },
+      "sourceStance": "open-question",
+      "basis": [
+        "lrs-f156-b0011",
+        "lrs-f156-b0012",
+        "lrs-f156-b0013"
+      ],
+      "review": {
+        "status": "draft-disclosed",
+        "authorizedBy": "user",
+        "authorizedAt": "2026-07-29"
+      },
+      "publicStatus": "public"
+    },
+    {
+      "id": "lrs-ann-u05-heading",
+      "annotationType": "editorial-heading",
+      "displayLabel": "編者分段",
+      "text": "《河東君傳》的版本選擇",
+      "target": {
+        "unitId": "lrs-pilot-05",
+        "placement": "heading"
+      },
+      "attribution": {
+        "assertionOwner": "project-editor",
+        "wordingBy": "project-editor",
+        "representation": "editorial-heading"
+      },
+      "basis": [
+        "lrs-f156-b0014"
+      ],
+      "review": {
+        "status": "draft-disclosed",
+        "authorizedBy": "user",
+        "authorizedAt": "2026-07-29"
+      },
+      "publicStatus": "public"
+    },
+    {
+      "id": "lrs-ann-u05-note",
+      "annotationType": "editorial-note",
+      "displayLabel": "編者說明",
+      "text": "正式版應允許展開四本清單，但主閱讀面只保留「四本中以范本為最善」。",
+      "target": {
+        "unitId": "lrs-pilot-05",
+        "placement": "note"
+      },
+      "attribution": {
+        "assertionOwner": "project-editor",
+        "wordingBy": "project-editor",
+        "representation": "editorial-note"
+      },
+      "basis": [
+        "lrs-f156-b0014"
+      ],
+      "review": {
+        "status": "draft-disclosed",
+        "authorizedBy": "user",
+        "authorizedAt": "2026-07-29"
+      },
+      "publicStatus": "public"
+    },
+    {
+      "id": "lrs-ann-u05-interpretation-01",
+      "annotationType": "editorial-inference",
+      "displayLabel": "編者解讀",
+      "text": "陳寅恪所見《河東君傳》四個足本中，以范鍇《華笑廎雜筆》本為最佳，故據以迻錄。",
+      "target": {
+        "unitId": "lrs-pilot-05",
+        "placement": "interpretation"
+      },
+      "attribution": {
+        "assertionOwner": "project-editor",
+        "wordingBy": "project-editor",
+        "representation": "editorial-inference"
+      },
+      "sourceStance": "explicit",
+      "basis": [
+        "lrs-f156-b0014"
+      ],
+      "review": {
+        "status": "draft-disclosed",
+        "authorizedBy": "user",
+        "authorizedAt": "2026-07-29"
+      },
+      "publicStatus": "public"
+    },
+    {
+      "id": "lrs-ann-u06-heading",
+      "annotationType": "editorial-heading",
+      "displayLabel": "編者分段",
+      "text": "羅振玉跋與陳寅恪校正",
+      "target": {
+        "unitId": "lrs-pilot-06",
+        "placement": "heading"
+      },
+      "attribution": {
+        "assertionOwner": "project-editor",
+        "wordingBy": "project-editor",
+        "representation": "editorial-heading"
+      },
+      "basis": [
+        "lrs-f156-b0015",
+        "lrs-f156-b0016",
+        "lrs-f156-b0017"
+      ],
+      "review": {
+        "status": "draft-disclosed",
+        "authorizedBy": "user",
+        "authorizedAt": "2026-07-29"
+      },
+      "publicStatus": "public"
+    },
+    {
+      "id": "lrs-ann-u06-interpretation-01",
+      "annotationType": "editorial-inference",
+      "displayLabel": "編者解讀",
+      "text": "羅振玉以「雲間孝廉」為陳子龍，陳寅恪認為是特識。",
+      "target": {
+        "unitId": "lrs-pilot-06",
+        "placement": "interpretation"
+      },
+      "attribution": {
+        "assertionOwner": "project-editor",
+        "wordingBy": "project-editor",
+        "representation": "editorial-inference"
+      },
+      "sourceStance": "explicit",
+      "basis": [
+        "lrs-f156-b0016",
+        "lrs-f156-b0017"
+      ],
+      "review": {
+        "status": "draft-disclosed",
+        "authorizedBy": "user",
+        "authorizedAt": "2026-07-29"
+      },
+      "publicStatus": "public"
+    },
+    {
+      "id": "lrs-ann-u06-interpretation-02",
+      "annotationType": "editorial-inference",
+      "displayLabel": "編者解讀",
+      "text": "陳寅恪指出羅振玉有三項差誤：柳適錢後仍稱「蘼蕪」、把攜賄入都與黃毓祺案相連，以及癸卯下髮年齡作四十六。",
+      "target": {
+        "unitId": "lrs-pilot-06",
+        "placement": "interpretation"
+      },
+      "attribution": {
+        "assertionOwner": "project-editor",
+        "wordingBy": "project-editor",
+        "representation": "editorial-inference"
+      },
+      "sourceStance": "explicit",
+      "basis": [
+        "lrs-f156-b0017"
+      ],
+      "review": {
+        "status": "draft-disclosed",
+        "authorizedBy": "user",
+        "authorizedAt": "2026-07-29"
+      },
+      "publicStatus": "public"
+    },
+    {
+      "id": "lrs-ann-u07-heading",
+      "annotationType": "editorial-heading",
+      "displayLabel": "編者分段",
+      "text": "顧傳原文與史料缺口",
+      "target": {
+        "unitId": "lrs-pilot-07",
+        "placement": "heading"
+      },
+      "attribution": {
+        "assertionOwner": "project-editor",
+        "wordingBy": "project-editor",
+        "representation": "editorial-heading"
+      },
+      "basis": [
+        "lrs-f156-b0018",
+        "lrs-f156-b0019",
+        "lrs-f156-b0020"
+      ],
+      "review": {
+        "status": "draft-disclosed",
+        "authorizedBy": "user",
+        "authorizedAt": "2026-07-29"
+      },
+      "publicStatus": "public"
+    },
+    {
+      "id": "lrs-ann-u07-interpretation-01",
+      "annotationType": "editorial-inference",
+      "displayLabel": "編者解讀",
+      "text": "顧傳不記河東君本來姓氏、籍貫及「適雲間孝廉」以前事蹟，陳寅恪判斷其中可能有所隱諱。",
+      "target": {
+        "unitId": "lrs-pilot-07",
+        "placement": "interpretation"
+      },
+      "attribution": {
+        "assertionOwner": "project-editor",
+        "wordingBy": "project-editor",
+        "representation": "editorial-inference"
+      },
+      "sourceStance": "argued",
+      "basis": [
+        "lrs-f156-b0019",
+        "lrs-f156-b0020"
+      ],
+      "review": {
+        "status": "draft-disclosed",
+        "authorizedBy": "user",
+        "authorizedAt": "2026-07-29"
+      },
+      "publicStatus": "public"
+    },
+    {
+      "id": "lrs-ann-u07-interpretation-02",
+      "annotationType": "editorial-inference",
+      "displayLabel": "編者解讀",
+      "text": "早年材料稀少且多不可靠，需以直接相關者為主、間接傳聞為輔。",
+      "target": {
+        "unitId": "lrs-pilot-07",
+        "placement": "interpretation"
+      },
+      "attribution": {
+        "assertionOwner": "project-editor",
+        "wordingBy": "project-editor",
+        "representation": "editorial-inference"
+      },
+      "sourceStance": "explicit",
+      "basis": [
+        "lrs-f156-b0020"
+      ],
+      "review": {
+        "status": "draft-disclosed",
+        "authorizedBy": "user",
+        "authorizedAt": "2026-07-29"
+      },
+      "publicStatus": "public"
+    },
+    {
+      "id": "lrs-ann-u08-heading",
+      "annotationType": "editorial-heading",
+      "displayLabel": "編者分段",
+      "text": "王澐：敵意材料的知情位置",
+      "target": {
+        "unitId": "lrs-pilot-08",
+        "placement": "heading"
+      },
+      "attribution": {
+        "assertionOwner": "project-editor",
+        "wordingBy": "project-editor",
+        "representation": "editorial-heading"
+      },
+      "basis": [
+        "lrs-f156-b0021",
+        "lrs-f156-b0022",
+        "lrs-f156-b0023",
+        "lrs-f156-b0024",
+        "lrs-f156-b0025",
+        "lrs-f156-b0026"
+      ],
+      "review": {
+        "status": "draft-disclosed",
+        "authorizedBy": "user",
+        "authorizedAt": "2026-07-29"
+      },
+      "publicStatus": "public"
+    },
+    {
+      "id": "lrs-ann-u08-interpretation-01",
+      "annotationType": "editorial-inference",
+      "displayLabel": "編者解讀",
+      "text": "王澐雖憎惡河東君，卻與陳子龍及其家屬往來密切，可能掌握陳家內情。",
+      "target": {
+        "unitId": "lrs-pilot-08",
+        "placement": "interpretation"
+      },
+      "attribution": {
+        "assertionOwner": "project-editor",
+        "wordingBy": "project-editor",
+        "representation": "editorial-inference"
+      },
+      "sourceStance": "argued",
+      "basis": [
+        "lrs-f156-b0021",
+        "lrs-f156-b0023",
+        "lrs-f156-b0025",
+        "lrs-f156-b0026"
+      ],
+      "review": {
+        "status": "draft-disclosed",
+        "authorizedBy": "user",
+        "authorizedAt": "2026-07-29"
+      },
+      "publicStatus": "public"
+    },
+    {
+      "id": "lrs-ann-u08-interpretation-02",
+      "annotationType": "editorial-inference",
+      "displayLabel": "編者解讀",
+      "text": "敵意材料不能逕棄，須把作者的門戶立場與知情位置一併評估。",
+      "target": {
+        "unitId": "lrs-pilot-08",
+        "placement": "interpretation"
+      },
+      "attribution": {
+        "assertionOwner": "project-editor",
+        "wordingBy": "project-editor",
+        "representation": "editorial-inference"
+      },
+      "sourceStance": "explicit",
+      "basis": [
+        "lrs-f156-b0026"
+      ],
+      "review": {
+        "status": "draft-disclosed",
+        "authorizedBy": "user",
+        "authorizedAt": "2026-07-29"
+      },
+      "publicStatus": "public"
+    },
+    {
+      "id": "lrs-ann-u09-heading",
+      "annotationType": "editorial-heading",
+      "displayLabel": "編者分段",
+      "text": "陳家妻妾情境的推測",
+      "target": {
+        "unitId": "lrs-pilot-09",
+        "placement": "heading"
+      },
+      "attribution": {
+        "assertionOwner": "project-editor",
+        "wordingBy": "project-editor",
+        "representation": "editorial-heading"
+      },
+      "basis": [
+        "lrs-f156-b0027",
+        "lrs-f156-b0028",
+        "lrs-f156-b0029",
+        "lrs-f156-b0030",
+        "lrs-f156-b0031",
+        "lrs-f156-b0032"
+      ],
+      "review": {
+        "status": "draft-disclosed",
+        "authorizedBy": "user",
+        "authorizedAt": "2026-07-29"
+      },
+      "publicStatus": "public"
+    },
+    {
+      "id": "lrs-ann-u09-note",
+      "annotationType": "editorial-note",
+      "displayLabel": "編者說明",
+      "text": "此單元含多層反事實與心理推測，不應在索引中降格成已證事件。",
+      "target": {
+        "unitId": "lrs-pilot-09",
+        "placement": "note"
+      },
+      "attribution": {
+        "assertionOwner": "project-editor",
+        "wordingBy": "project-editor",
+        "representation": "editorial-note"
+      },
+      "basis": [
+        "lrs-f156-b0027",
+        "lrs-f156-b0028",
+        "lrs-f156-b0029",
+        "lrs-f156-b0030",
+        "lrs-f156-b0031",
+        "lrs-f156-b0032"
+      ],
+      "review": {
+        "status": "draft-disclosed",
+        "authorizedBy": "user",
+        "authorizedAt": "2026-07-29"
+      },
+      "publicStatus": "public"
+    },
+    {
+      "id": "lrs-ann-u09-interpretation-01",
+      "annotationType": "editorial-inference",
+      "displayLabel": "編者解讀",
+      "text": "陳寅恪由張氏掌家與擇妾，推測柳如是不能見容於陳家，不只是因為柳氏個性放誕。",
+      "target": {
+        "unitId": "lrs-pilot-09",
+        "placement": "interpretation"
+      },
+      "attribution": {
+        "assertionOwner": "project-editor",
+        "wordingBy": "project-editor",
+        "representation": "editorial-inference"
+      },
+      "sourceStance": "inferred",
+      "basis": [
+        "lrs-f156-b0027",
+        "lrs-f156-b0029",
+        "lrs-f156-b0030",
+        "lrs-f156-b0032"
+      ],
+      "review": {
+        "status": "draft-disclosed",
+        "authorizedBy": "user",
+        "authorizedAt": "2026-07-29"
+      },
+      "publicStatus": "public"
+    },
+    {
+      "id": "lrs-ann-u09-interpretation-02",
+      "annotationType": "editorial-inference",
+      "displayLabel": "編者解讀",
+      "text": "陳子龍與柳如是情感未必因分離而改變；家庭權力關係是陳寅恪提出的解釋。",
+      "target": {
+        "unitId": "lrs-pilot-09",
+        "placement": "interpretation"
+      },
+      "attribution": {
+        "assertionOwner": "project-editor",
+        "wordingBy": "project-editor",
+        "representation": "editorial-inference"
+      },
+      "sourceStance": "inferred",
+      "basis": [
+        "lrs-f156-b0032"
+      ],
+      "review": {
+        "status": "draft-disclosed",
+        "authorizedBy": "user",
+        "authorizedAt": "2026-07-29"
+      },
+      "publicStatus": "public"
+    },
+    {
+      "id": "lrs-ann-u10-heading",
+      "annotationType": "editorial-heading",
+      "displayLabel": "編者分段",
+      "text": "晚出傳聞與直接材料的分級",
+      "target": {
+        "unitId": "lrs-pilot-10",
+        "placement": "heading"
+      },
+      "attribution": {
+        "assertionOwner": "project-editor",
+        "wordingBy": "project-editor",
+        "representation": "editorial-heading"
+      },
+      "basis": [
+        "lrs-f156-b0033",
+        "lrs-f156-b0034",
+        "lrs-f156-b0035",
+        "lrs-f156-b0036",
+        "lrs-f156-b0037",
+        "lrs-f156-b0038"
+      ],
+      "review": {
+        "status": "draft-disclosed",
+        "authorizedBy": "user",
+        "authorizedAt": "2026-07-29"
+      },
+      "publicStatus": "public"
+    },
+    {
+      "id": "lrs-ann-u10-interpretation-01",
+      "annotationType": "editorial-inference",
+      "displayLabel": "編者解讀",
+      "text": "錢肇鼇生年較晚，其《質直談耳》所述柳如是早歲事蹟得自輾轉間接傳聞。",
+      "target": {
+        "unitId": "lrs-pilot-10",
+        "placement": "interpretation"
+      },
+      "attribution": {
+        "assertionOwner": "project-editor",
+        "wordingBy": "project-editor",
+        "representation": "editorial-inference"
+      },
+      "sourceStance": "argued",
+      "basis": [
+        "lrs-f156-b0033",
+        "lrs-f156-b0034",
+        "lrs-f156-b0038"
+      ],
+      "review": {
+        "status": "draft-disclosed",
+        "authorizedBy": "user",
+        "authorizedAt": "2026-07-29"
+      },
+      "publicStatus": "public"
+    },
+    {
+      "id": "lrs-ann-u10-interpretation-02",
+      "annotationType": "editorial-inference",
+      "displayLabel": "編者解讀",
+      "text": "考辨應以宋徵璧、陳子龍等直接相關者的詩文為主，再用王澐、錢肇鼇補參。",
+      "target": {
+        "unitId": "lrs-pilot-10",
+        "placement": "interpretation"
+      },
+      "attribution": {
+        "assertionOwner": "project-editor",
+        "wordingBy": "project-editor",
+        "representation": "editorial-inference"
+      },
+      "sourceStance": "explicit",
+      "basis": [
+        "lrs-f156-b0038"
+      ],
+      "review": {
+        "status": "draft-disclosed",
+        "authorizedBy": "user",
+        "authorizedAt": "2026-07-29"
+      },
+      "publicStatus": "public"
+    },
+    {
+      "id": "lrs-ann-u11-heading",
+      "annotationType": "editorial-heading",
+      "displayLabel": "編者分段",
+      "text": "兩種早歲敘述",
+      "target": {
+        "unitId": "lrs-pilot-11",
+        "placement": "heading"
+      },
+      "attribution": {
+        "assertionOwner": "project-editor",
+        "wordingBy": "project-editor",
+        "representation": "editorial-heading"
+      },
+      "basis": [
+        "lrs-f156-b0039",
+        "lrs-f156-b0040",
+        "lrs-f156-b0041",
+        "lrs-f156-b0042",
+        "lrs-f156-b0043",
+        "lrs-f156-b0044",
+        "lrs-f156-b0045"
+      ],
+      "review": {
+        "status": "draft-disclosed",
+        "authorizedBy": "user",
+        "authorizedAt": "2026-07-29"
+      },
+      "publicStatus": "public"
+    },
+    {
+      "id": "lrs-ann-u11-interpretation-01",
+      "annotationType": "editorial-inference",
+      "displayLabel": "編者解讀",
+      "text": "陳寅恪指出錢肇鼇所述頗有與王澐相似之處，並綜合兩說追問柳如是最初所屬何家、身分為婢或妾。",
+      "target": {
+        "unitId": "lrs-pilot-11",
+        "placement": "interpretation"
+      },
+      "attribution": {
+        "assertionOwner": "project-editor",
+        "wordingBy": "project-editor",
+        "representation": "editorial-inference"
+      },
+      "sourceStance": "explicit",
+      "basis": [
+        "lrs-f156-b0042",
+        "lrs-f156-b0044",
+        "lrs-f156-b0033",
+        "lrs-f156-b0045"
+      ],
+      "review": {
+        "status": "draft-disclosed",
+        "authorizedBy": "user",
+        "authorizedAt": "2026-07-29"
+      },
+      "publicStatus": "public"
+    },
+    {
+      "id": "lrs-ann-u11-interpretation-02",
+      "annotationType": "editorial-inference",
+      "displayLabel": "編者解讀",
+      "text": "「何家何人」及離開該家的年代，是下文要以直接材料檢驗的問題。",
+      "target": {
+        "unitId": "lrs-pilot-11",
+        "placement": "interpretation"
+      },
+      "attribution": {
+        "assertionOwner": "project-editor",
+        "wordingBy": "project-editor",
+        "representation": "editorial-inference"
+      },
+      "sourceStance": "explicit",
+      "basis": [
+        "lrs-f156-b0045"
+      ],
+      "review": {
+        "status": "draft-disclosed",
+        "authorizedBy": "user",
+        "authorizedAt": "2026-07-29"
+      },
+      "publicStatus": "public"
+    },
+    {
+      "id": "lrs-ann-u12-heading",
+      "annotationType": "editorial-heading",
+      "displayLabel": "編者分段",
+      "text": "白龍潭親聞：早歲史的核心材料",
+      "target": {
+        "unitId": "lrs-pilot-12",
+        "placement": "heading"
+      },
+      "attribution": {
+        "assertionOwner": "project-editor",
+        "wordingBy": "project-editor",
+        "representation": "editorial-heading"
+      },
+      "basis": [
+        "lrs-f156-b0046",
+        "lrs-f156-b0047",
+        "lrs-f156-b0048",
+        "lrs-f156-b0049",
+        "lrs-f156-b0050",
+        "lrs-f156-b0051",
+        "lrs-f156-b0052"
+      ],
+      "review": {
+        "status": "draft-disclosed",
+        "authorizedBy": "user",
+        "authorizedAt": "2026-07-29"
+      },
+      "publicStatus": "public"
+    },
+    {
+      "id": "lrs-ann-u12-interpretation-01",
+      "annotationType": "editorial-inference",
+      "displayLabel": "編者解讀",
+      "text": "崇禎六年秋，宋徵璧在松江白龍潭舟中親聞柳如是自述，故〈秋塘曲〉是早歲事蹟最直接、最重要的材料之一。",
+      "target": {
+        "unitId": "lrs-pilot-12",
+        "placement": "interpretation"
+      },
+      "attribution": {
+        "assertionOwner": "project-editor",
+        "wordingBy": "project-editor",
+        "representation": "editorial-inference"
+      },
+      "sourceStance": "argued",
+      "basis": [
+        "lrs-f156-b0047",
+        "lrs-f156-b0048",
+        "lrs-f156-b0049",
+        "lrs-f156-b0050",
+        "lrs-f156-b0051",
+        "lrs-f156-b0052",
+        "lrs-f156-b0053"
+      ],
+      "review": {
+        "status": "draft-disclosed",
+        "authorizedBy": "user",
+        "authorizedAt": "2026-07-29"
+      },
+      "publicStatus": "public"
+    },
+    {
+      "id": "lrs-ann-u12-interpretation-02",
+      "annotationType": "editorial-inference",
+      "displayLabel": "編者解讀",
+      "text": "陳寅恪把「吳江故相」拆成兩項人物辨識條件：距崇禎六年不久曾任宰輔，且籍貫吳江。",
+      "target": {
+        "unitId": "lrs-pilot-12",
+        "placement": "interpretation"
+      },
+      "attribution": {
+        "assertionOwner": "project-editor",
+        "wordingBy": "project-editor",
+        "representation": "editorial-inference"
+      },
+      "sourceStance": "explicit",
+      "basis": [
+        "lrs-f156-b0047",
+        "lrs-f156-b0053"
+      ],
+      "review": {
+        "status": "draft-disclosed",
+        "authorizedBy": "user",
+        "authorizedAt": "2026-07-29"
+      },
+      "publicStatus": "public"
+    },
+    {
+      "id": "lrs-ann-u13-heading",
+      "annotationType": "editorial-heading",
+      "displayLabel": "編者分段",
+      "text": "以宰輔籍貫鎖定周道登",
+      "target": {
+        "unitId": "lrs-pilot-13",
+        "placement": "heading"
+      },
+      "attribution": {
+        "assertionOwner": "project-editor",
+        "wordingBy": "project-editor",
+        "representation": "editorial-heading"
+      },
+      "basis": [
+        "lrs-f156-b0053",
+        "lrs-f156-b0054",
+        "lrs-f156-b0055",
+        "lrs-f156-b0056",
+        "lrs-f156-b0057",
+        "lrs-f156-b0058",
+        "lrs-f156-b0059",
+        "lrs-f156-b0060",
+        "lrs-f156-b0061",
+        "lrs-f156-b0062",
+        "lrs-f156-b0063",
+        "lrs-f156-b0064"
+      ],
+      "review": {
+        "status": "draft-disclosed",
+        "authorizedBy": "user",
+        "authorizedAt": "2026-07-29"
+      },
+      "publicStatus": "public"
+    },
+    {
+      "id": "lrs-ann-u13-interpretation-01",
+      "annotationType": "editorial-inference",
+      "displayLabel": "編者解讀",
+      "text": "在崇禎朝宰輔中，只有吳江籍周道登同時符合「故相」的時間與地理條件。",
+      "target": {
+        "unitId": "lrs-pilot-13",
+        "placement": "interpretation"
+      },
+      "attribution": {
+        "assertionOwner": "project-editor",
+        "wordingBy": "project-editor",
+        "representation": "editorial-inference"
+      },
+      "sourceStance": "argued",
+      "basis": [
+        "lrs-f156-b0053",
+        "lrs-f156-b0054"
+      ],
+      "review": {
+        "status": "draft-disclosed",
+        "authorizedBy": "user",
+        "authorizedAt": "2026-07-29"
+      },
+      "publicStatus": "public"
+    },
+    {
+      "id": "lrs-ann-u13-interpretation-02",
+      "annotationType": "editorial-inference",
+      "displayLabel": "編者解讀",
+      "text": "主要材料對周道登卒年有崇禎五年與六年兩說，《吳江縣志》另載「家居一年卒」異文，仍待辨。",
+      "target": {
+        "unitId": "lrs-pilot-13",
+        "placement": "interpretation"
+      },
+      "attribution": {
+        "assertionOwner": "project-editor",
+        "wordingBy": "project-editor",
+        "representation": "editorial-inference"
+      },
+      "sourceStance": "open-question",
+      "basis": [
+        "lrs-f156-b0054",
+        "lrs-f156-b0056",
+        "lrs-f156-b0058",
+        "lrs-f156-b0060",
+        "lrs-f156-b0062"
+      ],
+      "review": {
+        "status": "draft-disclosed",
+        "authorizedBy": "user",
+        "authorizedAt": "2026-07-29"
+      },
+      "publicStatus": "public"
+    },
+    {
+      "id": "lrs-ann-u14-heading",
+      "annotationType": "editorial-heading",
+      "displayLabel": "編者分段",
+      "text": "卒年異文與材料傳承",
+      "target": {
+        "unitId": "lrs-pilot-14",
+        "placement": "heading"
+      },
+      "attribution": {
+        "assertionOwner": "project-editor",
+        "wordingBy": "project-editor",
+        "representation": "editorial-heading"
+      },
+      "basis": [
+        "lrs-f156-b0065",
+        "lrs-f156-b0066",
+        "lrs-f156-b0067",
+        "lrs-f156-b0068",
+        "lrs-f156-b0069"
+      ],
+      "review": {
+        "status": "draft-disclosed",
+        "authorizedBy": "user",
+        "authorizedAt": "2026-07-29"
+      },
+      "publicStatus": "public"
+    },
+    {
+      "id": "lrs-ann-u14-interpretation-01",
+      "annotationType": "editorial-inference",
+      "displayLabel": "編者解讀",
+      "text": "乾隆《吳江縣志》承用康熙志舊文，而新增的周道登卒年未必出於與周氏有姻親關係的潘氏材料。",
+      "target": {
+        "unitId": "lrs-pilot-14",
+        "placement": "interpretation"
+      },
+      "attribution": {
+        "assertionOwner": "project-editor",
+        "wordingBy": "project-editor",
+        "representation": "editorial-inference"
+      },
+      "sourceStance": "argued",
+      "basis": [
+        "lrs-f156-b0065",
+        "lrs-f156-b0066",
+        "lrs-f156-b0067",
+        "lrs-f156-b0068"
+      ],
+      "review": {
+        "status": "draft-disclosed",
+        "authorizedBy": "user",
+        "authorizedAt": "2026-07-29"
+      },
+      "publicStatus": "public"
+    },
+    {
+      "id": "lrs-ann-u14-interpretation-02",
+      "annotationType": "editorial-inference",
+      "displayLabel": "編者解讀",
+      "text": "陳寅恪仍未確定周道登卒於崇禎五年或六年。",
+      "target": {
+        "unitId": "lrs-pilot-14",
+        "placement": "interpretation"
+      },
+      "attribution": {
+        "assertionOwner": "project-editor",
+        "wordingBy": "project-editor",
+        "representation": "editorial-inference"
+      },
+      "sourceStance": "open-question",
+      "basis": [
+        "lrs-f156-b0069"
+      ],
+      "review": {
+        "status": "draft-disclosed",
+        "authorizedBy": "user",
+        "authorizedAt": "2026-07-29"
+      },
+      "publicStatus": "public"
+    },
+    {
+      "id": "lrs-ann-u14-interpretation-03",
+      "annotationType": "editorial-inference",
+      "displayLabel": "編者解讀",
+      "text": "陳寅恪主張柳如是於崇禎四年離開周家，但證明留待後文詩作展開。",
+      "target": {
+        "unitId": "lrs-pilot-14",
+        "placement": "interpretation"
+      },
+      "attribution": {
+        "assertionOwner": "project-editor",
+        "wordingBy": "project-editor",
+        "representation": "editorial-inference"
+      },
+      "sourceStance": "argued",
+      "basis": [
+        "lrs-f156-b0069"
+      ],
+      "review": {
+        "status": "draft-disclosed",
+        "authorizedBy": "user",
+        "authorizedAt": "2026-07-29"
+      },
+      "publicStatus": "public"
+    },
+    {
+      "id": "lrs-ann-u15-heading",
+      "annotationType": "editorial-heading",
+      "displayLabel": "編者分段",
+      "text": "「新」字不能拘泥",
+      "target": {
+        "unitId": "lrs-pilot-15",
+        "placement": "heading"
+      },
+      "attribution": {
+        "assertionOwner": "project-editor",
+        "wordingBy": "project-editor",
+        "representation": "editorial-heading"
+      },
+      "basis": [
+        "lrs-f156-b0070",
+        "lrs-f156-b0071",
+        "lrs-f156-b0072",
+        "lrs-f156-b0073"
+      ],
+      "review": {
+        "status": "draft-disclosed",
+        "authorizedBy": "user",
+        "authorizedAt": "2026-07-29"
+      },
+      "publicStatus": "public"
+    },
+    {
+      "id": "lrs-ann-u15-interpretation-01",
+      "annotationType": "editorial-inference",
+      "displayLabel": "編者解讀",
+      "text": "陳子龍可把三年前結交稱為「新」，因此宋徵璧所說「新從吳江故相家」不必限於數旬數月。",
+      "target": {
+        "unitId": "lrs-pilot-15",
+        "placement": "interpretation"
+      },
+      "attribution": {
+        "assertionOwner": "project-editor",
+        "wordingBy": "project-editor",
+        "representation": "editorial-inference"
+      },
+      "sourceStance": "argued",
+      "basis": [
+        "lrs-f156-b0070",
+        "lrs-f156-b0072",
+        "lrs-f156-b0073"
+      ],
+      "review": {
+        "status": "draft-disclosed",
+        "authorizedBy": "user",
+        "authorizedAt": "2026-07-29"
+      },
+      "publicStatus": "public"
+    },
+    {
+      "id": "lrs-ann-u16-heading",
+      "annotationType": "editorial-heading",
+      "displayLabel": "編者分段",
+      "text": "「吳江故相」辨識的結論",
+      "target": {
+        "unitId": "lrs-pilot-16",
+        "placement": "heading"
+      },
+      "attribution": {
+        "assertionOwner": "project-editor",
+        "wordingBy": "project-editor",
+        "representation": "editorial-heading"
+      },
+      "basis": [
+        "lrs-f156-b0074"
+      ],
+      "review": {
+        "status": "draft-disclosed",
+        "authorizedBy": "user",
+        "authorizedAt": "2026-07-29"
+      },
+      "publicStatus": "public"
+    },
+    {
+      "id": "lrs-ann-u16-note",
+      "annotationType": "editorial-note",
+      "displayLabel": "編者說明",
+      "text": "本段完成「吳江故相」的人物辨識；下段起依〈秋塘曲〉次序逐節檢驗柳如是早歲經歷。",
+      "target": {
+        "unitId": "lrs-pilot-16",
+        "placement": "note"
+      },
+      "attribution": {
+        "assertionOwner": "project-editor",
+        "wordingBy": "project-editor",
+        "representation": "editorial-note"
+      },
+      "basis": [
+        "lrs-f156-b0074"
+      ],
+      "review": {
+        "status": "draft-disclosed",
+        "authorizedBy": "user",
+        "authorizedAt": "2026-07-29"
+      },
+      "publicStatus": "public"
+    },
+    {
+      "id": "lrs-ann-u16-interpretation-01",
+      "annotationType": "editorial-inference",
+      "displayLabel": "編者解讀",
+      "text": "〈秋塘曲〉的「平津」「丞相」只能指周道登本人，據此可推知柳如是最初為周道登之妾。",
+      "target": {
+        "unitId": "lrs-pilot-16",
+        "placement": "interpretation"
+      },
+      "attribution": {
+        "assertionOwner": "project-editor",
+        "wordingBy": "project-editor",
+        "representation": "editorial-inference"
+      },
+      "sourceStance": "argued",
+      "basis": [
+        "lrs-f156-b0074"
+      ],
+      "review": {
+        "status": "draft-disclosed",
+        "authorizedBy": "user",
+        "authorizedAt": "2026-07-29"
+      },
+      "publicStatus": "public"
+    },
+    {
+      "id": "lrs-ann-u16-interpretation-02",
+      "annotationType": "editorial-inference",
+      "displayLabel": "編者解讀",
+      "text": "王澐的「婢」與錢肇鼇的「寵姬」不必視為完全互斥；陳寅恪認為錢說大體可信。",
+      "target": {
+        "unitId": "lrs-pilot-16",
+        "placement": "interpretation"
+      },
+      "attribution": {
+        "assertionOwner": "project-editor",
+        "wordingBy": "project-editor",
+        "representation": "editorial-inference"
+      },
+      "sourceStance": "argued",
+      "basis": [
+        "lrs-f156-b0074"
+      ],
+      "review": {
+        "status": "draft-disclosed",
+        "authorizedBy": "user",
+        "authorizedAt": "2026-07-29"
+      },
+      "publicStatus": "public"
+    },
+    {
+      "id": "lrs-ann-u16-interpretation-03",
+      "annotationType": "editorial-inference",
+      "displayLabel": "編者解讀",
+      "text": "周氏母親在世等細節仍無證據，不作確定判斷。",
+      "target": {
+        "unitId": "lrs-pilot-16",
+        "placement": "interpretation"
+      },
+      "attribution": {
+        "assertionOwner": "project-editor",
+        "wordingBy": "project-editor",
+        "representation": "editorial-inference"
+      },
+      "sourceStance": "open-question",
+      "basis": [
+        "lrs-f156-b0074"
+      ],
+      "review": {
+        "status": "draft-disclosed",
+        "authorizedBy": "user",
+        "authorizedAt": "2026-07-29"
+      },
+      "publicStatus": "public"
+    },
+    {
+      "id": "lrs-ann-u17-heading",
+      "annotationType": "editorial-heading",
+      "displayLabel": "編者分段",
+      "text": "逐句推測的起點",
+      "target": {
+        "unitId": "lrs-pilot-17",
+        "placement": "heading"
+      },
+      "attribution": {
+        "assertionOwner": "project-editor",
+        "wordingBy": "project-editor",
+        "representation": "editorial-heading"
+      },
+      "basis": [
+        "lrs-f156-b0075"
+      ],
+      "review": {
+        "status": "draft-disclosed",
+        "authorizedBy": "user",
+        "authorizedAt": "2026-07-29"
+      },
+      "publicStatus": "public"
+    },
+    {
+      "id": "lrs-ann-u17-note",
+      "annotationType": "editorial-note",
+      "displayLabel": "編者說明",
+      "text": "陳寅恪先提醒詩語隱晦，以下解釋含有推測；閱讀時須保留各條判斷的強弱差別。",
+      "target": {
+        "unitId": "lrs-pilot-17",
+        "placement": "note"
+      },
+      "attribution": {
+        "assertionOwner": "project-editor",
+        "wordingBy": "project-editor",
+        "representation": "editorial-note"
+      },
+      "basis": [
+        "lrs-f156-b0075"
+      ],
+      "review": {
+        "status": "draft-disclosed",
+        "authorizedBy": "user",
+        "authorizedAt": "2026-07-29"
+      },
+      "publicStatus": "public"
+    },
+    {
+      "id": "lrs-ann-u17-interpretation-01",
+      "annotationType": "editorial-inference",
+      "displayLabel": "編者解讀",
+      "text": "陳寅恪明示以下逐句解釋屬其「鄙見」與推測，不能把後續每項判斷一概視為確證。",
+      "target": {
+        "unitId": "lrs-pilot-17",
+        "placement": "interpretation"
+      },
+      "attribution": {
+        "assertionOwner": "project-editor",
+        "wordingBy": "project-editor",
+        "representation": "editorial-inference"
+      },
+      "sourceStance": "explicit",
+      "basis": [
+        "lrs-f156-b0075"
+      ],
+      "review": {
+        "status": "draft-disclosed",
+        "authorizedBy": "user",
+        "authorizedAt": "2026-07-29"
+      },
+      "publicStatus": "public"
+    },
+    {
+      "id": "lrs-ann-u18-heading",
+      "annotationType": "editorial-heading",
+      "displayLabel": "編者分段",
+      "text": "十六歲與風雨詩證",
+      "target": {
+        "unitId": "lrs-pilot-18",
+        "placement": "heading"
+      },
+      "attribution": {
+        "assertionOwner": "project-editor",
+        "wordingBy": "project-editor",
+        "representation": "editorial-heading"
+      },
+      "basis": [
+        "lrs-f156-b0077",
+        "lrs-f156-b0078"
+      ],
+      "review": {
+        "status": "draft-disclosed",
+        "authorizedBy": "user",
+        "authorizedAt": "2026-07-29"
+      },
+      "publicStatus": "public"
+    },
+    {
+      "id": "lrs-ann-u18-note",
+      "annotationType": "editorial-note",
+      "displayLabel": "編者說明",
+      "text": "本節以柳如是、陳子龍同時期的風雨詩互證〈秋塘曲〉首四句，並追問柳、宋關係的變化。",
+      "target": {
+        "unitId": "lrs-pilot-18",
+        "placement": "note"
+      },
+      "attribution": {
+        "assertionOwner": "project-editor",
+        "wordingBy": "project-editor",
+        "representation": "editorial-note"
+      },
+      "basis": [
+        "lrs-f156-b0077",
+        "lrs-f156-b0086",
+        "lrs-f156-b0087"
+      ],
+      "review": {
+        "status": "draft-disclosed",
+        "authorizedBy": "user",
+        "authorizedAt": "2026-07-29"
+      },
+      "publicStatus": "public"
+    },
+    {
+      "id": "lrs-ann-u18-interpretation-01",
+      "annotationType": "editorial-inference",
+      "displayLabel": "編者解讀",
+      "text": "「年十六」被陳寅恪視為崇禎六年柳如是年齡的實錄，而非文學性的泛稱。",
+      "target": {
+        "unitId": "lrs-pilot-18",
+        "placement": "interpretation"
+      },
+      "attribution": {
+        "assertionOwner": "project-editor",
+        "wordingBy": "project-editor",
+        "representation": "editorial-inference"
+      },
+      "sourceStance": "explicit",
+      "basis": [
+        "lrs-f156-b0077",
+        "lrs-f156-b0078"
+      ],
+      "review": {
+        "status": "draft-disclosed",
+        "authorizedBy": "user",
+        "authorizedAt": "2026-07-29"
+      },
+      "publicStatus": "public"
+    },
+    {
+      "id": "lrs-ann-u18-interpretation-02",
+      "annotationType": "editorial-inference",
+      "displayLabel": "編者解讀",
+      "text": "陳寅恪以柳如是、陳子龍同用風雨與窈娘典故，論證「雨雨風風能痛哭」指崇禎六年春的相關詩作。",
+      "target": {
+        "unitId": "lrs-pilot-18",
+        "placement": "interpretation"
+      },
+      "attribution": {
+        "assertionOwner": "project-editor",
+        "wordingBy": "project-editor",
+        "representation": "editorial-inference"
+      },
+      "sourceStance": "argued",
+      "basis": [
+        "lrs-f156-b0079",
+        "lrs-f156-b0081",
+        "lrs-f156-b0083",
+        "lrs-f156-b0085",
+        "lrs-f156-b0086"
+      ],
+      "review": {
+        "status": "draft-disclosed",
+        "authorizedBy": "user",
+        "authorizedAt": "2026-07-29"
+      },
+      "publicStatus": "public"
+    },
+    {
+      "id": "lrs-ann-u19-heading",
+      "annotationType": "editorial-heading",
+      "displayLabel": "編者分段",
+      "text": "「橫塘」究在何處",
+      "target": {
+        "unitId": "lrs-pilot-19",
+        "placement": "heading"
+      },
+      "attribution": {
+        "assertionOwner": "project-editor",
+        "wordingBy": "project-editor",
+        "representation": "editorial-heading"
+      },
+      "basis": [
+        "lrs-f156-b0089",
+        "lrs-f156-b0090"
+      ],
+      "review": {
+        "status": "draft-disclosed",
+        "authorizedBy": "user",
+        "authorizedAt": "2026-07-29"
+      },
+      "publicStatus": "public"
+    },
+    {
+      "id": "lrs-ann-u19-note",
+      "annotationType": "editorial-note",
+      "displayLabel": "編者說明",
+      "text": "「橫塘」可同時是古典語彙與吳越實地名稱；陳寅恪在嘉興、盛澤之間保留推測。",
+      "target": {
+        "unitId": "lrs-pilot-19",
+        "placement": "note"
+      },
+      "attribution": {
+        "assertionOwner": "project-editor",
+        "wordingBy": "project-editor",
+        "representation": "editorial-note"
+      },
+      "basis": [
+        "lrs-f156-b0089",
+        "lrs-f156-b0090",
+        "lrs-f156-b0102"
+      ],
+      "review": {
+        "status": "draft-disclosed",
+        "authorizedBy": "user",
+        "authorizedAt": "2026-07-29"
+      },
+      "publicStatus": "public"
+    },
+    {
+      "id": "lrs-ann-u19-interpretation-01",
+      "annotationType": "editorial-inference",
+      "displayLabel": "編者解讀",
+      "text": "陳寅恪不把「橫塘」限定於嘉興，轉而懷疑它指吳江盛澤鎮歸家院，但明示其地仍難確定。",
+      "target": {
+        "unitId": "lrs-pilot-19",
+        "placement": "interpretation"
+      },
+      "attribution": {
+        "assertionOwner": "project-editor",
+        "wordingBy": "project-editor",
+        "representation": "editorial-inference"
+      },
+      "sourceStance": "open-question",
+      "basis": [
+        "lrs-f156-b0090",
+        "lrs-f156-b0102"
+      ],
+      "review": {
+        "status": "draft-disclosed",
+        "authorizedBy": "user",
+        "authorizedAt": "2026-07-29"
+      },
+      "publicStatus": "public"
+    },
+    {
+      "id": "lrs-ann-u19-interpretation-02",
+      "annotationType": "editorial-inference",
+      "displayLabel": "編者解讀",
+      "text": "他把「橫塘」「官渡」「宛轉橋」「相思樹」合讀為柳如是早年居處的環境線索。",
+      "target": {
+        "unitId": "lrs-pilot-19",
+        "placement": "interpretation"
+      },
+      "attribution": {
+        "assertionOwner": "project-editor",
+        "wordingBy": "project-editor",
+        "representation": "editorial-inference"
+      },
+      "sourceStance": "argued",
+      "basis": [
+        "lrs-f156-b0089",
+        "lrs-f156-b0090",
+        "lrs-f156-b0093",
+        "lrs-f156-b0095",
+        "lrs-f156-b0097",
+        "lrs-f156-b0101",
+        "lrs-f156-b0102"
+      ],
+      "review": {
+        "status": "draft-disclosed",
+        "authorizedBy": "user",
+        "authorizedAt": "2026-07-29"
+      },
+      "publicStatus": "public"
+    },
+    {
+      "id": "lrs-ann-u20-heading",
+      "annotationType": "editorial-heading",
+      "displayLabel": "編者分段",
+      "text": "由徐佛家轉入周家",
+      "target": {
+        "unitId": "lrs-pilot-20",
+        "placement": "heading"
+      },
+      "attribution": {
+        "assertionOwner": "project-editor",
+        "wordingBy": "project-editor",
+        "representation": "editorial-heading"
+      },
+      "basis": [
+        "lrs-f156-b0104",
+        "lrs-f156-b0105"
+      ],
+      "review": {
+        "status": "draft-disclosed",
+        "authorizedBy": "user",
+        "authorizedAt": "2026-07-29"
+      },
+      "publicStatus": "public"
+    },
+    {
+      "id": "lrs-ann-u20-note",
+      "annotationType": "editorial-note",
+      "displayLabel": "編者說明",
+      "text": "本節由四句詩重建「徐佛家婢女→周道登家」的移轉，但部分細節只是假設。",
+      "target": {
+        "unitId": "lrs-pilot-20",
+        "placement": "note"
+      },
+      "attribution": {
+        "assertionOwner": "project-editor",
+        "wordingBy": "project-editor",
+        "representation": "editorial-note"
+      },
+      "basis": [
+        "lrs-f156-b0104",
+        "lrs-f156-b0105",
+        "lrs-f156-b0107"
+      ],
+      "review": {
+        "status": "draft-disclosed",
+        "authorizedBy": "user",
+        "authorizedAt": "2026-07-29"
+      },
+      "publicStatus": "public"
+    },
+    {
+      "id": "lrs-ann-u20-interpretation-01",
+      "annotationType": "editorial-inference",
+      "displayLabel": "編者解讀",
+      "text": "陳寅恪把「初將……早信……」解作柳如是先入徐佛家為婢，後由徐氏轉入周道登家。",
+      "target": {
+        "unitId": "lrs-pilot-20",
+        "placement": "interpretation"
+      },
+      "attribution": {
+        "assertionOwner": "project-editor",
+        "wordingBy": "project-editor",
+        "representation": "editorial-inference"
+      },
+      "sourceStance": "argued",
+      "basis": [
+        "lrs-f156-b0104",
+        "lrs-f156-b0105"
+      ],
+      "review": {
+        "status": "draft-disclosed",
+        "authorizedBy": "user",
+        "authorizedAt": "2026-07-29"
+      },
+      "publicStatus": "public"
+    },
+    {
+      "id": "lrs-ann-u20-interpretation-02",
+      "annotationType": "editorial-inference",
+      "displayLabel": "編者解讀",
+      "text": "他以鳳仙染指、又名「菊婢」的典故解「玉指醉流霞」，認為詩句暗寓柳如是早年為婢。",
+      "target": {
+        "unitId": "lrs-pilot-20",
+        "placement": "interpretation"
+      },
+      "attribution": {
+        "assertionOwner": "project-editor",
+        "wordingBy": "project-editor",
+        "representation": "editorial-inference"
+      },
+      "sourceStance": "argued",
+      "basis": [
+        "lrs-f156-b0104",
+        "lrs-f156-b0106",
+        "lrs-f156-b0107"
+      ],
+      "review": {
+        "status": "draft-disclosed",
+        "authorizedBy": "user",
+        "authorizedAt": "2026-07-29"
+      },
+      "publicStatus": "public"
+    },
+    {
+      "id": "lrs-ann-u20-interpretation-03",
+      "annotationType": "editorial-inference",
+      "displayLabel": "編者解讀",
+      "text": "「青鳥」是否暗指周母命人購婢、再由周道登納為妾，是陳寅恪提出的假設，並非已證事實。",
+      "target": {
+        "unitId": "lrs-pilot-20",
+        "placement": "interpretation"
+      },
+      "attribution": {
+        "assertionOwner": "project-editor",
+        "wordingBy": "project-editor",
+        "representation": "editorial-inference"
+      },
+      "sourceStance": "open-question",
+      "basis": [
+        "lrs-f156-b0104",
+        "lrs-f156-b0107"
+      ],
+      "review": {
+        "status": "draft-disclosed",
+        "authorizedBy": "user",
+        "authorizedAt": "2026-07-29"
+      },
+      "publicStatus": "public"
+    },
+    {
+      "id": "lrs-ann-u21-heading",
+      "annotationType": "editorial-heading",
+      "displayLabel": "編者分段",
+      "text": "群妾讒逐與離周家",
+      "target": {
+        "unitId": "lrs-pilot-21",
+        "placement": "heading"
+      },
+      "attribution": {
+        "assertionOwner": "project-editor",
+        "wordingBy": "project-editor",
+        "representation": "editorial-heading"
+      },
+      "basis": [
+        "lrs-f156-b0109",
+        "lrs-f156-b0110"
+      ],
+      "review": {
+        "status": "draft-disclosed",
+        "authorizedBy": "user",
+        "authorizedAt": "2026-07-29"
+      },
+      "publicStatus": "public"
+    },
+    {
+      "id": "lrs-ann-u21-note",
+      "annotationType": "editorial-note",
+      "displayLabel": "編者說明",
+      "text": "這一節直接解釋柳如是遭周家放逐的原因，是前段「崇禎四年離周家」論證的詩內證據。",
+      "target": {
+        "unitId": "lrs-pilot-21",
+        "placement": "note"
+      },
+      "attribution": {
+        "assertionOwner": "project-editor",
+        "wordingBy": "project-editor",
+        "representation": "editorial-note"
+      },
+      "basis": [
+        "lrs-f156-b0109",
+        "lrs-f156-b0110",
+        "lrs-f156-b0112"
+      ],
+      "review": {
+        "status": "draft-disclosed",
+        "authorizedBy": "user",
+        "authorizedAt": "2026-07-29"
+      },
+      "publicStatus": "public"
+    },
+    {
+      "id": "lrs-ann-u21-interpretation-01",
+      "annotationType": "editorial-inference",
+      "displayLabel": "編者解讀",
+      "text": "陳寅恪把「十二雲屏」「丞相嗔」解作周道登姬妾眾多、柳如是遭群妾嫉忌讒逐。",
+      "target": {
+        "unitId": "lrs-pilot-21",
+        "placement": "interpretation"
+      },
+      "attribution": {
+        "assertionOwner": "project-editor",
+        "wordingBy": "project-editor",
+        "representation": "editorial-inference"
+      },
+      "sourceStance": "argued",
+      "basis": [
+        "lrs-f156-b0109",
+        "lrs-f156-b0110",
+        "lrs-f156-b0112"
+      ],
+      "review": {
+        "status": "draft-disclosed",
+        "authorizedBy": "user",
+        "authorizedAt": "2026-07-29"
+      },
+      "publicStatus": "public"
+    },
+    {
+      "id": "lrs-ann-u21-interpretation-02",
+      "annotationType": "editorial-inference",
+      "displayLabel": "編者解讀",
+      "text": "依陳寅恪的讀法，柳如是自述周僕不解事，自己與僕無涉；這是對錢肇鼇「與僕通」說的修正。",
+      "target": {
+        "unitId": "lrs-pilot-21",
+        "placement": "interpretation"
+      },
+      "attribution": {
+        "assertionOwner": "project-editor",
+        "wordingBy": "project-editor",
+        "representation": "editorial-inference"
+      },
+      "sourceStance": "argued",
+      "basis": [
+        "lrs-f156-b0109",
+        "lrs-f156-b0110"
+      ],
+      "review": {
+        "status": "draft-disclosed",
+        "authorizedBy": "user",
+        "authorizedAt": "2026-07-29"
+      },
+      "publicStatus": "public"
+    },
+    {
+      "id": "lrs-ann-u22-heading",
+      "annotationType": "editorial-heading",
+      "displayLabel": "編者分段",
+      "text": "白龍潭今夕與陳柳因緣",
+      "target": {
+        "unitId": "lrs-pilot-22",
+        "placement": "heading"
+      },
+      "attribution": {
+        "assertionOwner": "project-editor",
+        "wordingBy": "project-editor",
+        "representation": "editorial-heading"
+      },
+      "basis": [
+        "lrs-f156-b0114",
+        "lrs-f156-b0115"
+      ],
+      "review": {
+        "status": "draft-disclosed",
+        "authorizedBy": "user",
+        "authorizedAt": "2026-07-29"
+      },
+      "publicStatus": "public"
+    },
+    {
+      "id": "lrs-ann-u22-note",
+      "annotationType": "editorial-note",
+      "displayLabel": "編者說明",
+      "text": "詩句由白龍潭當夜所見轉入陳子龍、柳如是的情感與學問關係。",
+      "target": {
+        "unitId": "lrs-pilot-22",
+        "placement": "note"
+      },
+      "attribution": {
+        "assertionOwner": "project-editor",
+        "wordingBy": "project-editor",
+        "representation": "editorial-note"
+      },
+      "basis": [
+        "lrs-f156-b0114",
+        "lrs-f156-b0115",
+        "lrs-f156-b0117"
+      ],
+      "review": {
+        "status": "draft-disclosed",
+        "authorizedBy": "user",
+        "authorizedAt": "2026-07-29"
+      },
+      "publicStatus": "public"
+    },
+    {
+      "id": "lrs-ann-u22-interpretation-01",
+      "annotationType": "editorial-inference",
+      "displayLabel": "編者解讀",
+      "text": "陳寅恪認為柳如是當夜向同舟者出示詩稿，四句兼寫白龍潭泛舟與陳柳因緣。",
+      "target": {
+        "unitId": "lrs-pilot-22",
+        "placement": "interpretation"
+      },
+      "attribution": {
+        "assertionOwner": "project-editor",
+        "wordingBy": "project-editor",
+        "representation": "editorial-inference"
+      },
+      "sourceStance": "argued",
+      "basis": [
+        "lrs-f156-b0114",
+        "lrs-f156-b0115"
+      ],
+      "review": {
+        "status": "draft-disclosed",
+        "authorizedBy": "user",
+        "authorizedAt": "2026-07-29"
+      },
+      "publicStatus": "public"
+    },
+    {
+      "id": "lrs-ann-u22-interpretation-02",
+      "annotationType": "editorial-inference",
+      "displayLabel": "編者解讀",
+      "text": "柳如是接觸《真誥》是否始於此時，以及「難諧紫府仙人夢」是否成為詩讖，均是陳寅恪保留疑問的推測。",
+      "target": {
+        "unitId": "lrs-pilot-22",
+        "placement": "interpretation"
+      },
+      "attribution": {
+        "assertionOwner": "project-editor",
+        "wordingBy": "project-editor",
+        "representation": "editorial-inference"
+      },
+      "sourceStance": "open-question",
+      "basis": [
+        "lrs-f156-b0115",
+        "lrs-f156-b0116",
+        "lrs-f156-b0117"
+      ],
+      "review": {
+        "status": "draft-disclosed",
+        "authorizedBy": "user",
+        "authorizedAt": "2026-07-29"
+      },
+      "publicStatus": "public"
+    },
+    {
+      "id": "lrs-ann-u23-heading",
+      "annotationType": "editorial-heading",
+      "displayLabel": "編者分段",
+      "text": "末四句收束〈秋塘曲〉",
+      "target": {
+        "unitId": "lrs-pilot-23",
+        "placement": "heading"
+      },
+      "attribution": {
+        "assertionOwner": "project-editor",
+        "wordingBy": "project-editor",
+        "representation": "editorial-heading"
+      },
+      "basis": [
+        "lrs-f156-b0119",
+        "lrs-f156-b0120"
+      ],
+      "review": {
+        "status": "draft-disclosed",
+        "authorizedBy": "user",
+        "authorizedAt": "2026-07-29"
+      },
+      "publicStatus": "public"
+    },
+    {
+      "id": "lrs-ann-u23-note",
+      "annotationType": "editorial-note",
+      "displayLabel": "編者說明",
+      "text": "〈秋塘曲〉逐句解釋在此完整收束；下一段轉入陳眉公壽詩及書法旁證，另屬後續考證。",
+      "target": {
+        "unitId": "lrs-pilot-23",
+        "placement": "note"
+      },
+      "attribution": {
+        "assertionOwner": "project-editor",
+        "wordingBy": "project-editor",
+        "representation": "editorial-note"
+      },
+      "basis": [
+        "lrs-f156-b0119",
+        "lrs-f156-b0120"
+      ],
+      "review": {
+        "status": "draft-disclosed",
+        "authorizedBy": "user",
+        "authorizedAt": "2026-07-29"
+      },
+      "publicStatus": "public"
+    },
+    {
+      "id": "lrs-ann-u23-interpretation-01",
+      "annotationType": "editorial-inference",
+      "displayLabel": "編者解讀",
+      "text": "陳寅恪以末四句呼應詩序「感慨激昂，絕不類閨房語」，據以概括柳如是的平日氣概。",
+      "target": {
+        "unitId": "lrs-pilot-23",
+        "placement": "interpretation"
+      },
+      "attribution": {
+        "assertionOwner": "project-editor",
+        "wordingBy": "project-editor",
+        "representation": "editorial-inference"
+      },
+      "sourceStance": "explicit",
+      "basis": [
+        "lrs-f156-b0119",
+        "lrs-f156-b0120"
+      ],
+      "review": {
+        "status": "draft-disclosed",
+        "authorizedBy": "user",
+        "authorizedAt": "2026-07-29"
+      },
+      "publicStatus": "public"
+    },
+    {
+      "id": "lrs-ann-u24-heading",
+      "annotationType": "editorial-heading",
+      "displayLabel": "編者分段",
+      "text": "壽眉公詩與書法旁證",
+      "target": {
+        "unitId": "lrs-pilot-24",
+        "placement": "heading"
+      },
+      "attribution": {
+        "assertionOwner": "project-editor",
+        "wordingBy": "project-editor",
+        "representation": "editorial-heading"
+      },
+      "basis": [
+        "lrs-f156-b0121",
+        "lrs-f156-b0124"
+      ],
+      "review": {
+        "status": "draft-disclosed",
+        "authorizedBy": "user",
+        "authorizedAt": "2026-07-29"
+      },
+      "publicStatus": "public"
+    },
+    {
+      "id": "lrs-ann-u24-note",
+      "annotationType": "editorial-note",
+      "displayLabel": "編者說明",
+      "text": "逐句詩解結束後，陳寅恪轉查壽陳繼儒詩的年代、問字傳聞與柳如是書法。",
+      "target": {
+        "unitId": "lrs-pilot-24",
+        "placement": "note"
+      },
+      "attribution": {
+        "assertionOwner": "project-editor",
+        "wordingBy": "project-editor",
+        "representation": "editorial-note"
+      },
+      "basis": [
+        "lrs-f156-b0121",
+        "lrs-f156-b0126"
+      ],
+      "review": {
+        "status": "draft-disclosed",
+        "authorizedBy": "user",
+        "authorizedAt": "2026-07-29"
+      },
+      "publicStatus": "public"
+    },
+    {
+      "id": "lrs-ann-u24-interpretation-01",
+      "annotationType": "editorial-inference",
+      "displayLabel": "編者解讀",
+      "text": "柳如是壽陳繼儒詩可能作於崇禎四年或五年冬，但陳寅恪明示無法確定。",
+      "target": {
+        "unitId": "lrs-pilot-24",
+        "placement": "interpretation"
+      },
+      "attribution": {
+        "assertionOwner": "project-editor",
+        "wordingBy": "project-editor",
+        "representation": "editorial-inference"
+      },
+      "sourceStance": "open-question",
+      "basis": [
+        "lrs-f156-b0121"
+      ],
+      "review": {
+        "status": "draft-disclosed",
+        "authorizedBy": "user",
+        "authorizedAt": "2026-07-29"
+      },
+      "publicStatus": "public"
+    },
+    {
+      "id": "lrs-ann-u24-interpretation-02",
+      "annotationType": "editorial-inference",
+      "displayLabel": "編者解讀",
+      "text": "柳如是以書法著稱有同時記載及翁同龢所見作品旁證，但陳寅恪未敢判定現存手跡真偽。",
+      "target": {
+        "unitId": "lrs-pilot-24",
+        "placement": "interpretation"
+      },
+      "attribution": {
+        "assertionOwner": "project-editor",
+        "wordingBy": "project-editor",
+        "representation": "editorial-inference"
+      },
+      "sourceStance": "argued",
+      "basis": [
+        "lrs-f156-b0124",
+        "lrs-f156-b0125",
+        "lrs-f156-b0126"
+      ],
+      "review": {
+        "status": "draft-disclosed",
+        "authorizedBy": "user",
+        "authorizedAt": "2026-07-29"
+      },
+      "publicStatus": "public"
+    },
+    {
+      "id": "lrs-ann-u25-heading",
+      "annotationType": "editorial-heading",
+      "displayLabel": "編者分段",
+      "text": "白龍潭同遊者與流落松江",
+      "target": {
+        "unitId": "lrs-pilot-25",
+        "placement": "heading"
+      },
+      "attribution": {
+        "assertionOwner": "project-editor",
+        "wordingBy": "project-editor",
+        "representation": "editorial-heading"
+      },
+      "basis": [
+        "lrs-f156-b0127",
+        "lrs-f156-b0133"
+      ],
+      "review": {
+        "status": "draft-disclosed",
+        "authorizedBy": "user",
+        "authorizedAt": "2026-07-29"
+      },
+      "publicStatus": "public"
+    },
+    {
+      "id": "lrs-ann-u25-note",
+      "annotationType": "editorial-note",
+      "displayLabel": "編者說明",
+      "text": "本節解釋李雯、宋徵輿何以未參與白龍潭之遊，並把柳如是由周家流落松江接回社交網絡。",
+      "target": {
+        "unitId": "lrs-pilot-25",
+        "placement": "note"
+      },
+      "attribution": {
+        "assertionOwner": "project-editor",
+        "wordingBy": "project-editor",
+        "representation": "editorial-note"
+      },
+      "basis": [
+        "lrs-f156-b0127",
+        "lrs-f156-b0133"
+      ],
+      "review": {
+        "status": "draft-disclosed",
+        "authorizedBy": "user",
+        "authorizedAt": "2026-07-29"
+      },
+      "publicStatus": "public"
+    },
+    {
+      "id": "lrs-ann-u25-interpretation-01",
+      "annotationType": "editorial-inference",
+      "displayLabel": "編者解讀",
+      "text": "李雯、宋徵輿可能因崇禎六年秋赴鄉試而缺席白龍潭及楊姬館集會；原文只作推測。",
+      "target": {
+        "unitId": "lrs-pilot-25",
+        "placement": "interpretation"
+      },
+      "attribution": {
+        "assertionOwner": "project-editor",
+        "wordingBy": "project-editor",
+        "representation": "editorial-inference"
+      },
+      "sourceStance": "open-question",
+      "basis": [
+        "lrs-f156-b0127",
+        "lrs-f156-b0128",
+        "lrs-f156-b0129",
+        "lrs-f156-b0130",
+        "lrs-f156-b0131",
+        "lrs-f156-b0132"
+      ],
+      "review": {
+        "status": "draft-disclosed",
+        "authorizedBy": "user",
+        "authorizedAt": "2026-07-29"
+      },
+      "publicStatus": "public"
+    },
+    {
+      "id": "lrs-ann-u25-interpretation-02",
+      "annotationType": "editorial-inference",
+      "displayLabel": "編者解讀",
+      "text": "陳寅恪將李雯「夢落吳江」之句理解為柳如是離周家後以楊影憐之名活動於松江。",
+      "target": {
+        "unitId": "lrs-pilot-25",
+        "placement": "interpretation"
+      },
+      "attribution": {
+        "assertionOwner": "project-editor",
+        "wordingBy": "project-editor",
+        "representation": "editorial-inference"
+      },
+      "sourceStance": "argued",
+      "basis": [
+        "lrs-f156-b0133"
+      ],
+      "review": {
+        "status": "draft-disclosed",
+        "authorizedBy": "user",
+        "authorizedAt": "2026-07-29"
+      },
+      "publicStatus": "public"
+    },
+    {
+      "id": "lrs-ann-u26-heading",
+      "annotationType": "editorial-heading",
+      "displayLabel": "編者分段",
+      "text": "晚出軼事與崇禎五年除夕",
+      "target": {
+        "unitId": "lrs-pilot-26",
+        "placement": "heading"
+      },
+      "attribution": {
+        "assertionOwner": "project-editor",
+        "wordingBy": "project-editor",
+        "representation": "editorial-heading"
+      },
+      "basis": [
+        "lrs-f156-b0134",
+        "lrs-f156-b0141"
+      ],
+      "review": {
+        "status": "draft-disclosed",
+        "authorizedBy": "user",
+        "authorizedAt": "2026-07-29"
+      },
+      "publicStatus": "public"
+    },
+    {
+      "id": "lrs-ann-u26-note",
+      "annotationType": "editorial-note",
+      "displayLabel": "編者說明",
+      "text": "《質直談耳》提供徐三公子與宋徵輿軼事，但陳寅恪多次提醒其中有晚出傳聞與誇張。",
+      "target": {
+        "unitId": "lrs-pilot-26",
+        "placement": "note"
+      },
+      "attribution": {
+        "assertionOwner": "project-editor",
+        "wordingBy": "project-editor",
+        "representation": "editorial-note"
+      },
+      "basis": [
+        "lrs-f156-b0134",
+        "lrs-f156-b0135",
+        "lrs-f156-b0136",
+        "lrs-f156-b0138",
+        "lrs-f156-b0141"
+      ],
+      "review": {
+        "status": "draft-disclosed",
+        "authorizedBy": "user",
+        "authorizedAt": "2026-07-29"
+      },
+      "publicStatus": "public"
+    },
+    {
+      "id": "lrs-ann-u26-interpretation-01",
+      "annotationType": "editorial-inference",
+      "displayLabel": "編者解讀",
+      "text": "陳寅恪把徐三公子赴約定位在崇禎五年除夕，但對晚出軼事的其他細節不盡採信。",
+      "target": {
+        "unitId": "lrs-pilot-26",
+        "placement": "interpretation"
+      },
+      "attribution": {
+        "assertionOwner": "project-editor",
+        "wordingBy": "project-editor",
+        "representation": "editorial-inference"
+      },
+      "sourceStance": "argued",
+      "basis": [
+        "lrs-f156-b0135",
+        "lrs-f156-b0136",
+        "lrs-f156-b0138",
+        "lrs-f156-b0141"
+      ],
+      "review": {
+        "status": "draft-disclosed",
+        "authorizedBy": "user",
+        "authorizedAt": "2026-07-29"
+      },
+      "publicStatus": "public"
+    },
+    {
+      "id": "lrs-ann-u27-heading",
+      "annotationType": "editorial-heading",
+      "displayLabel": "編者分段",
+      "text": "李待問舊約與書法關係",
+      "target": {
+        "unitId": "lrs-pilot-27",
+        "placement": "heading"
+      },
+      "attribution": {
+        "assertionOwner": "project-editor",
+        "wordingBy": "project-editor",
+        "representation": "editorial-heading"
+      },
+      "basis": [
+        "lrs-f156-b0142",
+        "lrs-f156-b0146"
+      ],
+      "review": {
+        "status": "draft-disclosed",
+        "authorizedBy": "user",
+        "authorizedAt": "2026-07-29"
+      },
+      "publicStatus": "public"
+    },
+    {
+      "id": "lrs-ann-u27-note",
+      "annotationType": "editorial-note",
+      "displayLabel": "編者說明",
+      "text": "本節由「問郎」玉篆辨識李待問，轉入柳如是與松江名士的書法交流。",
+      "target": {
+        "unitId": "lrs-pilot-27",
+        "placement": "note"
+      },
+      "attribution": {
+        "assertionOwner": "project-editor",
+        "wordingBy": "project-editor",
+        "representation": "editorial-note"
+      },
+      "basis": [
+        "lrs-f156-b0143",
+        "lrs-f156-b0145",
+        "lrs-f156-b0146",
+        "lrs-f156-b0156"
+      ],
+      "review": {
+        "status": "draft-disclosed",
+        "authorizedBy": "user",
+        "authorizedAt": "2026-07-29"
+      },
+      "publicStatus": "public"
+    },
+    {
+      "id": "lrs-ann-u27-interpretation-01",
+      "annotationType": "editorial-inference",
+      "displayLabel": "編者解讀",
+      "text": "陳寅恪辨定王澐所稱「隴西君」為李待問，並主張柳如是書法受到李氏影響。",
+      "target": {
+        "unitId": "lrs-pilot-27",
+        "placement": "interpretation"
+      },
+      "attribution": {
+        "assertionOwner": "project-editor",
+        "wordingBy": "project-editor",
+        "representation": "editorial-inference"
+      },
+      "sourceStance": "argued",
+      "basis": [
+        "lrs-f156-b0143",
+        "lrs-f156-b0145",
+        "lrs-f156-b0146",
+        "lrs-f156-b0156"
+      ],
+      "review": {
+        "status": "draft-disclosed",
+        "authorizedBy": "user",
+        "authorizedAt": "2026-07-29"
+      },
+      "publicStatus": "public"
+    },
+    {
+      "id": "lrs-ann-u28-heading",
+      "annotationType": "editorial-heading",
+      "displayLabel": "編者分段",
+      "text": "宋徵輿關係與年代降格",
+      "target": {
+        "unitId": "lrs-pilot-28",
+        "placement": "heading"
+      },
+      "attribution": {
+        "assertionOwner": "project-editor",
+        "wordingBy": "project-editor",
+        "representation": "editorial-heading"
+      },
+      "basis": [
+        "lrs-f156-b0159",
+        "lrs-f156-b0190"
+      ],
+      "review": {
+        "status": "draft-disclosed",
+        "authorizedBy": "user",
+        "authorizedAt": "2026-07-29"
+      },
+      "publicStatus": "public"
+    },
+    {
+      "id": "lrs-ann-u28-note",
+      "annotationType": "editorial-note",
+      "displayLabel": "編者說明",
+      "text": "這一節是年代證據的關鍵反轉：前文的崇禎四年斷語，在此降為最早可能，崇禎五年反成最可能。",
+      "target": {
+        "unitId": "lrs-pilot-28",
+        "placement": "note"
+      },
+      "attribution": {
+        "assertionOwner": "project-editor",
+        "wordingBy": "project-editor",
+        "representation": "editorial-note"
+      },
+      "basis": [
+        "lrs-f156-b0159",
+        "lrs-f156-b0182",
+        "lrs-f156-b0190"
+      ],
+      "review": {
+        "status": "draft-disclosed",
+        "authorizedBy": "user",
+        "authorizedAt": "2026-07-29"
+      },
+      "publicStatus": "public"
+    },
+    {
+      "id": "lrs-ann-u28-interpretation-01",
+      "annotationType": "editorial-inference",
+      "displayLabel": "編者解讀",
+      "text": "陳寅恪認為柳如是離周家、流落松江至早可能在崇禎四年，而最可能是在崇禎五年。",
+      "target": {
+        "unitId": "lrs-pilot-28",
+        "placement": "interpretation"
+      },
+      "attribution": {
+        "assertionOwner": "project-editor",
+        "wordingBy": "project-editor",
+        "representation": "editorial-inference"
+      },
+      "sourceStance": "open-question",
+      "basis": [
+        "lrs-f156-b0190"
+      ],
+      "review": {
+        "status": "draft-disclosed",
+        "authorizedBy": "user",
+        "authorizedAt": "2026-07-29"
+      },
+      "publicStatus": "public"
+    },
+    {
+      "id": "lrs-ann-u28-interpretation-02",
+      "annotationType": "editorial-inference",
+      "displayLabel": "編者解讀",
+      "text": "宋徵輿與柳如是決裂的時間及方岳貢驅逐令是否實際執行，陳寅恪均未能確定。",
+      "target": {
+        "unitId": "lrs-pilot-28",
+        "placement": "interpretation"
+      },
+      "attribution": {
+        "assertionOwner": "project-editor",
+        "wordingBy": "project-editor",
+        "representation": "editorial-inference"
+      },
+      "sourceStance": "open-question",
+      "basis": [
+        "lrs-f156-b0182",
+        "lrs-f156-b0190"
+      ],
+      "review": {
+        "status": "draft-disclosed",
+        "authorizedBy": "user",
+        "authorizedAt": "2026-07-29"
+      },
+      "publicStatus": "public"
+    },
+    {
+      "id": "lrs-ann-u29-heading",
+      "annotationType": "editorial-heading",
+      "displayLabel": "編者分段",
+      "text": "敵意材料的來源位置",
+      "target": {
+        "unitId": "lrs-pilot-29",
+        "placement": "heading"
+      },
+      "attribution": {
+        "assertionOwner": "project-editor",
+        "wordingBy": "project-editor",
+        "representation": "editorial-heading"
+      },
+      "basis": [
+        "lrs-f156-b0191",
+        "lrs-f156-b0193"
+      ],
+      "review": {
+        "status": "draft-disclosed",
+        "authorizedBy": "user",
+        "authorizedAt": "2026-07-29"
+      },
+      "publicStatus": "public"
+    },
+    {
+      "id": "lrs-ann-u29-note",
+      "annotationType": "editorial-note",
+      "displayLabel": "編者說明",
+      "text": "陳寅恪把宋徵輿後來攻擊錢謙益，解釋為早年與柳如是決裂後的私怨；此為作者的史料立場判斷。",
+      "target": {
+        "unitId": "lrs-pilot-29",
+        "placement": "note"
+      },
+      "attribution": {
+        "assertionOwner": "project-editor",
+        "wordingBy": "project-editor",
+        "representation": "editorial-note"
+      },
+      "basis": [
+        "lrs-f156-b0191",
+        "lrs-f156-b0193",
+        "lrs-f156-b0197"
+      ],
+      "review": {
+        "status": "draft-disclosed",
+        "authorizedBy": "user",
+        "authorizedAt": "2026-07-29"
+      },
+      "publicStatus": "public"
+    },
+    {
+      "id": "lrs-ann-u29-interpretation-01",
+      "annotationType": "editorial-inference",
+      "displayLabel": "編者解讀",
+      "text": "陳寅恪認為宋徵輿攻擊錢謙益出於私人舊恨，並以朱鶴齡的反駁保存另一方材料。",
+      "target": {
+        "unitId": "lrs-pilot-29",
+        "placement": "interpretation"
+      },
+      "attribution": {
+        "assertionOwner": "project-editor",
+        "wordingBy": "project-editor",
+        "representation": "editorial-inference"
+      },
+      "sourceStance": "argued",
+      "basis": [
+        "lrs-f156-b0191",
+        "lrs-f156-b0193",
+        "lrs-f156-b0197",
+        "lrs-f156-b0198",
+        "lrs-f156-b0201"
+      ],
+      "review": {
+        "status": "draft-disclosed",
+        "authorizedBy": "user",
+        "authorizedAt": "2026-07-29"
+      },
+      "publicStatus": "public"
+    },
+    {
+      "id": "lrs-ann-u30-heading",
+      "annotationType": "editorial-heading",
+      "displayLabel": "編者分段",
+      "text": "轉入陳子龍與柳如是",
+      "target": {
+        "unitId": "lrs-pilot-30",
+        "placement": "heading"
+      },
+      "attribution": {
+        "assertionOwner": "project-editor",
+        "wordingBy": "project-editor",
+        "representation": "editorial-heading"
+      },
+      "basis": [
+        "lrs-f156-b0202",
+        "lrs-f156-b0206"
+      ],
+      "review": {
+        "status": "draft-disclosed",
+        "authorizedBy": "user",
+        "authorizedAt": "2026-07-29"
+      },
+      "publicStatus": "public"
+    },
+    {
+      "id": "lrs-ann-u30-note",
+      "annotationType": "editorial-note",
+      "displayLabel": "編者說明",
+      "text": "本節開始用明著「楊姬」的陳子龍詩，反駁「陳子龍拒見柳如是」的通行傳說。",
+      "target": {
+        "unitId": "lrs-pilot-30",
+        "placement": "note"
+      },
+      "attribution": {
+        "assertionOwner": "project-editor",
+        "wordingBy": "project-editor",
+        "representation": "editorial-note"
+      },
+      "basis": [
+        "lrs-f156-b0202",
+        "lrs-f156-b0204",
+        "lrs-f156-b0205",
+        "lrs-f156-b0206"
+      ],
+      "review": {
+        "status": "draft-disclosed",
+        "authorizedBy": "user",
+        "authorizedAt": "2026-07-29"
+      },
+      "publicStatus": "public"
+    },
+    {
+      "id": "lrs-ann-u30-interpretation-01",
+      "annotationType": "editorial-inference",
+      "displayLabel": "編者解讀",
+      "text": "陳寅恪判定「陳子龍拒見柳如是」是偽傳，並以〈秋潭曲〉及楊姬館詩作為直接反證。",
+      "target": {
+        "unitId": "lrs-pilot-30",
+        "placement": "interpretation"
+      },
+      "attribution": {
+        "assertionOwner": "project-editor",
+        "wordingBy": "project-editor",
+        "representation": "editorial-inference"
+      },
+      "sourceStance": "argued",
+      "basis": [
+        "lrs-f156-b0202",
+        "lrs-f156-b0203",
+        "lrs-f156-b0204",
+        "lrs-f156-b0205",
+        "lrs-f156-b0206",
+        "lrs-f156-b0207",
+        "lrs-f156-b0208",
+        "lrs-f156-b0209",
+        "lrs-f156-b0210",
+        "lrs-f156-b0211"
+      ],
+      "review": {
+        "status": "draft-disclosed",
+        "authorizedBy": "user",
+        "authorizedAt": "2026-07-29"
+      },
+      "publicStatus": "public"
+    },
+    {
+      "id": "lrs-ann-u30-interpretation-02",
+      "annotationType": "editorial-inference",
+      "displayLabel": "編者解讀",
+      "text": "〈中秋風雨懷人〉可能為柳如是而作，但具體作年與對象仍待考。",
+      "target": {
+        "unitId": "lrs-pilot-30",
+        "placement": "interpretation"
+      },
+      "attribution": {
+        "assertionOwner": "project-editor",
+        "wordingBy": "project-editor",
+        "representation": "editorial-inference"
+      },
+      "sourceStance": "open-question",
+      "basis": [
+        "lrs-f156-b0212",
+        "lrs-f156-b0213"
+      ],
+      "review": {
+        "status": "draft-disclosed",
+        "authorizedBy": "user",
+        "authorizedAt": "2026-07-29"
+      },
+      "publicStatus": "public"
+    },
+    {
+      "id": "lrs-ann-u31-heading",
+      "annotationType": "editorial-heading",
+      "displayLabel": "編者分段",
+      "text": "崇禎五年除夕的時間錨",
+      "target": {
+        "unitId": "lrs-pilot-31",
+        "placement": "heading"
+      },
+      "attribution": {
+        "assertionOwner": "project-editor",
+        "wordingBy": "project-editor",
+        "representation": "editorial-heading"
+      },
+      "basis": [
+        "lrs-f156-b0214",
+        "lrs-f156-b0220"
+      ],
+      "review": {
+        "status": "draft-disclosed",
+        "authorizedBy": "user",
+        "authorizedAt": "2026-07-29"
+      },
+      "publicStatus": "public"
+    },
+    {
+      "id": "lrs-ann-u31-note",
+      "annotationType": "editorial-note",
+      "displayLabel": "編者說明",
+      "text": "李雯書信與〈癸酉長安除夕〉把陳、柳相遇推回崇禎五年，這是本段最穩固的年代下限。",
+      "target": {
+        "unitId": "lrs-pilot-31",
+        "placement": "note"
+      },
+      "attribution": {
+        "assertionOwner": "project-editor",
+        "wordingBy": "project-editor",
+        "representation": "editorial-note"
+      },
+      "basis": [
+        "lrs-f156-b0215",
+        "lrs-f156-b0220",
+        "lrs-f156-b0221",
+        "lrs-f156-b0222"
+      ],
+      "review": {
+        "status": "draft-disclosed",
+        "authorizedBy": "user",
+        "authorizedAt": "2026-07-29"
+      },
+      "publicStatus": "public"
+    },
+    {
+      "id": "lrs-ann-u31-interpretation-01",
+      "annotationType": "editorial-inference",
+      "displayLabel": "編者解讀",
+      "text": "〈癸酉長安除夕〉證明陳子龍在崇禎五年除夕曾見一位「紅妝綺袖」女子；陳寅恪論證此人極可能是柳如是。",
+      "target": {
+        "unitId": "lrs-pilot-31",
+        "placement": "interpretation"
+      },
+      "attribution": {
+        "assertionOwner": "project-editor",
+        "wordingBy": "project-editor",
+        "representation": "editorial-inference"
+      },
+      "sourceStance": "argued",
+      "basis": [
+        "lrs-f156-b0220",
+        "lrs-f156-b0221",
+        "lrs-f156-b0222"
+      ],
+      "review": {
+        "status": "draft-disclosed",
+        "authorizedBy": "user",
+        "authorizedAt": "2026-07-29"
+      },
+      "publicStatus": "public"
+    },
+    {
+      "id": "lrs-ann-u32-heading",
+      "annotationType": "editorial-heading",
+      "displayLabel": "編者分段",
+      "text": "初遇仍在四、五年之間",
+      "target": {
+        "unitId": "lrs-pilot-32",
+        "placement": "heading"
+      },
+      "attribution": {
+        "assertionOwner": "project-editor",
+        "wordingBy": "project-editor",
+        "representation": "editorial-heading"
+      },
+      "basis": [
+        "lrs-f156-b0223",
+        "lrs-f156-b0226"
+      ],
+      "review": {
+        "status": "draft-disclosed",
+        "authorizedBy": "user",
+        "authorizedAt": "2026-07-29"
+      },
+      "publicStatus": "public"
+    },
+    {
+      "id": "lrs-ann-u32-note",
+      "annotationType": "editorial-note",
+      "displayLabel": "編者說明",
+      "text": "本組旁證只能把初遇範圍推到崇禎五年春、甚至四年冬；無法把四年離周家固定為已證事實。",
+      "target": {
+        "unitId": "lrs-pilot-32",
+        "placement": "note"
+      },
+      "attribution": {
+        "assertionOwner": "project-editor",
+        "wordingBy": "project-editor",
+        "representation": "editorial-note"
+      },
+      "basis": [
+        "lrs-f156-b0223",
+        "lrs-f156-b0224",
+        "lrs-f156-b0225",
+        "lrs-f156-b0226",
+        "lrs-f156-b0244"
+      ],
+      "review": {
+        "status": "draft-disclosed",
+        "authorizedBy": "user",
+        "authorizedAt": "2026-07-29"
+      },
+      "publicStatus": "public"
+    },
+    {
+      "id": "lrs-ann-u32-interpretation-01",
+      "annotationType": "editorial-inference",
+      "displayLabel": "編者解讀",
+      "text": "陳寅恪認為陳、柳初次相遇可能在崇禎五年春，或早至四年冬，但明言「未可知」。",
+      "target": {
+        "unitId": "lrs-pilot-32",
+        "placement": "interpretation"
+      },
+      "attribution": {
+        "assertionOwner": "project-editor",
+        "wordingBy": "project-editor",
+        "representation": "editorial-inference"
+      },
+      "sourceStance": "open-question",
+      "basis": [
+        "lrs-f156-b0223",
+        "lrs-f156-b0224",
+        "lrs-f156-b0225",
+        "lrs-f156-b0226"
+      ],
+      "review": {
+        "status": "draft-disclosed",
+        "authorizedBy": "user",
+        "authorizedAt": "2026-07-29"
+      },
+      "publicStatus": "public"
+    },
+    {
+      "id": "lrs-ann-u32-interpretation-02",
+      "annotationType": "editorial-inference",
+      "displayLabel": "編者解讀",
+      "text": "李雯所說「阿雲」可與柳如是相聯，但「張三」究指張昂之或其他人，陳寅恪仍無法確定。",
+      "target": {
+        "unitId": "lrs-pilot-32",
+        "placement": "interpretation"
+      },
+      "attribution": {
+        "assertionOwner": "project-editor",
+        "wordingBy": "project-editor",
+        "representation": "editorial-inference"
+      },
+      "sourceStance": "open-question",
+      "basis": [
+        "lrs-f156-b0215",
+        "lrs-f156-b0226",
+        "lrs-f156-b0227",
+        "lrs-f156-b0232",
+        "lrs-f156-b0233",
+        "lrs-f156-b0237",
+        "lrs-f156-b0243",
+        "lrs-f156-b0244"
+      ],
+      "review": {
+        "status": "draft-disclosed",
+        "authorizedBy": "user",
+        "authorizedAt": "2026-07-29"
+      },
+      "publicStatus": "public"
+    }
+  ],
   "scope": {
     "sourceFile": "OEBPS/text00156.html",
     "fromBlock": "lrs-f156-b0001",
-    "toBlock": "lrs-f156-b0020",
-    "status": "first editorial pass"
+    "contentFromBlock": "lrs-f156-b0002",
+    "toBlock": "lrs-f156-b0244",
+    "status": "third editorial pass"
   },
   "readingUnits": [
     {
       "id": "lrs-pilot-01",
-      "title": "材料的兩種偏向",
-      "blocks": ["lrs-f156-b0002", "lrs-f156-b0003"],
-      "function": "methodological-opening",
-      "note": "陳寅恪先把河東君記載分為具同情而可能隱諱、懷惡意而可能誣枉兩類；顧苓之傳雖最佳，仍須以其他材料補正。",
-      "claims": [
-        {
-          "text": "材料立場本身是史料批判的一部分。",
-          "basis": ["lrs-f156-b0002", "lrs-f156-b0003"],
-          "certainty": "explicit"
-        }
+      "blocks": [
+        "lrs-f156-b0002",
+        "lrs-f156-b0003"
       ]
     },
     {
       "id": "lrs-pilot-02",
-      "title": "顧苓與瞿式耜家族",
-      "blocks": ["lrs-f156-b0004", "lrs-f156-b0005", "lrs-f156-b0006", "lrs-f156-b0007"],
-      "function": "source-pair",
-      "sources": [
-        {
-          "work": "牧齋外集",
-          "locator": "壹陸",
-          "item": "明經顧云美妻陸氏墓誌銘",
-          "introBlock": "lrs-f156-b0004",
-          "quotationBlocks": ["lrs-f156-b0005"]
-        },
-        {
-          "work": "同治修蘇州府志",
-          "locator": "捌捌",
-          "item": "顧苓傳",
-          "introBlock": "lrs-f156-b0006",
-          "quotationBlocks": ["lrs-f156-b0007"]
-        }
-      ],
-      "note": "兩則材料用來確立顧苓與瞿式耜家族的關係及其遺民立場。第二則引文內含陳寅恪括注，正式重排時不能把括注誤作原引文。"
+      "blocks": [
+        "lrs-f156-b0004",
+        "lrs-f156-b0005",
+        "lrs-f156-b0006",
+        "lrs-f156-b0007"
+      ]
     },
     {
       "id": "lrs-pilot-03",
-      "title": "由顧苓立場推回《河東君傳》",
-      "blocks": ["lrs-f156-b0008", "lrs-f156-b0009", "lrs-f156-b0010"],
-      "function": "evidence-and-inference",
-      "sources": [
-        {
-          "work": "鮚埼亭外集",
-          "locator": "叁壹",
-          "item": "浩氣吟跋",
-          "introBlock": "lrs-f156-b0008",
-          "quotationBlocks": ["lrs-f156-b0009"]
-        }
-      ],
-      "claims": [
-        {
-          "text": "顧苓對錢謙益晚節的理解，不同於一般吳越遺民的苛評。",
-          "basis": ["lrs-f156-b0008", "lrs-f156-b0009"],
-          "certainty": "argued"
-        },
-        {
-          "text": "顧苓推重河東君，可能與錢柳同心復明有關。",
-          "basis": ["lrs-f156-b0010"],
-          "certainty": "inferred"
-        }
-      ],
-      "crossReferences": [
-        {
-          "label": "河東君陰助牧齋復興明室",
-          "target": "第五章",
-          "sourceText": "俟於第伍章論之",
-          "block": "lrs-f156-b0010"
-        }
+      "blocks": [
+        "lrs-f156-b0008",
+        "lrs-f156-b0009",
+        "lrs-f156-b0010"
       ]
     },
     {
       "id": "lrs-pilot-04",
-      "title": "「松風」手跡旁證",
-      "blocks": ["lrs-f156-b0011", "lrs-f156-b0012", "lrs-f156-b0013"],
-      "function": "scholarly-aside",
-      "sources": [
-        {
-          "work": "雪橋詩話續集",
-          "locator": "壹",
-          "introBlock": "lrs-f156-b0011",
-          "quotationBlocks": ["lrs-f156-b0012"]
-        }
-      ],
-      "claims": [
-        {
-          "text": "崇禎帝「松風」手跡可能不止一本，或與景山石刻御坐有關。",
-          "basis": ["lrs-f156-b0011", "lrs-f156-b0012", "lrs-f156-b0013"],
-          "certainty": "open-question"
-        }
-      ],
-      "note": "「俟考」不是普通尾語；前端应让它成为可检索的开放问题类型。"
+      "blocks": [
+        "lrs-f156-b0011",
+        "lrs-f156-b0012",
+        "lrs-f156-b0013"
+      ]
     },
     {
       "id": "lrs-pilot-05",
-      "title": "《河東君傳》的版本選擇",
-      "blocks": ["lrs-f156-b0014"],
-      "function": "textual-witnesses",
-      "witnesses": [
-        "殷禮在斯堂叢書《塔影園集》本",
-        "《華笑廎雜筆》本",
-        "《秦淮廣記》本",
-        "《蘼蕪紀聞》本"
-      ],
-      "preferredWitness": "《華笑廎雜筆》本",
-      "note": "正式版應允許展開四本清單，但主閱讀面只保留「四本中以范本為最善」。"
+      "blocks": [
+        "lrs-f156-b0014"
+      ]
     },
     {
       "id": "lrs-pilot-06",
-      "title": "羅振玉跋與陳寅恪校正",
-      "blocks": ["lrs-f156-b0015", "lrs-f156-b0016", "lrs-f156-b0017"],
-      "function": "quotation-with-correction",
-      "sources": [
-        {
-          "work": "貞松老人外集",
-          "locator": "叁",
-          "item": "顧云美書河東君傳册跋",
-          "introBlock": "lrs-f156-b0015",
-          "quotationBlocks": ["lrs-f156-b0016"]
-        }
-      ],
-      "claims": [
-        {
-          "text": "羅振玉以「雲間孝廉」為陳子龍，陳寅恪認為是特識。",
-          "basis": ["lrs-f156-b0016", "lrs-f156-b0017"],
-          "certainty": "explicit"
-        },
-        {
-          "text": "羅振玉對柳如是稱謂、攜賄入都及癸卯年齡等說法有誤。",
-          "basis": ["lrs-f156-b0017"],
-          "certainty": "explicit"
-        }
+      "blocks": [
+        "lrs-f156-b0015",
+        "lrs-f156-b0016",
+        "lrs-f156-b0017"
       ]
     },
     {
       "id": "lrs-pilot-07",
-      "title": "顧傳原文與史料缺口",
-      "blocks": ["lrs-f156-b0018", "lrs-f156-b0019", "lrs-f156-b0020"],
-      "function": "base-source-and-critique",
-      "sources": [
-        {
-          "work": "河東君傳",
-          "author": "顧苓",
-          "introBlock": "lrs-f156-b0018",
-          "quotationBlocks": ["lrs-f156-b0019"]
-        }
-      ],
-      "claims": [
-        {
-          "text": "顧傳不記河東君本來姓氏、籍貫及「適雲間孝廉」以前事蹟，陳寅恪判斷其中可能有所隱諱。",
-          "basis": ["lrs-f156-b0019", "lrs-f156-b0020"],
-          "certainty": "inferred"
-        },
-        {
-          "text": "早年材料稀少且多不可靠，需以直接相關者為主、間接傳聞為輔。",
-          "basis": ["lrs-f156-b0020"],
-          "certainty": "explicit"
-        }
+      "blocks": [
+        "lrs-f156-b0018",
+        "lrs-f156-b0019",
+        "lrs-f156-b0020"
+      ]
+    },
+    {
+      "id": "lrs-pilot-08",
+      "blocks": [
+        "lrs-f156-b0021",
+        "lrs-f156-b0022",
+        "lrs-f156-b0023",
+        "lrs-f156-b0024",
+        "lrs-f156-b0025",
+        "lrs-f156-b0026"
+      ]
+    },
+    {
+      "id": "lrs-pilot-09",
+      "blocks": [
+        "lrs-f156-b0027",
+        "lrs-f156-b0028",
+        "lrs-f156-b0029",
+        "lrs-f156-b0030",
+        "lrs-f156-b0031",
+        "lrs-f156-b0032"
+      ]
+    },
+    {
+      "id": "lrs-pilot-10",
+      "blocks": [
+        "lrs-f156-b0033",
+        "lrs-f156-b0034",
+        "lrs-f156-b0035",
+        "lrs-f156-b0036",
+        "lrs-f156-b0037",
+        "lrs-f156-b0038"
+      ]
+    },
+    {
+      "id": "lrs-pilot-11",
+      "blocks": [
+        "lrs-f156-b0039",
+        "lrs-f156-b0040",
+        "lrs-f156-b0041",
+        "lrs-f156-b0042",
+        "lrs-f156-b0043",
+        "lrs-f156-b0044",
+        "lrs-f156-b0045"
+      ]
+    },
+    {
+      "id": "lrs-pilot-12",
+      "blocks": [
+        "lrs-f156-b0046",
+        "lrs-f156-b0047",
+        "lrs-f156-b0048",
+        "lrs-f156-b0049",
+        "lrs-f156-b0050",
+        "lrs-f156-b0051",
+        "lrs-f156-b0052"
+      ]
+    },
+    {
+      "id": "lrs-pilot-13",
+      "blocks": [
+        "lrs-f156-b0053",
+        "lrs-f156-b0054",
+        "lrs-f156-b0055",
+        "lrs-f156-b0056",
+        "lrs-f156-b0057",
+        "lrs-f156-b0058",
+        "lrs-f156-b0059",
+        "lrs-f156-b0060",
+        "lrs-f156-b0061",
+        "lrs-f156-b0062",
+        "lrs-f156-b0063",
+        "lrs-f156-b0064"
+      ]
+    },
+    {
+      "id": "lrs-pilot-14",
+      "blocks": [
+        "lrs-f156-b0065",
+        "lrs-f156-b0066",
+        "lrs-f156-b0067",
+        "lrs-f156-b0068",
+        "lrs-f156-b0069"
+      ]
+    },
+    {
+      "id": "lrs-pilot-15",
+      "blocks": [
+        "lrs-f156-b0070",
+        "lrs-f156-b0071",
+        "lrs-f156-b0072",
+        "lrs-f156-b0073"
+      ]
+    },
+    {
+      "id": "lrs-pilot-16",
+      "blocks": [
+        "lrs-f156-b0074"
+      ]
+    },
+    {
+      "id": "lrs-pilot-17",
+      "blocks": [
+        "lrs-f156-b0075"
+      ]
+    },
+    {
+      "id": "lrs-pilot-18",
+      "blocks": [
+        "lrs-f156-b0076",
+        "lrs-f156-b0077",
+        "lrs-f156-b0078",
+        "lrs-f156-b0079",
+        "lrs-f156-b0080",
+        "lrs-f156-b0081",
+        "lrs-f156-b0082",
+        "lrs-f156-b0083",
+        "lrs-f156-b0084",
+        "lrs-f156-b0085",
+        "lrs-f156-b0086",
+        "lrs-f156-b0087"
+      ]
+    },
+    {
+      "id": "lrs-pilot-19",
+      "blocks": [
+        "lrs-f156-b0088",
+        "lrs-f156-b0089",
+        "lrs-f156-b0090",
+        "lrs-f156-b0091",
+        "lrs-f156-b0092",
+        "lrs-f156-b0093",
+        "lrs-f156-b0094",
+        "lrs-f156-b0095",
+        "lrs-f156-b0096",
+        "lrs-f156-b0097",
+        "lrs-f156-b0098",
+        "lrs-f156-b0099",
+        "lrs-f156-b0100",
+        "lrs-f156-b0101",
+        "lrs-f156-b0102"
+      ]
+    },
+    {
+      "id": "lrs-pilot-20",
+      "blocks": [
+        "lrs-f156-b0103",
+        "lrs-f156-b0104",
+        "lrs-f156-b0105",
+        "lrs-f156-b0106",
+        "lrs-f156-b0107"
+      ]
+    },
+    {
+      "id": "lrs-pilot-21",
+      "blocks": [
+        "lrs-f156-b0108",
+        "lrs-f156-b0109",
+        "lrs-f156-b0110",
+        "lrs-f156-b0111",
+        "lrs-f156-b0112"
+      ]
+    },
+    {
+      "id": "lrs-pilot-22",
+      "blocks": [
+        "lrs-f156-b0113",
+        "lrs-f156-b0114",
+        "lrs-f156-b0115",
+        "lrs-f156-b0116",
+        "lrs-f156-b0117"
+      ]
+    },
+    {
+      "id": "lrs-pilot-23",
+      "blocks": [
+        "lrs-f156-b0118",
+        "lrs-f156-b0119",
+        "lrs-f156-b0120"
+      ]
+    },
+    {
+      "id": "lrs-pilot-24",
+      "blocks": [
+        "lrs-f156-b0121",
+        "lrs-f156-b0122",
+        "lrs-f156-b0123",
+        "lrs-f156-b0124",
+        "lrs-f156-b0125",
+        "lrs-f156-b0126"
+      ]
+    },
+    {
+      "id": "lrs-pilot-25",
+      "blocks": [
+        "lrs-f156-b0127",
+        "lrs-f156-b0128",
+        "lrs-f156-b0129",
+        "lrs-f156-b0130",
+        "lrs-f156-b0131",
+        "lrs-f156-b0132",
+        "lrs-f156-b0133"
+      ]
+    },
+    {
+      "id": "lrs-pilot-26",
+      "blocks": [
+        "lrs-f156-b0134",
+        "lrs-f156-b0135",
+        "lrs-f156-b0136",
+        "lrs-f156-b0137",
+        "lrs-f156-b0138",
+        "lrs-f156-b0139",
+        "lrs-f156-b0140",
+        "lrs-f156-b0141"
+      ]
+    },
+    {
+      "id": "lrs-pilot-27",
+      "blocks": [
+        "lrs-f156-b0142",
+        "lrs-f156-b0143",
+        "lrs-f156-b0144",
+        "lrs-f156-b0145",
+        "lrs-f156-b0146",
+        "lrs-f156-b0147",
+        "lrs-f156-b0148",
+        "lrs-f156-b0149",
+        "lrs-f156-b0150",
+        "lrs-f156-b0151",
+        "lrs-f156-b0152",
+        "lrs-f156-b0153",
+        "lrs-f156-b0154",
+        "lrs-f156-b0155",
+        "lrs-f156-b0156",
+        "lrs-f156-b0157",
+        "lrs-f156-b0158"
+      ]
+    },
+    {
+      "id": "lrs-pilot-28",
+      "blocks": [
+        "lrs-f156-b0159",
+        "lrs-f156-b0160",
+        "lrs-f156-b0161",
+        "lrs-f156-b0162",
+        "lrs-f156-b0163",
+        "lrs-f156-b0164",
+        "lrs-f156-b0165",
+        "lrs-f156-b0166",
+        "lrs-f156-b0167",
+        "lrs-f156-b0168",
+        "lrs-f156-b0169",
+        "lrs-f156-b0170",
+        "lrs-f156-b0171",
+        "lrs-f156-b0172",
+        "lrs-f156-b0173",
+        "lrs-f156-b0174",
+        "lrs-f156-b0175",
+        "lrs-f156-b0176",
+        "lrs-f156-b0177",
+        "lrs-f156-b0178",
+        "lrs-f156-b0179",
+        "lrs-f156-b0180",
+        "lrs-f156-b0181",
+        "lrs-f156-b0182",
+        "lrs-f156-b0183",
+        "lrs-f156-b0184",
+        "lrs-f156-b0185",
+        "lrs-f156-b0186",
+        "lrs-f156-b0187",
+        "lrs-f156-b0188",
+        "lrs-f156-b0189",
+        "lrs-f156-b0190"
+      ]
+    },
+    {
+      "id": "lrs-pilot-29",
+      "blocks": [
+        "lrs-f156-b0191",
+        "lrs-f156-b0192",
+        "lrs-f156-b0193",
+        "lrs-f156-b0194",
+        "lrs-f156-b0195",
+        "lrs-f156-b0196",
+        "lrs-f156-b0197",
+        "lrs-f156-b0198",
+        "lrs-f156-b0199",
+        "lrs-f156-b0200",
+        "lrs-f156-b0201"
+      ]
+    },
+    {
+      "id": "lrs-pilot-30",
+      "blocks": [
+        "lrs-f156-b0202",
+        "lrs-f156-b0203",
+        "lrs-f156-b0204",
+        "lrs-f156-b0205",
+        "lrs-f156-b0206",
+        "lrs-f156-b0207",
+        "lrs-f156-b0208",
+        "lrs-f156-b0209",
+        "lrs-f156-b0210",
+        "lrs-f156-b0211",
+        "lrs-f156-b0212",
+        "lrs-f156-b0213"
+      ]
+    },
+    {
+      "id": "lrs-pilot-31",
+      "blocks": [
+        "lrs-f156-b0214",
+        "lrs-f156-b0215",
+        "lrs-f156-b0216",
+        "lrs-f156-b0217",
+        "lrs-f156-b0218",
+        "lrs-f156-b0219",
+        "lrs-f156-b0220",
+        "lrs-f156-b0221",
+        "lrs-f156-b0222"
+      ]
+    },
+    {
+      "id": "lrs-pilot-32",
+      "blocks": [
+        "lrs-f156-b0223",
+        "lrs-f156-b0224",
+        "lrs-f156-b0225",
+        "lrs-f156-b0226",
+        "lrs-f156-b0227",
+        "lrs-f156-b0228",
+        "lrs-f156-b0229",
+        "lrs-f156-b0230",
+        "lrs-f156-b0231",
+        "lrs-f156-b0232",
+        "lrs-f156-b0233",
+        "lrs-f156-b0234",
+        "lrs-f156-b0235",
+        "lrs-f156-b0236",
+        "lrs-f156-b0237",
+        "lrs-f156-b0238",
+        "lrs-f156-b0239",
+        "lrs-f156-b0240",
+        "lrs-f156-b0241",
+        "lrs-f156-b0242",
+        "lrs-f156-b0243",
+        "lrs-f156-b0244"
       ]
     }
   ],
-  "entities": [
+  "editorialDrafts": {
+    "units": [
+      {
+        "id": "lrs-pilot-01",
+        "function": "methodological-opening"
+      },
+      {
+        "id": "lrs-pilot-02",
+        "function": "source-pair",
+        "sources": [
+          {
+            "work": "牧齋外集",
+            "locator": "壹陸",
+            "item": "明經顧云美妻陸氏墓誌銘",
+            "introBlock": "lrs-f156-b0004",
+            "quotationBlocks": [
+              "lrs-f156-b0005"
+            ]
+          },
+          {
+            "work": "同治修蘇州府志",
+            "locator": "捌捌",
+            "item": "顧苓傳",
+            "introBlock": "lrs-f156-b0006",
+            "quotationBlocks": [
+              "lrs-f156-b0007"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "lrs-pilot-03",
+        "function": "evidence-and-inference",
+        "sources": [
+          {
+            "work": "鮚埼亭外集",
+            "locator": "叁壹",
+            "item": "浩氣吟跋",
+            "introBlock": "lrs-f156-b0008",
+            "quotationBlocks": [
+              "lrs-f156-b0009"
+            ]
+          }
+        ],
+        "crossReferences": [
+          {
+            "label": "河東君陰助牧齋復興明室",
+            "target": "第五章",
+            "sourceText": "俟於第伍章論之",
+            "block": "lrs-f156-b0010"
+          }
+        ]
+      },
+      {
+        "id": "lrs-pilot-04",
+        "function": "scholarly-aside",
+        "sources": [
+          {
+            "work": "雪橋詩話續集",
+            "locator": "壹",
+            "introBlock": "lrs-f156-b0011",
+            "quotationBlocks": [
+              "lrs-f156-b0012"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "lrs-pilot-05",
+        "function": "textual-witnesses",
+        "witnesses": [
+          "殷禮在斯堂叢書《塔影園集》本",
+          "《華笑廎雜筆》本",
+          "《秦淮廣記》本",
+          "《蘼蕪紀聞》本"
+        ],
+        "preferredWitness": "《華笑廎雜筆》本"
+      },
+      {
+        "id": "lrs-pilot-06",
+        "function": "quotation-with-correction",
+        "sources": [
+          {
+            "work": "貞松老人外集",
+            "locator": "叁",
+            "item": "顧云美書河東君傳册跋",
+            "introBlock": "lrs-f156-b0015",
+            "quotationBlocks": [
+              "lrs-f156-b0016"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "lrs-pilot-07",
+        "function": "base-source-and-critique",
+        "sources": [
+          {
+            "work": "河東君傳",
+            "author": "顧苓",
+            "introBlock": "lrs-f156-b0018",
+            "quotationBlocks": [
+              "lrs-f156-b0019"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "lrs-pilot-08",
+        "function": "hostile-witness-context",
+        "sources": [
+          {
+            "work": "婁縣志",
+            "editionLabel": "乾隆修",
+            "locator": "貳伍",
+            "item": "王澐傳",
+            "introBlock": "lrs-f156-b0020",
+            "quotationBlocks": [
+              "lrs-f156-b0021"
+            ]
+          },
+          {
+            "work": "耆獻類徵初編",
+            "locator": "肆肆肆",
+            "item": "顧汝則傳附王澐事蹟",
+            "introBlock": "lrs-f156-b0022",
+            "quotationBlocks": [
+              "lrs-f156-b0023"
+            ]
+          },
+          {
+            "work": "陳忠裕全集",
+            "item": "三世苦節傳",
+            "author": "王澐",
+            "introBlock": "lrs-f156-b0024",
+            "quotationBlocks": [
+              "lrs-f156-b0025"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "lrs-pilot-09",
+        "function": "domestic-context-inference",
+        "sources": [
+          {
+            "work": "陳忠裕全集",
+            "locator": "崇禎二年己巳條",
+            "item": "陳子龍自撰年譜",
+            "introBlock": "lrs-f156-b0026",
+            "quotationBlocks": [
+              "lrs-f156-b0027"
+            ]
+          },
+          {
+            "work": "三世苦節傳",
+            "author": "王澐",
+            "introBlock": "lrs-f156-b0028",
+            "quotationBlocks": [
+              "lrs-f156-b0029"
+            ]
+          },
+          {
+            "work": "河東君殉家難事實",
+            "author": "錢孺飴輯",
+            "item": "柳夫人遺囑",
+            "introBlock": "lrs-f156-b0030",
+            "quotationBlocks": [
+              "lrs-f156-b0031"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "lrs-pilot-10",
+        "function": "source-tiering",
+        "sources": [
+          {
+            "work": "質直談耳",
+            "author": "錢肇鼇",
+            "introBlock": "lrs-f156-b0033",
+            "quotationBlocks": [
+              "lrs-f156-b0034"
+            ]
+          },
+          {
+            "work": "光緒修嘉定縣志",
+            "locator": "貳捌藝文別集門",
+            "item": "巢雲詩草",
+            "introBlock": "lrs-f156-b0035",
+            "quotationBlocks": [
+              "lrs-f156-b0036",
+              "lrs-f156-b0037"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "lrs-pilot-11",
+        "function": "competing-reports",
+        "sources": [
+          {
+            "work": "輞川詩鈔",
+            "locator": "肆",
+            "item": "虞山柳枝詞第一首及自注",
+            "author": "王澐",
+            "introBlock": "lrs-f156-b0039",
+            "quotationBlocks": [
+              "lrs-f156-b0040",
+              "lrs-f156-b0042"
+            ]
+          },
+          {
+            "work": "質直談耳",
+            "locator": "柒",
+            "item": "柳如之軼事",
+            "author": "錢肇鼇",
+            "introBlock": "lrs-f156-b0043",
+            "quotationBlocks": [
+              "lrs-f156-b0044"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "lrs-pilot-12",
+        "function": "direct-testimony-anchor",
+        "sources": [
+          {
+            "work": "含真堂詩稿",
+            "locator": "伍",
+            "item": "秋塘曲並序",
+            "author": "宋徵璧",
+            "introBlock": "lrs-f156-b0046",
+            "quotationBlocks": [
+              "lrs-f156-b0047",
+              "lrs-f156-b0048"
+            ]
+          },
+          {
+            "work": "陳子龍自撰年譜",
+            "locator": "崇禎六年癸酉條",
+            "introBlock": "lrs-f156-b0049",
+            "quotationBlocks": [
+              "lrs-f156-b0050"
+            ]
+          },
+          {
+            "work": "松江府志",
+            "locator": "玖山川志",
+            "item": "白龍潭",
+            "introBlock": "lrs-f156-b0051",
+            "quotationBlocks": [
+              "lrs-f156-b0052"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "lrs-pilot-13",
+        "function": "prosopographical-identification",
+        "sources": [
+          {
+            "work": "崇禎閣臣行略",
+            "variantTitle": "卷頭題《崇禎內閣行略》",
+            "item": "周道登傳",
+            "author": "陳盟",
+            "introBlock": "lrs-f156-b0053",
+            "quotationBlocks": [
+              "lrs-f156-b0054"
+            ]
+          },
+          {
+            "work": "崇禎五十宰相傳",
+            "versionNote": "知服齋藏初稿本",
+            "item": "周道登傳",
+            "author": "曹溶",
+            "introBlock": "lrs-f156-b0055",
+            "quotationBlocks": [
+              "lrs-f156-b0056"
+            ]
+          },
+          {
+            "work": "明史稿",
+            "locator": "貳叁伍",
+            "item": "李標傳附周道登傳",
+            "introBlock": "lrs-f156-b0057",
+            "quotationBlocks": [
+              "lrs-f156-b0058"
+            ]
+          },
+          {
+            "work": "明史",
+            "locator": "貳伍壹",
+            "item": "李標傳附周道登傳",
+            "introBlock": "lrs-f156-b0059",
+            "quotationBlocks": [
+              "lrs-f156-b0060"
+            ]
+          },
+          {
+            "work": "吳江縣志",
+            "editionLabel": "乾隆修",
+            "locator": "貳捌人物門",
+            "item": "周道登傳",
+            "introBlock": "lrs-f156-b0061",
+            "quotationBlocks": [
+              "lrs-f156-b0062"
+            ]
+          },
+          {
+            "work": "棗林雜俎",
+            "item": "周道登",
+            "author": "談遷",
+            "introBlock": "lrs-f156-b0063",
+            "quotationBlocks": [
+              "lrs-f156-b0064"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "lrs-pilot-14",
+        "function": "chronology-and-textual-transmission",
+        "sources": [
+          {
+            "work": "松陵文獻",
+            "item": "後序",
+            "author": "潘耒",
+            "introBlock": "lrs-f156-b0065",
+            "quotationBlocks": [
+              "lrs-f156-b0066"
+            ]
+          },
+          {
+            "work": "松陵文獻",
+            "item": "周道登傳",
+            "author": "潘檉章",
+            "introBlock": "lrs-f156-b0067",
+            "quotationBlocks": [
+              "lrs-f156-b0068"
+            ]
+          }
+        ],
+        "crossReferences": [
+          {
+            "label": "河東君紀年與陳子龍詩作",
+            "target": "第三章後文",
+            "sourceText": "見下引陳忠裕全集拾屬玉堂集所論",
+            "block": "lrs-f156-b0069"
+          }
+        ]
+      },
+      {
+        "id": "lrs-pilot-15",
+        "function": "semantic-chronology-check",
+        "sources": [
+          {
+            "work": "陳忠裕全集",
+            "locator": "陸《陳李唱和集》",
+            "item": "酬萬年少五古二首",
+            "introBlock": "lrs-f156-b0069",
+            "quotationBlocks": [
+              "lrs-f156-b0070",
+              "lrs-f156-b0072"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "lrs-pilot-16",
+        "function": "provisional-conclusion"
+      },
+      {
+        "id": "lrs-pilot-17",
+        "function": "interpretive-caveat"
+      },
+      {
+        "id": "lrs-pilot-18",
+        "function": "age-and-spring-poems"
+      },
+      {
+        "id": "lrs-pilot-19",
+        "function": "early-residence-location"
+      },
+      {
+        "id": "lrs-pilot-20",
+        "function": "xu-to-zhou-transition"
+      },
+      {
+        "id": "lrs-pilot-21",
+        "function": "expulsion-from-zhou-household"
+      },
+      {
+        "id": "lrs-pilot-22",
+        "function": "bailongtan-encounter"
+      },
+      {
+        "id": "lrs-pilot-23",
+        "function": "poem-closing-stanza"
+      },
+      {
+        "id": "lrs-pilot-24",
+        "function": "chen-jiru-poem-and-calligraphy"
+      },
+      {
+        "id": "lrs-pilot-25",
+        "function": "bailongtan-participants"
+      },
+      {
+        "id": "lrs-pilot-26",
+        "function": "late-anecdote-and-1632-anchor"
+      },
+      {
+        "id": "lrs-pilot-27",
+        "function": "li-daiwen-relationship"
+      },
+      {
+        "id": "lrs-pilot-28",
+        "function": "song-zhengyu-relationship-and-chronology"
+      },
+      {
+        "id": "lrs-pilot-29",
+        "function": "hostile-source-criticism"
+      },
+      {
+        "id": "lrs-pilot-30",
+        "function": "chen-liu-direct-poetry"
+      },
+      {
+        "id": "lrs-pilot-31",
+        "function": "1632-new-years-eve-anchor"
+      },
+      {
+        "id": "lrs-pilot-32",
+        "function": "first-meeting-window-and-seshan-context"
+      }
+    ],
+    "sourceBridges": [
+      {
+        "introBlock": "lrs-f156-b0020",
+        "targetBlocks": [
+          "lrs-f156-b0021"
+        ],
+        "relation": "introduces-next-source"
+      },
+      {
+        "introBlock": "lrs-f156-b0026",
+        "targetBlocks": [
+          "lrs-f156-b0027"
+        ],
+        "relation": "introduces-next-source"
+      },
+      {
+        "introBlock": "lrs-f156-b0053",
+        "targetBlocks": [
+          "lrs-f156-b0054"
+        ],
+        "relation": "introduces-next-source"
+      },
+      {
+        "introBlock": "lrs-f156-b0069",
+        "targetBlocks": [
+          "lrs-f156-b0070"
+        ],
+        "relation": "introduces-next-source"
+      }
+    ],
+    "chronology": [
+      {
+        "id": "event-1629-chen-household",
+        "era": "崇禎二年",
+        "ganzhi": "己巳",
+        "ceYear": 1629,
+        "description": "陳子龍既婚後，祖母將家政交予其妻張氏。",
+        "basis": [
+          "lrs-f156-b0026",
+          "lrs-f156-b0027"
+        ],
+        "certainty": "explicit"
+      },
+      {
+        "id": "event-1630-chen-wan-meet",
+        "era": "崇禎三年",
+        "ganzhi": "庚午",
+        "ceYear": 1630,
+        "description": "陳子龍與萬壽祺約於南京鄉試時結交。",
+        "basis": [
+          "lrs-f156-b0073"
+        ],
+        "certainty": "argued"
+      },
+      {
+        "id": "event-1632-zhou-death-version",
+        "era": "崇禎五年",
+        "ganzhi": "壬申",
+        "ceYear": 1632,
+        "description": "周道登卒年主要記載之一；陳寅恪傾向此說，但未作確定結論。",
+        "basis": [
+          "lrs-f156-b0054",
+          "lrs-f156-b0065",
+          "lrs-f156-b0069"
+        ],
+        "certainty": "open-question"
+      },
+      {
+        "id": "event-1633-zhou-death-version",
+        "era": "崇禎六年",
+        "ganzhi": "癸酉",
+        "ceYear": 1633,
+        "description": "周道登卒年另一版本，見知服齋本《崇禎五十宰相傳》等材料。",
+        "basis": [
+          "lrs-f156-b0056",
+          "lrs-f156-b0058",
+          "lrs-f156-b0060",
+          "lrs-f156-b0065",
+          "lrs-f156-b0069"
+        ],
+        "certainty": "open-question"
+      },
+      {
+        "id": "event-1633-bailongtan",
+        "era": "崇禎六年",
+        "ganzhi": "癸酉",
+        "ceYear": 1633,
+        "season": "秋",
+        "description": "宋徵璧、陳子龍、柳如是等遊白龍潭；宋徵璧〈秋塘曲並序〉記柳如是自述早歲經歷。",
+        "basis": [
+          "lrs-f156-b0047",
+          "lrs-f156-b0048",
+          "lrs-f156-b0049",
+          "lrs-f156-b0050",
+          "lrs-f156-b0051",
+          "lrs-f156-b0052"
+        ],
+        "certainty": "argued"
+      },
+      {
+        "id": "event-1631-liu-leaves-zhou",
+        "era": "崇禎四年",
+        "ganzhi": "辛未",
+        "ceYear": 1631,
+        "description": "柳如是離開周家、流落松江的最早可能年份；陳寅恪後文改稱崇禎五年最可能。",
+        "basis": [
+          "lrs-f156-b0069",
+          "lrs-f156-b0190",
+          "lrs-f156-b0226"
+        ],
+        "certainty": "open-question",
+        "verificationStatus": "revised-by-later-author-discussion"
+      },
+      {
+        "id": "event-1632-liu-in-songjiang",
+        "era": "崇禎五年",
+        "ganzhi": "壬申",
+        "ceYear": 1632,
+        "description": "陳寅恪認為柳如是此年最可能已離周家、流落松江；除夕與陳子龍相見的論證較強。",
+        "basis": [
+          "lrs-f156-b0141",
+          "lrs-f156-b0190",
+          "lrs-f156-b0220",
+          "lrs-f156-b0221",
+          "lrs-f156-b0222",
+          "lrs-f156-b0226"
+        ],
+        "certainty": "argued",
+        "verificationStatus": "most-likely-not-exactly-settled"
+      }
+    ],
+    "entities": [
+      {
+        "id": "person-liu-rushi",
+        "label": "河東君",
+        "type": "person",
+        "aliases": [
+          "柳如是",
+          "柳氏",
+          "隱雯",
+          "柳蘼蕪"
+        ]
+      },
+      {
+        "id": "person-gu-ling",
+        "label": "顧苓",
+        "type": "person",
+        "aliases": [
+          "顧云美",
+          "云美"
+        ]
+      },
+      {
+        "id": "person-qian-qianyi",
+        "label": "錢謙益",
+        "type": "person",
+        "aliases": [
+          "牧齋",
+          "牧翁"
+        ]
+      },
+      {
+        "id": "person-qu-shisi",
+        "label": "瞿式耜",
+        "type": "person",
+        "aliases": [
+          "瞿稼軒",
+          "稼軒"
+        ]
+      },
+      {
+        "id": "person-chen-zilong",
+        "label": "陳子龍",
+        "type": "person",
+        "aliases": [
+          "陳臥子",
+          "臥子",
+          "雲間孝廉"
+        ]
+      },
+      {
+        "id": "person-wang-yun",
+        "label": "王澐",
+        "type": "person",
+        "aliases": [
+          "王勝時",
+          "勝時"
+        ],
+        "nameNote": "名澐，改字勝時。"
+      },
+      {
+        "id": "person-zhang-shi",
+        "label": "張氏",
+        "type": "person",
+        "aliases": [
+          "陳子龍夫人",
+          "張孺人"
+        ]
+      },
+      {
+        "id": "person-qian-zhaoao",
+        "label": "錢肇鼇",
+        "type": "person",
+        "aliases": [
+          "錢鈍夫",
+          "鈍夫"
+        ]
+      },
+      {
+        "id": "person-song-zhengbi",
+        "label": "宋徵璧",
+        "type": "person",
+        "aliases": [
+          "宋尚木",
+          "尚木",
+          "宋讓木",
+          "讓木"
+        ],
+        "nameNote": "權威人名資料著錄字尚木；本書稱讓木，暫列文獻別稱。"
+      },
+      {
+        "id": "person-zhou-daodeng",
+        "label": "周道登",
+        "type": "person",
+        "aliases": [
+          "周文岸",
+          "文岸",
+          "周念西",
+          "念西",
+          "吳江故相"
+        ]
+      },
+      {
+        "id": "place-bailongtan",
+        "label": "白龍潭",
+        "type": "place",
+        "aliases": [],
+        "nameNote": "宋徵璧詩題作〈秋塘曲〉，陳子龍詩題作〈秋潭曲〉；兩個詩題不可合併為地名異名。"
+      },
+      {
+        "id": "person-luo-zhenyu",
+        "label": "羅振玉",
+        "type": "person",
+        "aliases": [
+          "羅刖存",
+          "刖存"
+        ]
+      },
+      {
+        "id": "person-wen-anzhi",
+        "label": "文安之",
+        "type": "person",
+        "aliases": [
+          "文相國",
+          "夷陵文相國"
+        ]
+      },
+      {
+        "id": "person-qu-xuanjing",
+        "label": "瞿玄鏡",
+        "type": "person",
+        "aliases": [
+          "玄鏡"
+        ]
+      },
+      {
+        "id": "person-qian-daxin",
+        "label": "錢大昕",
+        "type": "person",
+        "aliases": []
+      },
+      {
+        "id": "person-peng-yanyou",
+        "label": "彭燕又",
+        "type": "person",
+        "aliases": [
+          "燕又"
+        ]
+      },
+      {
+        "id": "person-chen-meng",
+        "label": "陳盟",
+        "type": "person",
+        "aliases": []
+      },
+      {
+        "id": "person-cao-rong",
+        "label": "曹溶",
+        "type": "person",
+        "aliases": [
+          "曹潔躬",
+          "潔躬"
+        ]
+      },
+      {
+        "id": "person-tan-qian",
+        "label": "談遷",
+        "type": "person",
+        "aliases": [
+          "談孺木",
+          "孺木"
+        ]
+      },
+      {
+        "id": "person-pan-chengzhang",
+        "label": "潘檉章",
+        "type": "person",
+        "aliases": [
+          "潘力田",
+          "力田"
+        ]
+      },
+      {
+        "id": "person-pan-lei",
+        "label": "潘耒",
+        "type": "person",
+        "aliases": [
+          "潘稼堂",
+          "稼堂"
+        ]
+      },
+      {
+        "id": "person-wan-shouqi",
+        "label": "萬壽祺",
+        "type": "person",
+        "aliases": [
+          "萬年少",
+          "年少"
+        ]
+      },
+      {
+        "id": "person-xu-fo",
+        "label": "徐佛",
+        "type": "person",
+        "aliases": [
+          "雲翾"
+        ]
+      },
+      {
+        "id": "person-song-zhengyu",
+        "label": "宋徵輿",
+        "type": "person",
+        "aliases": [
+          "宋轅文",
+          "轅文"
+        ]
+      },
+      {
+        "id": "person-li-wen",
+        "label": "李雯",
+        "type": "person",
+        "aliases": [
+          "李舒章",
+          "舒章"
+        ]
+      },
+      {
+        "id": "person-chen-jiru",
+        "label": "陳繼儒",
+        "type": "person",
+        "aliases": [
+          "陳眉公",
+          "眉公"
+        ]
+      },
+      {
+        "id": "person-li-daiwen",
+        "label": "李待問",
+        "type": "person",
+        "aliases": [
+          "李存我",
+          "存我"
+        ]
+      },
+      {
+        "id": "person-fang-yuegong",
+        "label": "方岳貢",
+        "type": "person",
+        "aliases": [
+          "方四長",
+          "禹修"
+        ]
+      },
+      {
+        "id": "person-zhang-angzhi",
+        "label": "張昂之",
+        "type": "person",
+        "aliases": [
+          "張冷石",
+          "冷石"
+        ]
+      },
+      {
+        "id": "person-shi-shaoxin",
+        "label": "施紹莘",
+        "type": "person",
+        "aliases": [
+          "施子野",
+          "子野"
+        ]
+      },
+      {
+        "id": "person-cai-shi",
+        "label": "蔡氏",
+        "type": "person",
+        "aliases": []
+      },
+      {
+        "id": "place-shengze",
+        "label": "盛澤鎮",
+        "type": "place",
+        "aliases": [
+          "歸家院"
+        ]
+      }
+    ],
+    "readerBehaviors": [
+      {
+        "trigger": "source-introduction",
+        "behavior": "将紧随其后的引文在视觉上归为同一材料组，正文中不显示数据库字段。"
+      },
+      {
+        "trigger": "寅恪案",
+        "behavior": "保留在原文位置；允许在侧栏聚合为作者判断，不从正文抽走。"
+      },
+      {
+        "trigger": "俟考",
+        "behavior": "标记为开放问题，可查看全书其他开放问题。"
+      },
+      {
+        "trigger": "cross-reference",
+        "behavior": "在当前阅读位置打开目标段落预览，读者确认后才跳转。"
+      }
+    ]
+  },
+  "annotationAudits": [
     {
-      "id": "person-liu-rushi",
-      "label": "河東君",
-      "type": "person",
-      "aliases": ["柳如是", "柳氏", "隱雯", "柳蘼蕪"]
+      "annotationId": "lrs-ann-u01-interpretation-01",
+      "auditedAt": "2026-07-29",
+      "auditedBy": "codex-editorial-audit",
+      "auditKind": "machine-assisted-editorial-audit",
+      "recommendation": "retain-editorial-inference",
+      "rationale": "「史料批判」是編者對陳氏方法的抽象命名，不是原文自稱。",
+      "basisChecked": [
+        "lrs-f156-b0002",
+        "lrs-f156-b0003"
+      ],
+      "humanApprovalRequired": false
     },
     {
-      "id": "person-gu-ling",
-      "label": "顧苓",
-      "type": "person",
-      "aliases": ["顧云美", "云美"]
+      "annotationId": "lrs-ann-u02-interpretation-01",
+      "auditedAt": "2026-07-29",
+      "auditedBy": "codex-editorial-audit",
+      "auditKind": "machine-assisted-editorial-audit",
+      "recommendation": "author-paraphrase-candidate",
+      "rationale": "陳氏由嫁女瞿氏、懸掛御書等事，明言顧苓為不忘故國舊君的明末遺老。",
+      "basisChecked": [
+        "lrs-f156-b0005",
+        "lrs-f156-b0007",
+        "lrs-f156-b0008"
+      ],
+      "humanApprovalRequired": true
     },
     {
-      "id": "person-qian-qianyi",
-      "label": "錢謙益",
-      "type": "person",
-      "aliases": ["牧齋", "牧翁"]
+      "annotationId": "lrs-ann-u03-interpretation-01",
+      "auditedAt": "2026-07-29",
+      "auditedBy": "codex-editorial-audit",
+      "auditKind": "machine-assisted-editorial-audit",
+      "recommendation": "author-paraphrase-candidate",
+      "rationale": "原文明言顧苓之見解與當日吳越勝流不同。",
+      "basisChecked": [
+        "lrs-f156-b0008",
+        "lrs-f156-b0009"
+      ],
+      "humanApprovalRequired": true
     },
     {
-      "id": "person-qu-shisi",
-      "label": "瞿式耜",
-      "type": "person",
-      "aliases": ["瞿稼軒", "稼軒"]
+      "annotationId": "lrs-ann-u03-interpretation-02",
+      "auditedAt": "2026-07-29",
+      "auditedBy": "codex-editorial-audit",
+      "auditKind": "machine-assisted-editorial-audit",
+      "recommendation": "author-paraphrase-candidate",
+      "rationale": "原文明言顧苓推重河東君「當與錢柳同心復明一端有關」。",
+      "basisChecked": [
+        "lrs-f156-b0010"
+      ],
+      "humanApprovalRequired": true
     },
     {
-      "id": "person-chen-zilong",
-      "label": "陳子龍",
-      "type": "person",
-      "aliases": ["陳臥子", "臥子", "雲間孝廉"]
-    }
-  ],
-  "readerBehaviors": [
-    {
-      "trigger": "source-introduction",
-      "behavior": "将紧随其后的引文在视觉上归为同一材料组，正文中不显示数据库字段。"
+      "annotationId": "lrs-ann-u04-interpretation-01",
+      "auditedAt": "2026-07-29",
+      "auditedBy": "codex-editorial-audit",
+      "auditKind": "machine-assisted-editorial-audit",
+      "recommendation": "author-paraphrase-candidate",
+      "rationale": "原文以疑問及「俟考」提出兩項可能，轉述保留未決語氣。",
+      "basisChecked": [
+        "lrs-f156-b0011",
+        "lrs-f156-b0012",
+        "lrs-f156-b0013"
+      ],
+      "humanApprovalRequired": true
     },
     {
-      "trigger": "寅恪案",
-      "behavior": "保留在原文位置；允许在侧栏聚合为作者判断，不从正文抽走。"
+      "annotationId": "lrs-ann-u05-interpretation-01",
+      "auditedAt": "2026-07-29",
+      "auditedBy": "codex-editorial-audit",
+      "auditKind": "machine-assisted-editorial-audit",
+      "recommendation": "author-paraphrase-candidate",
+      "rationale": "原文明列四本，並稱范本最善、據以迻錄。",
+      "basisChecked": [
+        "lrs-f156-b0014"
+      ],
+      "humanApprovalRequired": true
     },
     {
-      "trigger": "俟考",
-      "behavior": "标记为开放问题，可查看全书其他开放问题。"
+      "annotationId": "lrs-ann-u06-interpretation-01",
+      "auditedAt": "2026-07-29",
+      "auditedBy": "codex-editorial-audit",
+      "auditKind": "machine-assisted-editorial-audit",
+      "recommendation": "author-paraphrase-candidate",
+      "rationale": "「雲間孝廉」為陳子龍及「可謂特識」均見寅恪案原文。",
+      "basisChecked": [
+        "lrs-f156-b0016",
+        "lrs-f156-b0017"
+      ],
+      "humanApprovalRequired": true
     },
     {
-      "trigger": "cross-reference",
-      "behavior": "在当前阅读位置打开目标段落预览，读者确认后才跳转。"
+      "annotationId": "lrs-ann-u06-interpretation-02",
+      "auditedAt": "2026-07-29",
+      "auditedBy": "codex-editorial-audit",
+      "auditKind": "machine-assisted-editorial-audit",
+      "recommendation": "author-paraphrase-candidate",
+      "rationale": "三項差誤均由寅恪案逐項列出。",
+      "basisChecked": [
+        "lrs-f156-b0017"
+      ],
+      "humanApprovalRequired": true
+    },
+    {
+      "annotationId": "lrs-ann-u07-interpretation-01",
+      "auditedAt": "2026-07-29",
+      "auditedBy": "codex-editorial-audit",
+      "auditKind": "machine-assisted-editorial-audit",
+      "recommendation": "author-paraphrase-candidate",
+      "rationale": "顧傳缺載範圍及「當有所隱諱」均為寅恪案明文。",
+      "basisChecked": [
+        "lrs-f156-b0019",
+        "lrs-f156-b0020"
+      ],
+      "humanApprovalRequired": true
+    },
+    {
+      "annotationId": "lrs-ann-u07-interpretation-02",
+      "auditedAt": "2026-07-29",
+      "auditedBy": "codex-editorial-audit",
+      "auditKind": "machine-assisted-editorial-audit",
+      "recommendation": "author-paraphrase-candidate",
+      "rationale": "材料稀少、直接材料為主及間接傳聞補充均為原文方法說明。",
+      "basisChecked": [
+        "lrs-f156-b0020"
+      ],
+      "humanApprovalRequired": true
+    },
+    {
+      "annotationId": "lrs-ann-u08-interpretation-01",
+      "auditedAt": "2026-07-29",
+      "auditedBy": "codex-editorial-audit",
+      "auditKind": "machine-assisted-editorial-audit",
+      "recommendation": "author-paraphrase-candidate",
+      "rationale": "原文由王澐與陳氏家庭往來推知其較熟悉柳氏早歲事蹟。",
+      "basisChecked": [
+        "lrs-f156-b0021",
+        "lrs-f156-b0023",
+        "lrs-f156-b0025",
+        "lrs-f156-b0026"
+      ],
+      "humanApprovalRequired": true
+    },
+    {
+      "annotationId": "lrs-ann-u08-interpretation-02",
+      "auditedAt": "2026-07-29",
+      "auditedBy": "codex-editorial-audit",
+      "auditKind": "machine-assisted-editorial-audit",
+      "recommendation": "author-paraphrase-candidate",
+      "rationale": "原文明言閱讀王澐著述須「博考而慎取」，並交代門戶立場與知情關係。",
+      "basisChecked": [
+        "lrs-f156-b0026"
+      ],
+      "humanApprovalRequired": true
+    },
+    {
+      "annotationId": "lrs-ann-u09-interpretation-01",
+      "auditedAt": "2026-07-29",
+      "auditedBy": "codex-editorial-audit",
+      "auditKind": "machine-assisted-editorial-audit",
+      "recommendation": "author-paraphrase-candidate",
+      "rationale": "張氏掌家、擇妾及不能相容的推斷均由陳氏展開。",
+      "basisChecked": [
+        "lrs-f156-b0027",
+        "lrs-f156-b0029",
+        "lrs-f156-b0030",
+        "lrs-f156-b0032"
+      ],
+      "humanApprovalRequired": true
+    },
+    {
+      "annotationId": "lrs-ann-u09-interpretation-02",
+      "auditedAt": "2026-07-29",
+      "auditedBy": "codex-editorial-audit",
+      "auditKind": "machine-assisted-editorial-audit",
+      "recommendation": "author-paraphrase-candidate",
+      "rationale": "兩方情感未改及家庭權力造成分離均為寅恪案明文判斷。",
+      "basisChecked": [
+        "lrs-f156-b0032"
+      ],
+      "humanApprovalRequired": true
+    },
+    {
+      "annotationId": "lrs-ann-u10-interpretation-01",
+      "auditedAt": "2026-07-29",
+      "auditedBy": "codex-editorial-audit",
+      "auditKind": "machine-assisted-editorial-audit",
+      "recommendation": "author-paraphrase-candidate",
+      "rationale": "原文依錢肇鼇生年較晚，判定其記述得自輾轉間接傳聞。",
+      "basisChecked": [
+        "lrs-f156-b0033",
+        "lrs-f156-b0034",
+        "lrs-f156-b0038"
+      ],
+      "humanApprovalRequired": true
+    },
+    {
+      "annotationId": "lrs-ann-u10-interpretation-02",
+      "auditedAt": "2026-07-29",
+      "auditedBy": "codex-editorial-audit",
+      "auditKind": "machine-assisted-editorial-audit",
+      "recommendation": "author-paraphrase-candidate",
+      "rationale": "原文明列王、錢與陳子龍、宋徵璧材料的主從參證關係。",
+      "basisChecked": [
+        "lrs-f156-b0038"
+      ],
+      "humanApprovalRequired": true
+    },
+    {
+      "annotationId": "lrs-ann-u11-interpretation-01",
+      "auditedAt": "2026-07-29",
+      "auditedBy": "codex-editorial-audit",
+      "auditKind": "machine-assisted-editorial-audit",
+      "recommendation": "author-paraphrase-candidate",
+      "rationale": "原文先稱錢說頗與王說相似，再綜合兩說提出婢妾與所屬之家問題。",
+      "basisChecked": [
+        "lrs-f156-b0042",
+        "lrs-f156-b0044",
+        "lrs-f156-b0033",
+        "lrs-f156-b0045"
+      ],
+      "humanApprovalRequired": true
+    },
+    {
+      "annotationId": "lrs-ann-u11-interpretation-02",
+      "auditedAt": "2026-07-29",
+      "auditedBy": "codex-editorial-audit",
+      "auditKind": "machine-assisted-editorial-audit",
+      "recommendation": "author-paraphrase-candidate",
+      "rationale": "「何家何人」及年代正是原文明列待考定的兩問。",
+      "basisChecked": [
+        "lrs-f156-b0045"
+      ],
+      "humanApprovalRequired": true
+    },
+    {
+      "annotationId": "lrs-ann-u12-interpretation-01",
+      "auditedAt": "2026-07-29",
+      "auditedBy": "codex-editorial-audit",
+      "auditKind": "machine-assisted-editorial-audit",
+      "recommendation": "author-paraphrase-candidate",
+      "rationale": "原文明定白龍潭親聞關係，並稱宋詩為早期事蹟最重要材料之一。",
+      "basisChecked": [
+        "lrs-f156-b0047",
+        "lrs-f156-b0048",
+        "lrs-f156-b0049",
+        "lrs-f156-b0050",
+        "lrs-f156-b0051",
+        "lrs-f156-b0052",
+        "lrs-f156-b0053"
+      ],
+      "humanApprovalRequired": true
+    },
+    {
+      "annotationId": "lrs-ann-u12-interpretation-02",
+      "auditedAt": "2026-07-29",
+      "auditedBy": "codex-editorial-audit",
+      "auditKind": "machine-assisted-editorial-audit",
+      "recommendation": "author-paraphrase-candidate",
+      "rationale": "時間與地理兩條辨識條件由陳氏在下一段明確析出。",
+      "basisChecked": [
+        "lrs-f156-b0047",
+        "lrs-f156-b0053"
+      ],
+      "humanApprovalRequired": true
+    },
+    {
+      "annotationId": "lrs-ann-u13-interpretation-01",
+      "auditedAt": "2026-07-29",
+      "auditedBy": "codex-editorial-audit",
+      "auditKind": "machine-assisted-editorial-audit",
+      "recommendation": "author-paraphrase-candidate",
+      "rationale": "原文明言檢索崇禎朝宰相籍貫後，惟周道登適合。",
+      "basisChecked": [
+        "lrs-f156-b0053",
+        "lrs-f156-b0054"
+      ],
+      "humanApprovalRequired": true
+    },
+    {
+      "annotationId": "lrs-ann-u13-interpretation-02",
+      "auditedAt": "2026-07-29",
+      "auditedBy": "codex-editorial-audit",
+      "auditKind": "machine-assisted-editorial-audit",
+      "recommendation": "author-paraphrase-candidate",
+      "rationale": "五年、六年及「家居一年卒」異文均由原文並列待考。",
+      "basisChecked": [
+        "lrs-f156-b0054",
+        "lrs-f156-b0056",
+        "lrs-f156-b0058",
+        "lrs-f156-b0060",
+        "lrs-f156-b0062"
+      ],
+      "humanApprovalRequired": true
+    },
+    {
+      "annotationId": "lrs-ann-u14-interpretation-01",
+      "auditedAt": "2026-07-29",
+      "auditedBy": "codex-editorial-audit",
+      "auditKind": "machine-assisted-editorial-audit",
+      "recommendation": "author-paraphrase-candidate",
+      "rationale": "乾隆志承康熙志、卒年另補及潘氏材料闕載，均為陳氏考證結論。",
+      "basisChecked": [
+        "lrs-f156-b0065",
+        "lrs-f156-b0066",
+        "lrs-f156-b0067",
+        "lrs-f156-b0068"
+      ],
+      "humanApprovalRequired": true
+    },
+    {
+      "annotationId": "lrs-ann-u14-interpretation-02",
+      "auditedAt": "2026-07-29",
+      "auditedBy": "codex-editorial-audit",
+      "auditKind": "machine-assisted-editorial-audit",
+      "recommendation": "author-paraphrase-candidate",
+      "rationale": "原文明言五年或六年「未敢確定」。",
+      "basisChecked": [
+        "lrs-f156-b0069"
+      ],
+      "humanApprovalRequired": true
+    },
+    {
+      "annotationId": "lrs-ann-u14-interpretation-03",
+      "auditedAt": "2026-07-29",
+      "auditedBy": "codex-editorial-audit",
+      "auditKind": "machine-assisted-editorial-audit",
+      "recommendation": "author-paraphrase-candidate",
+      "rationale": "原文明定崇禎四年，並指向下引詩作作證。",
+      "basisChecked": [
+        "lrs-f156-b0069"
+      ],
+      "humanApprovalRequired": true
+    },
+    {
+      "annotationId": "lrs-ann-u15-interpretation-01",
+      "auditedAt": "2026-07-29",
+      "auditedBy": "codex-editorial-audit",
+      "auditKind": "machine-assisted-editorial-audit",
+      "recommendation": "author-paraphrase-candidate",
+      "rationale": "三年前仍可稱「新」及不得泥執數旬數月，均是原文論證。",
+      "basisChecked": [
+        "lrs-f156-b0070",
+        "lrs-f156-b0072",
+        "lrs-f156-b0073"
+      ],
+      "humanApprovalRequired": true
+    },
+    {
+      "annotationId": "lrs-ann-u16-interpretation-01",
+      "auditedAt": "2026-07-29",
+      "auditedBy": "codex-editorial-audit",
+      "auditKind": "machine-assisted-editorial-audit",
+      "recommendation": "author-paraphrase-candidate",
+      "rationale": "「平津」「丞相」指周道登及柳氏初為其妾，均為原文明斷。",
+      "basisChecked": [
+        "lrs-f156-b0074"
+      ],
+      "humanApprovalRequired": true
+    },
+    {
+      "annotationId": "lrs-ann-u16-interpretation-02",
+      "auditedAt": "2026-07-29",
+      "auditedBy": "codex-editorial-audit",
+      "auditKind": "machine-assisted-editorial-audit",
+      "recommendation": "author-paraphrase-candidate",
+      "rationale": "原文明言婢妾界線難分，並判錢氏「寵姬」說可信。",
+      "basisChecked": [
+        "lrs-f156-b0074"
+      ],
+      "humanApprovalRequired": true
+    },
+    {
+      "annotationId": "lrs-ann-u16-interpretation-03",
+      "auditedAt": "2026-07-29",
+      "auditedBy": "codex-editorial-audit",
+      "auditKind": "machine-assisted-editorial-audit",
+      "recommendation": "author-paraphrase-candidate",
+      "rationale": "原文對周母在世明言可能但無證據、未敢確定。",
+      "basisChecked": [
+        "lrs-f156-b0074"
+      ],
+      "humanApprovalRequired": true
+    },
+    {
+      "annotationId": "lrs-ann-u17-interpretation-01",
+      "auditedAt": "2026-07-29",
+      "auditedBy": "codex-editorial-audit",
+      "auditKind": "machine-assisted-editorial-audit",
+      "recommendation": "author-paraphrase-candidate",
+      "rationale": "原文直接作此說明；預審確認轉述沒有提高命題強度。",
+      "basisChecked": [
+        "lrs-f156-b0075"
+      ],
+      "humanApprovalRequired": true
+    },
+    {
+      "annotationId": "lrs-ann-u18-interpretation-01",
+      "auditedAt": "2026-07-29",
+      "auditedBy": "codex-editorial-audit",
+      "auditKind": "machine-assisted-editorial-audit",
+      "recommendation": "author-paraphrase-candidate",
+      "rationale": "原文直接作此說明；預審確認轉述沒有提高命題強度。",
+      "basisChecked": [
+        "lrs-f156-b0077",
+        "lrs-f156-b0078"
+      ],
+      "humanApprovalRequired": true
+    },
+    {
+      "annotationId": "lrs-ann-u18-interpretation-02",
+      "auditedAt": "2026-07-29",
+      "auditedBy": "codex-editorial-audit",
+      "auditKind": "machine-assisted-editorial-audit",
+      "recommendation": "author-paraphrase-candidate",
+      "rationale": "原文在所列區塊展開同一論證；預審確認轉述未加入原文以外的新事實。",
+      "basisChecked": [
+        "lrs-f156-b0079",
+        "lrs-f156-b0081",
+        "lrs-f156-b0083",
+        "lrs-f156-b0085",
+        "lrs-f156-b0086"
+      ],
+      "humanApprovalRequired": true
+    },
+    {
+      "annotationId": "lrs-ann-u19-interpretation-01",
+      "auditedAt": "2026-07-29",
+      "auditedBy": "codex-editorial-audit",
+      "auditKind": "machine-assisted-editorial-audit",
+      "recommendation": "author-paraphrase-candidate",
+      "rationale": "原文明示疑問、可能或未能確定；預審確認轉述保留未決狀態。",
+      "basisChecked": [
+        "lrs-f156-b0090",
+        "lrs-f156-b0102"
+      ],
+      "humanApprovalRequired": true
+    },
+    {
+      "annotationId": "lrs-ann-u19-interpretation-02",
+      "auditedAt": "2026-07-29",
+      "auditedBy": "codex-editorial-audit",
+      "auditKind": "machine-assisted-editorial-audit",
+      "recommendation": "author-paraphrase-candidate",
+      "rationale": "原文在所列區塊展開同一論證；預審確認轉述未加入原文以外的新事實。",
+      "basisChecked": [
+        "lrs-f156-b0089",
+        "lrs-f156-b0090",
+        "lrs-f156-b0093",
+        "lrs-f156-b0095",
+        "lrs-f156-b0097",
+        "lrs-f156-b0101",
+        "lrs-f156-b0102"
+      ],
+      "humanApprovalRequired": true
+    },
+    {
+      "annotationId": "lrs-ann-u20-interpretation-01",
+      "auditedAt": "2026-07-29",
+      "auditedBy": "codex-editorial-audit",
+      "auditKind": "machine-assisted-editorial-audit",
+      "recommendation": "author-paraphrase-candidate",
+      "rationale": "原文在所列區塊展開同一論證；預審確認轉述未加入原文以外的新事實。",
+      "basisChecked": [
+        "lrs-f156-b0104",
+        "lrs-f156-b0105"
+      ],
+      "humanApprovalRequired": true
+    },
+    {
+      "annotationId": "lrs-ann-u20-interpretation-02",
+      "auditedAt": "2026-07-29",
+      "auditedBy": "codex-editorial-audit",
+      "auditKind": "machine-assisted-editorial-audit",
+      "recommendation": "author-paraphrase-candidate",
+      "rationale": "原文在所列區塊展開同一論證；預審確認轉述未加入原文以外的新事實。",
+      "basisChecked": [
+        "lrs-f156-b0104",
+        "lrs-f156-b0106",
+        "lrs-f156-b0107"
+      ],
+      "humanApprovalRequired": true
+    },
+    {
+      "annotationId": "lrs-ann-u20-interpretation-03",
+      "auditedAt": "2026-07-29",
+      "auditedBy": "codex-editorial-audit",
+      "auditKind": "machine-assisted-editorial-audit",
+      "recommendation": "author-paraphrase-candidate",
+      "rationale": "原文明示疑問、可能或未能確定；預審確認轉述保留未決狀態。",
+      "basisChecked": [
+        "lrs-f156-b0104",
+        "lrs-f156-b0107"
+      ],
+      "humanApprovalRequired": true
+    },
+    {
+      "annotationId": "lrs-ann-u21-interpretation-01",
+      "auditedAt": "2026-07-29",
+      "auditedBy": "codex-editorial-audit",
+      "auditKind": "machine-assisted-editorial-audit",
+      "recommendation": "author-paraphrase-candidate",
+      "rationale": "原文在所列區塊展開同一論證；預審確認轉述未加入原文以外的新事實。",
+      "basisChecked": [
+        "lrs-f156-b0109",
+        "lrs-f156-b0110",
+        "lrs-f156-b0112"
+      ],
+      "humanApprovalRequired": true
+    },
+    {
+      "annotationId": "lrs-ann-u21-interpretation-02",
+      "auditedAt": "2026-07-29",
+      "auditedBy": "codex-editorial-audit",
+      "auditKind": "machine-assisted-editorial-audit",
+      "recommendation": "author-paraphrase-candidate",
+      "rationale": "原文在所列區塊展開同一論證；預審確認轉述未加入原文以外的新事實。",
+      "basisChecked": [
+        "lrs-f156-b0109",
+        "lrs-f156-b0110"
+      ],
+      "humanApprovalRequired": true
+    },
+    {
+      "annotationId": "lrs-ann-u22-interpretation-01",
+      "auditedAt": "2026-07-29",
+      "auditedBy": "codex-editorial-audit",
+      "auditKind": "machine-assisted-editorial-audit",
+      "recommendation": "author-paraphrase-candidate",
+      "rationale": "原文在所列區塊展開同一論證；預審確認轉述未加入原文以外的新事實。",
+      "basisChecked": [
+        "lrs-f156-b0114",
+        "lrs-f156-b0115"
+      ],
+      "humanApprovalRequired": true
+    },
+    {
+      "annotationId": "lrs-ann-u22-interpretation-02",
+      "auditedAt": "2026-07-29",
+      "auditedBy": "codex-editorial-audit",
+      "auditKind": "machine-assisted-editorial-audit",
+      "recommendation": "author-paraphrase-candidate",
+      "rationale": "原文明示疑問、可能或未能確定；預審確認轉述保留未決狀態。",
+      "basisChecked": [
+        "lrs-f156-b0115",
+        "lrs-f156-b0116",
+        "lrs-f156-b0117"
+      ],
+      "humanApprovalRequired": true
+    },
+    {
+      "annotationId": "lrs-ann-u23-interpretation-01",
+      "auditedAt": "2026-07-29",
+      "auditedBy": "codex-editorial-audit",
+      "auditKind": "machine-assisted-editorial-audit",
+      "recommendation": "author-paraphrase-candidate",
+      "rationale": "原文直接作此說明；預審確認轉述沒有提高命題強度。",
+      "basisChecked": [
+        "lrs-f156-b0119",
+        "lrs-f156-b0120"
+      ],
+      "humanApprovalRequired": true
+    },
+    {
+      "annotationId": "lrs-ann-u24-interpretation-01",
+      "auditedAt": "2026-07-29",
+      "auditedBy": "codex-editorial-audit",
+      "auditKind": "machine-assisted-editorial-audit",
+      "recommendation": "author-paraphrase-candidate",
+      "rationale": "原文明示疑問、可能或未能確定；預審確認轉述保留未決狀態。",
+      "basisChecked": [
+        "lrs-f156-b0121"
+      ],
+      "humanApprovalRequired": true
+    },
+    {
+      "annotationId": "lrs-ann-u24-interpretation-02",
+      "auditedAt": "2026-07-29",
+      "auditedBy": "codex-editorial-audit",
+      "auditKind": "machine-assisted-editorial-audit",
+      "recommendation": "author-paraphrase-candidate",
+      "rationale": "原文在所列區塊展開同一論證；預審確認轉述未加入原文以外的新事實。",
+      "basisChecked": [
+        "lrs-f156-b0124",
+        "lrs-f156-b0125",
+        "lrs-f156-b0126"
+      ],
+      "humanApprovalRequired": true
+    },
+    {
+      "annotationId": "lrs-ann-u25-interpretation-01",
+      "auditedAt": "2026-07-29",
+      "auditedBy": "codex-editorial-audit",
+      "auditKind": "machine-assisted-editorial-audit",
+      "recommendation": "author-paraphrase-candidate",
+      "rationale": "原文明示疑問、可能或未能確定；預審確認轉述保留未決狀態。",
+      "basisChecked": [
+        "lrs-f156-b0127",
+        "lrs-f156-b0128",
+        "lrs-f156-b0129",
+        "lrs-f156-b0130",
+        "lrs-f156-b0131",
+        "lrs-f156-b0132"
+      ],
+      "humanApprovalRequired": true
+    },
+    {
+      "annotationId": "lrs-ann-u25-interpretation-02",
+      "auditedAt": "2026-07-29",
+      "auditedBy": "codex-editorial-audit",
+      "auditKind": "machine-assisted-editorial-audit",
+      "recommendation": "author-paraphrase-candidate",
+      "rationale": "原文在所列區塊展開同一論證；預審確認轉述未加入原文以外的新事實。",
+      "basisChecked": [
+        "lrs-f156-b0133"
+      ],
+      "humanApprovalRequired": true
+    },
+    {
+      "annotationId": "lrs-ann-u26-interpretation-01",
+      "auditedAt": "2026-07-29",
+      "auditedBy": "codex-editorial-audit",
+      "auditKind": "machine-assisted-editorial-audit",
+      "recommendation": "author-paraphrase-candidate",
+      "rationale": "原文在所列區塊展開同一論證；預審確認轉述未加入原文以外的新事實。",
+      "basisChecked": [
+        "lrs-f156-b0135",
+        "lrs-f156-b0136",
+        "lrs-f156-b0138",
+        "lrs-f156-b0141"
+      ],
+      "humanApprovalRequired": true
+    },
+    {
+      "annotationId": "lrs-ann-u27-interpretation-01",
+      "auditedAt": "2026-07-29",
+      "auditedBy": "codex-editorial-audit",
+      "auditKind": "machine-assisted-editorial-audit",
+      "recommendation": "author-paraphrase-candidate",
+      "rationale": "原文在所列區塊展開同一論證；預審確認轉述未加入原文以外的新事實。",
+      "basisChecked": [
+        "lrs-f156-b0143",
+        "lrs-f156-b0145",
+        "lrs-f156-b0146",
+        "lrs-f156-b0156"
+      ],
+      "humanApprovalRequired": true
+    },
+    {
+      "annotationId": "lrs-ann-u28-interpretation-01",
+      "auditedAt": "2026-07-29",
+      "auditedBy": "codex-editorial-audit",
+      "auditKind": "machine-assisted-editorial-audit",
+      "recommendation": "author-paraphrase-candidate",
+      "rationale": "原文明示疑問、可能或未能確定；預審確認轉述保留未決狀態。",
+      "basisChecked": [
+        "lrs-f156-b0190"
+      ],
+      "humanApprovalRequired": true
+    },
+    {
+      "annotationId": "lrs-ann-u28-interpretation-02",
+      "auditedAt": "2026-07-29",
+      "auditedBy": "codex-editorial-audit",
+      "auditKind": "machine-assisted-editorial-audit",
+      "recommendation": "author-paraphrase-candidate",
+      "rationale": "原文明示疑問、可能或未能確定；預審確認轉述保留未決狀態。",
+      "basisChecked": [
+        "lrs-f156-b0182",
+        "lrs-f156-b0190"
+      ],
+      "humanApprovalRequired": true
+    },
+    {
+      "annotationId": "lrs-ann-u29-interpretation-01",
+      "auditedAt": "2026-07-29",
+      "auditedBy": "codex-editorial-audit",
+      "auditKind": "machine-assisted-editorial-audit",
+      "recommendation": "author-paraphrase-candidate",
+      "rationale": "原文在所列區塊展開同一論證；預審確認轉述未加入原文以外的新事實。",
+      "basisChecked": [
+        "lrs-f156-b0191",
+        "lrs-f156-b0193",
+        "lrs-f156-b0197",
+        "lrs-f156-b0198",
+        "lrs-f156-b0201"
+      ],
+      "humanApprovalRequired": true
+    },
+    {
+      "annotationId": "lrs-ann-u30-interpretation-01",
+      "auditedAt": "2026-07-29",
+      "auditedBy": "codex-editorial-audit",
+      "auditKind": "machine-assisted-editorial-audit",
+      "recommendation": "author-paraphrase-candidate",
+      "rationale": "原文在所列區塊展開同一論證；預審確認轉述未加入原文以外的新事實。",
+      "basisChecked": [
+        "lrs-f156-b0202",
+        "lrs-f156-b0203",
+        "lrs-f156-b0204",
+        "lrs-f156-b0205",
+        "lrs-f156-b0206",
+        "lrs-f156-b0207",
+        "lrs-f156-b0208",
+        "lrs-f156-b0209",
+        "lrs-f156-b0210",
+        "lrs-f156-b0211"
+      ],
+      "humanApprovalRequired": true
+    },
+    {
+      "annotationId": "lrs-ann-u30-interpretation-02",
+      "auditedAt": "2026-07-29",
+      "auditedBy": "codex-editorial-audit",
+      "auditKind": "machine-assisted-editorial-audit",
+      "recommendation": "author-paraphrase-candidate",
+      "rationale": "原文明示疑問、可能或未能確定；預審確認轉述保留未決狀態。",
+      "basisChecked": [
+        "lrs-f156-b0212",
+        "lrs-f156-b0213"
+      ],
+      "humanApprovalRequired": true
+    },
+    {
+      "annotationId": "lrs-ann-u31-interpretation-01",
+      "auditedAt": "2026-07-29",
+      "auditedBy": "codex-editorial-audit",
+      "auditKind": "machine-assisted-editorial-audit",
+      "recommendation": "author-paraphrase-candidate",
+      "rationale": "原文在所列區塊展開同一論證；預審確認轉述未加入原文以外的新事實。",
+      "basisChecked": [
+        "lrs-f156-b0220",
+        "lrs-f156-b0221",
+        "lrs-f156-b0222"
+      ],
+      "humanApprovalRequired": true
+    },
+    {
+      "annotationId": "lrs-ann-u32-interpretation-01",
+      "auditedAt": "2026-07-29",
+      "auditedBy": "codex-editorial-audit",
+      "auditKind": "machine-assisted-editorial-audit",
+      "recommendation": "author-paraphrase-candidate",
+      "rationale": "原文明示疑問、可能或未能確定；預審確認轉述保留未決狀態。",
+      "basisChecked": [
+        "lrs-f156-b0223",
+        "lrs-f156-b0224",
+        "lrs-f156-b0225",
+        "lrs-f156-b0226"
+      ],
+      "humanApprovalRequired": true
+    },
+    {
+      "annotationId": "lrs-ann-u32-interpretation-02",
+      "auditedAt": "2026-07-29",
+      "auditedBy": "codex-editorial-audit",
+      "auditKind": "machine-assisted-editorial-audit",
+      "recommendation": "author-paraphrase-candidate",
+      "rationale": "原文明示疑問、可能或未能確定；預審確認轉述保留未決狀態。",
+      "basisChecked": [
+        "lrs-f156-b0215",
+        "lrs-f156-b0226",
+        "lrs-f156-b0227",
+        "lrs-f156-b0232",
+        "lrs-f156-b0233",
+        "lrs-f156-b0237",
+        "lrs-f156-b0243",
+        "lrs-f156-b0244"
+      ],
+      "humanApprovalRequired": true
     }
   ]
 }
-

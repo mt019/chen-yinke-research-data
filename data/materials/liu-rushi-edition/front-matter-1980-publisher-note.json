@@ -1,0 +1,98 @@
+{
+  "schemaVersion": "2.1.0",
+  "work": "柳如是別傳",
+  "workAuthor": "陳寅恪",
+  "textAttribution": {
+    "assertionOwner": "shanghai-ancient-books-press",
+    "displayLabel": "上海古籍出版社",
+    "representation": "publisher-preface"
+  },
+  "section": "卷前・一九八〇年出版説明",
+  "scope": {
+    "sourceFile": "OEBPS/text00144.html",
+    "fromBlock": "lrs-f144-b0001",
+    "contentFromBlock": "lrs-f144-b0001",
+    "toBlock": "lrs-f144-b0005",
+    "status": "first editorial pass"
+  },
+  "readingUnits": [
+    {
+      "id": "lrs-f144-unit-01",
+      "blocks": [
+        "lrs-f144-b0001",
+        "lrs-f144-b0002",
+        "lrs-f144-b0003",
+        "lrs-f144-b0004",
+        "lrs-f144-b0005"
+      ]
+    }
+  ],
+  "editorialDraftPolicy": {
+    "status": "machine-drafted",
+    "publicStatus": "withhold",
+    "wordingBy": "project-editor",
+    "appliesTo": [
+      "editorialDrafts"
+    ]
+  },
+  "editorialDrafts": {
+    "units": [
+      {
+        "id": "lrs-f144-unit-01",
+        "function": "publisher-edition-statement"
+      }
+    ],
+    "sourceBridges": [],
+    "chronology": [],
+    "entities": [
+      {
+        "id": "person-chen-yinke",
+        "label": "陳寅恪",
+        "type": "person",
+        "aliases": [
+          "陳寅恪先生",
+          "陳先生",
+          "寅恪"
+        ]
+      },
+      {
+        "id": "person-jiang-tianshu",
+        "label": "蔣天樞",
+        "type": "person",
+        "aliases": [
+          "蔣天樞教授",
+          "蔣天樞先生"
+        ]
+      }
+    ],
+    "readerBehaviors": []
+  },
+  "publicAnnotations": [
+    {
+      "id": "lrs-ann-front-1980-attribution",
+      "annotationType": "editorial-note",
+      "displayLabel": "編者說明",
+      "text": "本篇以「編輯部」「我們」自稱，末署上海古籍出版社；是出版社的一九八〇年出版說明，不是陳寅恪正文。",
+      "target": {
+        "unitId": "lrs-f144-unit-01",
+        "placement": "note"
+      },
+      "attribution": {
+        "assertionOwner": "project-editor",
+        "wordingBy": "project-editor",
+        "representation": "editorial-note"
+      },
+      "basis": [
+        "lrs-f144-b0004",
+        "lrs-f144-b0005"
+      ],
+      "review": {
+        "status": "draft-disclosed",
+        "authorizedBy": "user",
+        "authorizedAt": "2026-07-29"
+      },
+      "publicStatus": "public"
+    }
+  ],
+  "annotationAudits": []
+}

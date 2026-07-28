@@ -4,8 +4,15 @@
   "type": "module",
   "scripts": {
     "validate": "node engineering/scripts/validate-processed.mjs",
+    "test:provenance": "node engineering/tests/provenance-policy.test.mjs",
+    "audit:pilot": "node engineering/scripts/audit-pilot-annotations.mjs",
+    "expand:autumn-pond": "node engineering/scripts/expand-pilot-autumn-pond.mjs",
+    "generate:opening-materials": "node engineering/scripts/generate-opening-reading-materials.mjs",
+    "generate:chapter-2": "node engineering/scripts/generate-chapter-2-material.mjs",
     "sync": "node engineering/scripts/sync-to-canvas.mjs",
     "extract:liu-rushi": "python3 engineering/scripts/extract-liu-rushi.py",
-    "build:liu-rushi-edition": "python3 engineering/scripts/build-liu-rushi-edition.py"
+    "build:liu-rushi-edition": "python3 engineering/scripts/build-liu-rushi-edition.py",
+    "build:reading": "python3 engineering/scripts/build-pilot-view.py",
+    "build:pilot": "npm run build:reading"
   }
 }

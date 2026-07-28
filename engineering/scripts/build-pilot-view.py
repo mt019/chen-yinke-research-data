@@ -1,98 +1,91 @@
 #!/usr/bin/env python3
-"""Project the third-chapter pilot into a single self-contained frontend view.
+"""Project reviewed reading selections in whole-book order.
 
-Merges the editorial annotation layer
-(`data/materials/liu-rushi-edition/pilot-third-chapter-opening.json`) with the
-lossless block text (`data/processed/liu-rushi-edition/files/text00156.json`),
-so Canvas Lab renders one quiet reading surface with on-demand apparatus and
-never has to resolve block IDs or touch the EPUB itself.
+The lossless edition block tree is the only source of public reading text.
+Machine-drafted headings, claims, chronology, entity glosses, source labels,
+and cross-references stay in the material file until each item is reviewed and
+copied into ``publicAnnotations`` with explicit provenance.  Canvas receives
+no withheld editorial prose.
 
-Output: data/processed/liu-rushi-edition/pilot-view.json
+Output: data/processed/liu-rushi-edition/reading-view.json
 """
 
 from __future__ import annotations
 
 import json
+import hashlib
 import re
 from pathlib import Path
 
 REPO = Path(__file__).resolve().parents[2]
-PILOT = REPO / "data" / "materials" / "liu-rushi-edition" / "pilot-third-chapter-opening.json"
-BLOCKS = REPO / "data" / "processed" / "liu-rushi-edition" / "files" / "text00156.json"
-OUT = REPO / "data" / "processed" / "liu-rushi-edition" / "pilot-view.json"
+MATERIALS = REPO / "data" / "materials" / "liu-rushi-edition"
+PROCESSED = REPO / "data" / "processed" / "liu-rushi-edition"
+MANIFEST = MATERIALS / "reading-views.json"
+EDITION_INDEX = PROCESSED / "index.json"
+CORPUS_INDEX = REPO / "data" / "processed" / "liu-rushi" / "index.json"
+OUT = PROCESSED / "reading-view.json"
 
-# The pilot's editor left a few notes in simplified glyphs (digitisation
-# artefact). This site is Traditional throughout; normalise the display-facing
-# strings only. Not a general converter — just the characters that appear.
-S2T = dict(zip(
-    "为侧字库应开归当打据数显标栏检段目确类组视览认让读跳转问阅预题",
-    "為側字庫應開歸當打據數顯標欄檢段目確類組視覽認讓讀跳轉問閱預題",
-))
-
-
-def zh(value: str) -> str:
-    return "".join(S2T.get(ch, ch) for ch in value or "")
-
-
-# One-line identifications for the reading surface's on-demand person cards.
-# Standard, uncontested biography only; the contested points (e.g. 河東君 early
-# name) are left to the text itself, which is precisely what the chapter argues.
-GLOSS = {
-    "person-liu-rushi": "全書中心。明末名妓，字如是，號河東君；崇禎末年歸錢謙益為繼室。早年姓氏，顧傳諱而不書，正是本章所要推究。",
-    "person-gu-ling": "字云美，明末清初蘇州遺民，工篆刻書畫。所撰〈河東君傳〉為陳寅恪據以立論的最佳傳記。",
-    "person-qian-qianyi": "字受之，號牧齋，常熟人。明末文壇領袖、東林黨魁；仕明又降清，柳如是之夫。",
-    "person-qu-shisi": "字起田，號稼軒，錢謙益門生。南明桂林留守，城破殉國。",
-    "person-chen-zilong": "字臥子，雲間（松江）人。明末詩人、抗清志士；傳中「雲間孝廉」即指其人。",
-}
-
-
-def segment(text: str) -> list[dict]:
-    """Split a block into reading text and Chen Yinke's parenthetical notes.
-
-    In this material every full-width （…） is an editorial interpolation or a
-    bibliographic citation inside a quotation, not part of the base source. The
-    reading surface dims them; they never masquerade as the quoted original.
-    """
+def segment(row: dict) -> list[dict]:
+    """Add display roles without changing, normalising, or dropping a character."""
+    text = row["text"]
     parts: list[dict] = []
-    for piece in re.split(r"(（[^（）]*）)", text):
+    marker = re.match(r"^(寅恪案[，、]?)", text)
+    cursor = 0
+    if marker:
+        parts.append({"kind": "author-marker", "text": marker.group(1)})
+        cursor = marker.end()
+
+    for piece in re.split(r"(（[^（）]*）|［[^［］]*］)", text[cursor:]):
         if not piece:
             continue
         if piece.startswith("（") and piece.endswith("）"):
             parts.append({"kind": "note", "text": piece})
+        elif piece.startswith("［") and piece.endswith("］"):
+            parts.append({"kind": "supplied-text", "text": piece})
         else:
             parts.append({"kind": "text", "text": piece})
-    return parts
+    glyphs = [
+        node for node in row.get("nodes", [])
+        if node.get("type") == "image" and node.get("role") == "inline-glyph"
+    ]
+    if not glyphs:
+        return parts
+
+    rendered: list[dict] = []
+    glyph_index = 0
+    for part in parts:
+        pieces = part["text"].split("\uFFFC")
+        for index, piece in enumerate(pieces):
+            if piece:
+                rendered.append({**part, "text": piece})
+            if index < len(pieces) - 1:
+                if glyph_index >= len(glyphs):
+                    raise ValueError(f"Missing inline glyph node for {row['id']}")
+                glyph = glyphs[glyph_index]
+                rendered.append({
+                    "kind": "inline-glyph",
+                    "text": "\uFFFC",
+                    "asset": f"/chen-yinke/glyphs/{glyph['src']}",
+                    "alt": "未辨識行內字形",
+                })
+                glyph_index += 1
+    if glyph_index != len(glyphs):
+        raise ValueError(f"Unused inline glyph node for {row['id']}")
+    return rendered
 
 
-def main() -> None:
-    pilot = json.loads(PILOT.read_text(encoding="utf-8"))
-    block_rows = json.loads(BLOCKS.read_text(encoding="utf-8"))["blocks"]
+def build_selection(spec: dict, material: dict, edition_index: dict) -> dict:
+    source_entry = next(
+        row for row in edition_index["files"]
+        if row["sourceFile"] == material["scope"]["sourceFile"]
+    )
+    block_rows = json.loads((PROCESSED / source_entry["file"]).read_text(encoding="utf-8"))["blocks"]
     by_id = {row["id"]: row for row in block_rows}
+    attribution = material["textAttribution"]
+    quote_attributions = material.get("publicQuoteAttributions", {})
 
     units = []
-    for unit in pilot["readingUnits"]:
-        # which source each quotation block belongs to
-        quote_owner: dict[str, dict] = {}
-        for src in unit.get("sources", []):
-            label = " ".join(x for x in [src.get("work"), src.get("locator")] if x)
-            ref = {
-                "work": src.get("work"),
-                "locator": src.get("locator"),
-                "item": src.get("item"),
-                "author": src.get("author"),
-                "label": label,
-            }
-            for bid in src.get("quotationBlocks", []):
-                quote_owner[bid] = ref
-
-        xref_block: dict[str, dict] = {}
-        for x in unit.get("crossReferences", []):
-            xref_block[x["block"]] = {
-                "label": zh(x["label"]),
-                "target": x["target"],
-                "sourceText": x["sourceText"],
-            }
-
+    for unit in material["readingUnits"]:
         blocks = []
         for bid in unit["blocks"]:
             row = by_id[bid]
@@ -108,61 +101,183 @@ def main() -> None:
             else:
                 role = "prose"
 
-            marker = None
-            if role == "yinke-case":
-                m = re.match(r"^寅恪案[，、]?", text)
-                if m:
-                    marker = "寅恪案"
-                    text = text[m.end():]
-
-            blocks.append({
+            segments = segment(row)
+            block = {
                 "id": bid,
+                "recordType": "source-transcription",
+                "author": attribution["displayLabel"],
+                "textAttribution": attribution,
                 "role": role,
-                "marker": marker,
+                "sourceText": text,
+                "sourceTextSha256": hashlib.sha256(text.encode("utf-8")).hexdigest(),
                 "openQuestion": "俟考" in text,
-                "sourceRef": quote_owner.get(bid),
-                "crossReference": xref_block.get(bid),
-                "segments": segment(text),
-            })
+                "mixedOwnership": role == "source" and any(
+                    part["kind"] != "text" for part in segments
+                ),
+                "segments": segments,
+            }
+            if bid in quote_attributions:
+                block["sourceRef"] = quote_attributions[bid]
+            blocks.append(block)
 
         units.append({
             "id": unit["id"],
-            "title": zh(unit.get("title", "")),
-            "function": unit.get("function"),
-            "note": zh(unit.get("note", "")) or None,
-            "claims": [
-                {"text": zh(c["text"]), "certainty": c["certainty"]}
-                for c in unit.get("claims", [])
-            ],
-            "witnesses": unit.get("witnesses", []),
-            "preferredWitness": unit.get("preferredWitness"),
             "blocks": blocks,
         })
 
-    view = {
-        "schemaVersion": "1.0.0",
-        "work": pilot["work"],
-        "author": pilot.get("author", "陳寅恪"),
-        "chapter": pilot["chapter"],
+    public_blocks = [block for unit in units for block in unit["blocks"]]
+    public_annotations = material.get("publicAnnotations", [])
+    for unit in units:
+        unit["annotationIds"] = [
+            annotation["id"]
+            for annotation in public_annotations
+            if annotation.get("target", {}).get("unitId") == unit["id"]
+        ]
+
+    public_entities = []
+    draft_entities = material.get("editorialDrafts", {}).get(
+        "entities", material.get("entities", [])
+    )
+    for entity in draft_entities:
+        observed_names = []
+        mentions = []
+        for name in [entity.get("label"), *entity.get("aliases", [])]:
+            if not name:
+                continue
+            matched_blocks = [
+                block["id"] for block in public_blocks if name in block["sourceText"]
+            ]
+            if matched_blocks:
+                observed_names.append(name)
+                mentions.extend(
+                    {"blockId": block_id, "matchedText": name}
+                    for block_id in matched_blocks
+                )
+        if not observed_names:
+            continue
+        public_entities.append({
+            "id": entity["id"],
+            "recordType": "literal-name-index",
+            "label": entity["label"],
+            "type": entity["type"],
+            "aliases": [name for name in observed_names if name != entity["label"]],
+            "mentions": mentions,
+            "provenance": {
+                "representation": "editorial-name-resolution",
+                "surfaceForms": "source-text-only",
+                "biographicalAnnotation": "withheld",
+            },
+        })
+
+    return {
+        "id": spec["id"],
+        "label": spec["label"],
+        "sectionId": spec["sectionId"],
+        "completesSection": spec.get("completesSection", False),
+        "section": material.get("section", material.get("chapter")),
+        "workOrder": {
+            "sectionOrder": spec["sectionOrder"],
+            "sourceFileOrder": spec["sourceFileOrder"],
+            "fromSequence": by_id[material["scope"]["contentFromBlock"]]["sequence"],
+            "toSequence": by_id[material["scope"]["toBlock"]]["sequence"],
+        },
+        "textAttribution": attribution,
+        "provenancePolicy": {
+            "sourceText": "verbatim-lossless-block",
+            "publicAnnotations": "reviewed-explicit-provenance-only",
+            "withheldEditorialDrafts": True,
+        },
         "scope": {
-            "sourceFile": pilot["scope"]["sourceFile"],
-            "fromBlock": pilot["scope"]["fromBlock"],
-            "toBlock": pilot["scope"]["toBlock"],
+            "sourceFile": material["scope"]["sourceFile"],
+            "fromBlock": material["scope"]["fromBlock"],
+            "contentFromBlock": material["scope"]["contentFromBlock"],
+            "toBlock": material["scope"]["toBlock"],
             "blockCount": sum(len(u["blocks"]) for u in units),
         },
         "units": units,
-        "entities": [
-            {**ent, "gloss": GLOSS.get(ent["id"])}
-            for ent in pilot["entities"]
-        ],
+        "entities": public_entities,
+        "publicAnnotations": public_annotations,
     }
 
+
+def main() -> None:
+    manifest = json.loads(MANIFEST.read_text(encoding="utf-8"))
+    edition_index = json.loads(EDITION_INDEX.read_text(encoding="utf-8"))
+    corpus_index = json.loads(CORPUS_INDEX.read_text(encoding="utf-8"))
+    selections = [
+        build_selection(
+            spec,
+            json.loads((MATERIALS / spec["material"]).read_text(encoding="utf-8")),
+            edition_index,
+        )
+        for spec in manifest["selections"]
+    ]
+    selection_ids_by_section: dict[str, list[str]] = {}
+    selected_counts: dict[str, int] = {}
+    for selection in selections:
+        section_id = selection["sectionId"]
+        selection_ids_by_section.setdefault(section_id, []).append(selection["id"])
+        selected_counts[section_id] = selected_counts.get(section_id, 0) + selection["scope"]["blockCount"]
+    sections = []
+    for order, section in enumerate(corpus_index["sections"]):
+        selected = selected_counts.get(section["id"], 0)
+        sections.append({
+            "id": section["id"],
+            "order": order,
+            "title": section["title"],
+            "totalParagraphs": section["paragraphCount"],
+            "selectionIds": selection_ids_by_section.get(section["id"], []),
+            "selectedBlockCount": selected,
+            "status": (
+                "complete"
+                if any(
+                    selection["sectionId"] == section["id"]
+                    and selection.get("completesSection")
+                    for selection in selections
+                )
+                else "partial" if selected else "not-yet-selected"
+            ),
+        })
+    labels = {
+        "complete": "完整",
+        "partial": "部分",
+        "not-yet-selected": "未開始",
+    }
+    summary = [
+        {
+            "status": status,
+            "label": labels[status],
+            "sections": [
+                row["title"].split("　")[0]
+                for row in sections if row["status"] == status
+            ],
+        }
+        for status in ("complete", "partial", "not-yet-selected")
+    ]
+    view = {
+        "schemaVersion": "3.0.0",
+        "work": manifest["work"],
+        "workAuthor": manifest["workAuthor"],
+        "workProgress": {
+            "sectionCount": len(sections),
+            "totalBlocks": edition_index["totals"]["blockCount"],
+            "selectedBlocks": sum(row["scope"]["blockCount"] for row in selections),
+            "sections": sections,
+            "summary": summary,
+        },
+        "selections": selections,
+    }
     OUT.write_text(json.dumps(view, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     counts: dict[str, int] = {}
-    for u in units:
-        for b in u["blocks"]:
-            counts[b["role"]] = counts.get(b["role"], 0) + 1
-    print(json.dumps({"units": len(units), "blocks": view["scope"]["blockCount"], "roles": counts}, ensure_ascii=False))
+    for selection in selections:
+        for u in selection["units"]:
+            for b in u["blocks"]:
+                counts[b["role"]] = counts.get(b["role"], 0) + 1
+    print(json.dumps({
+        "selections": len(selections),
+        "blocks": view["workProgress"]["selectedBlocks"],
+        "roles": counts,
+    }, ensure_ascii=False))
     print(f"Wrote {OUT}")
 
 

@@ -1,0 +1,79 @@
+{
+  "schemaVersion": "2.1.0",
+  "work": "柳如是別傳",
+  "workAuthor": "陳寅恪",
+  "textAttribution": {
+    "assertionOwner": "chen-yinke",
+    "displayLabel": "陳寅恪",
+    "representation": "author-text"
+  },
+  "section": "第一章　緣起・粗告完畢感賦",
+  "scope": {
+    "sourceFile": "OEBPS/text00154.html",
+    "fromBlock": "lrs-f154-b0001",
+    "contentFromBlock": "lrs-f154-b0001",
+    "toBlock": "lrs-f154-b0003",
+    "status": "first editorial pass"
+  },
+  "readingUnits": [
+    {
+      "id": "lrs-f154-unit-01",
+      "blocks": [
+        "lrs-f154-b0001",
+        "lrs-f154-b0002",
+        "lrs-f154-b0003"
+      ]
+    }
+  ],
+  "editorialDraftPolicy": {
+    "status": "machine-drafted",
+    "publicStatus": "withhold",
+    "wordingBy": "project-editor",
+    "appliesTo": [
+      "editorialDrafts"
+    ]
+  },
+  "editorialDrafts": {
+    "units": [
+      {
+        "id": "lrs-f154-unit-01",
+        "function": "writing-completion-poems"
+      }
+    ],
+    "sourceBridges": [],
+    "chronology": [],
+    "entities": [
+      {
+        "id": "person-chen-yinke",
+        "label": "陳寅恪",
+        "type": "person",
+        "aliases": [
+          "陳寅恪先生",
+          "陳先生",
+          "寅恪"
+        ]
+      },
+      {
+        "id": "person-qian-qianyi",
+        "label": "錢謙益",
+        "type": "person",
+        "aliases": [
+          "牧齋",
+          "牧翁"
+        ]
+      },
+      {
+        "id": "person-liu-rushi",
+        "label": "柳如是",
+        "type": "person",
+        "aliases": [
+          "河東君",
+          "阿雲"
+        ]
+      }
+    ],
+    "readerBehaviors": []
+  },
+  "publicAnnotations": [],
+  "annotationAudits": []
+}

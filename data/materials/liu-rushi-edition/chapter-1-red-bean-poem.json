@@ -1,0 +1,80 @@
+{
+  "schemaVersion": "2.1.0",
+  "work": "柳如是別傳",
+  "workAuthor": "陳寅恪",
+  "textAttribution": {
+    "assertionOwner": "chen-yinke",
+    "displayLabel": "陳寅恪",
+    "representation": "author-text"
+  },
+  "section": "第一章　緣起・詠紅豆并序",
+  "scope": {
+    "sourceFile": "OEBPS/text00146.html",
+    "fromBlock": "lrs-f146-b0001",
+    "contentFromBlock": "lrs-f146-b0001",
+    "toBlock": "lrs-f146-b0004",
+    "status": "first editorial pass"
+  },
+  "readingUnits": [
+    {
+      "id": "lrs-f146-unit-01",
+      "blocks": [
+        "lrs-f146-b0001",
+        "lrs-f146-b0002",
+        "lrs-f146-b0003",
+        "lrs-f146-b0004"
+      ]
+    }
+  ],
+  "editorialDraftPolicy": {
+    "status": "machine-drafted",
+    "publicStatus": "withhold",
+    "wordingBy": "project-editor",
+    "appliesTo": [
+      "editorialDrafts"
+    ]
+  },
+  "editorialDrafts": {
+    "units": [
+      {
+        "id": "lrs-f146-unit-01",
+        "function": "opening-poem-and-preface"
+      }
+    ],
+    "sourceBridges": [],
+    "chronology": [],
+    "entities": [
+      {
+        "id": "person-chen-yinke",
+        "label": "陳寅恪",
+        "type": "person",
+        "aliases": [
+          "陳寅恪先生",
+          "陳先生",
+          "寅恪"
+        ]
+      },
+      {
+        "id": "person-qian-qianyi",
+        "label": "錢謙益",
+        "type": "person",
+        "aliases": [
+          "牧齋",
+          "牧翁"
+        ]
+      },
+      {
+        "id": "person-liu-rushi",
+        "label": "柳如是",
+        "type": "person",
+        "aliases": [
+          "河東君",
+          "阿雲"
+        ]
+      }
+    ],
+    "readerBehaviors": []
+  },
+  "publicAnnotations": [],
+  "annotationAudits": []
+}

@@ -1,0 +1,86 @@
+{
+  "schemaVersion": "2.1.0",
+  "work": "柳如是別傳",
+  "workAuthor": "陳寅恪",
+  "textAttribution": {
+    "assertionOwner": "chen-yinke",
+    "displayLabel": "陳寅恪",
+    "representation": "author-text"
+  },
+  "section": "第一章　緣起・乙未著書感懷",
+  "scope": {
+    "sourceFile": "OEBPS/text00148.html",
+    "fromBlock": "lrs-f148-b0001",
+    "contentFromBlock": "lrs-f148-b0001",
+    "toBlock": "lrs-f148-b0003",
+    "status": "first editorial pass"
+  },
+  "readingUnits": [
+    {
+      "id": "lrs-f148-unit-01",
+      "blocks": [
+        "lrs-f148-b0001",
+        "lrs-f148-b0002",
+        "lrs-f148-b0003"
+      ]
+    }
+  ],
+  "editorialDraftPolicy": {
+    "status": "machine-drafted",
+    "publicStatus": "withhold",
+    "wordingBy": "project-editor",
+    "appliesTo": [
+      "editorialDrafts"
+    ]
+  },
+  "editorialDrafts": {
+    "units": [
+      {
+        "id": "lrs-f148-unit-01",
+        "function": "writing-reflection-poems"
+      }
+    ],
+    "sourceBridges": [],
+    "chronology": [],
+    "entities": [
+      {
+        "id": "person-qian-qianyi",
+        "label": "錢謙益",
+        "type": "person",
+        "aliases": [
+          "牧齋",
+          "牧翁"
+        ]
+      },
+      {
+        "id": "person-liu-rushi",
+        "label": "柳如是",
+        "type": "person",
+        "aliases": [
+          "河東君",
+          "阿雲"
+        ]
+      },
+      {
+        "id": "person-chen-zilong",
+        "label": "陳子龍",
+        "type": "person",
+        "aliases": [
+          "陳臥子"
+        ]
+      },
+      {
+        "id": "person-song-zhengyu",
+        "label": "宋徵輿",
+        "type": "person",
+        "aliases": [
+          "宋轅文",
+          "宋讓木"
+        ]
+      }
+    ],
+    "readerBehaviors": []
+  },
+  "publicAnnotations": [],
+  "annotationAudits": []
+}

@@ -1,0 +1,167 @@
+{
+  "schemaVersion": "2.1.0",
+  "work": "柳如是別傳",
+  "workAuthor": "陳寅恪",
+  "textAttribution": {
+    "assertionOwner": "chen-yinke",
+    "displayLabel": "陳寅恪",
+    "representation": "author-text"
+  },
+  "section": "第一章　緣起・題牧齋初學集與撰著緣起",
+  "scope": {
+    "sourceFile": "OEBPS/text00147.html",
+    "fromBlock": "lrs-f147-b0001",
+    "contentFromBlock": "lrs-f147-b0001",
+    "toBlock": "lrs-f147-b0005",
+    "status": "first editorial pass"
+  },
+  "readingUnits": [
+    {
+      "id": "lrs-f147-unit-01",
+      "blocks": [
+        "lrs-f147-b0001",
+        "lrs-f147-b0002",
+        "lrs-f147-b0003",
+        "lrs-f147-b0004",
+        "lrs-f147-b0005"
+      ]
+    }
+  ],
+  "editorialDraftPolicy": {
+    "status": "machine-drafted",
+    "publicStatus": "withhold",
+    "wordingBy": "project-editor",
+    "appliesTo": [
+      "editorialDrafts"
+    ]
+  },
+  "editorialDrafts": {
+    "units": [
+      {
+        "id": "lrs-f147-unit-01",
+        "function": "second-opening-poem-and-writing-origin"
+      }
+    ],
+    "sourceBridges": [],
+    "chronology": [],
+    "entities": [
+      {
+        "id": "person-chen-yinke",
+        "label": "陳寅恪",
+        "type": "person",
+        "aliases": [
+          "陳寅恪先生",
+          "陳先生",
+          "寅恪"
+        ]
+      },
+      {
+        "id": "person-qian-qianyi",
+        "label": "錢謙益",
+        "type": "person",
+        "aliases": [
+          "牧齋",
+          "牧翁"
+        ]
+      },
+      {
+        "id": "person-liu-rushi",
+        "label": "柳如是",
+        "type": "person",
+        "aliases": [
+          "河東君",
+          "阿雲"
+        ]
+      },
+      {
+        "id": "person-gu-ling",
+        "label": "顧苓",
+        "type": "person",
+        "aliases": [
+          "顧云美",
+          "云美"
+        ]
+      },
+      {
+        "id": "person-chen-zilong",
+        "label": "陳子龍",
+        "type": "person",
+        "aliases": [
+          "陳臥子"
+        ]
+      },
+      {
+        "id": "person-cheng-jiashui",
+        "label": "程嘉燧",
+        "type": "person",
+        "aliases": [
+          "程孟陽"
+        ]
+      },
+      {
+        "id": "person-xie-sanbin",
+        "label": "謝三賓",
+        "type": "person",
+        "aliases": [
+          "謝象三"
+        ]
+      },
+      {
+        "id": "person-song-zhengyu",
+        "label": "宋徵輿",
+        "type": "person",
+        "aliases": [
+          "宋轅文",
+          "宋讓木"
+        ]
+      },
+      {
+        "id": "person-li-daiwen",
+        "label": "李待問",
+        "type": "person",
+        "aliases": [
+          "李存我"
+        ]
+      },
+      {
+        "id": "person-yu-mingzhen",
+        "label": "俞明震",
+        "type": "person",
+        "aliases": [
+          "俞觚齋先生",
+          "俞先生"
+        ]
+      }
+    ],
+    "readerBehaviors": []
+  },
+  "publicAnnotations": [
+    {
+      "id": "lrs-ann-chapter-1-mixed-quotation",
+      "annotationType": "editorial-note",
+      "displayLabel": "編者說明",
+      "text": "本選段的序、詩與論述屬陳寅恪；其中明引錢謙益、顧苓等人的詩文仍是引文，不因選段主要文字責任而改歸陳氏。",
+      "target": {
+        "unitId": "lrs-f147-unit-01",
+        "placement": "note"
+      },
+      "attribution": {
+        "assertionOwner": "project-editor",
+        "wordingBy": "project-editor",
+        "representation": "editorial-note"
+      },
+      "basis": [
+        "lrs-f147-b0002",
+        "lrs-f147-b0003",
+        "lrs-f147-b0005"
+      ],
+      "review": {
+        "status": "draft-disclosed",
+        "authorizedBy": "user",
+        "authorizedAt": "2026-07-29"
+      },
+      "publicStatus": "public"
+    }
+  ],
+  "annotationAudits": []
+}

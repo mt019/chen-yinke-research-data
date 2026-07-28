@@ -1,0 +1,68 @@
+{
+  "schemaVersion": "2.1.0",
+  "work": "柳如是別傳",
+  "workAuthor": "陳寅恪",
+  "textAttribution": {
+    "assertionOwner": "chen-yinke",
+    "displayLabel": "陳寅恪",
+    "representation": "author-text"
+  },
+  "section": "第一章　緣起・乙未舊曆元旦",
+  "scope": {
+    "sourceFile": "OEBPS/text00149.html",
+    "fromBlock": "lrs-f149-b0001",
+    "contentFromBlock": "lrs-f149-b0001",
+    "toBlock": "lrs-f149-b0002",
+    "status": "first editorial pass"
+  },
+  "readingUnits": [
+    {
+      "id": "lrs-f149-unit-01",
+      "blocks": [
+        "lrs-f149-b0001",
+        "lrs-f149-b0002"
+      ]
+    }
+  ],
+  "editorialDraftPolicy": {
+    "status": "machine-drafted",
+    "publicStatus": "withhold",
+    "wordingBy": "project-editor",
+    "appliesTo": [
+      "editorialDrafts"
+    ]
+  },
+  "editorialDrafts": {
+    "units": [
+      {
+        "id": "lrs-f149-unit-01",
+        "function": "writing-reflection-poem"
+      }
+    ],
+    "sourceBridges": [],
+    "chronology": [],
+    "entities": [
+      {
+        "id": "person-qian-qianyi",
+        "label": "錢謙益",
+        "type": "person",
+        "aliases": [
+          "牧齋",
+          "牧翁"
+        ]
+      },
+      {
+        "id": "person-liu-rushi",
+        "label": "柳如是",
+        "type": "person",
+        "aliases": [
+          "河東君",
+          "阿雲"
+        ]
+      }
+    ],
+    "readerBehaviors": []
+  },
+  "publicAnnotations": [],
+  "annotationAudits": []
+}

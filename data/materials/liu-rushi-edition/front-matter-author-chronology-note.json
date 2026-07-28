@@ -1,0 +1,61 @@
+{
+  "schemaVersion": "2.1.0",
+  "work": "柳如是別傳",
+  "workAuthor": "陳寅恪",
+  "textAttribution": {
+    "assertionOwner": "chen-yinke",
+    "displayLabel": "陳寅恪",
+    "representation": "author-text"
+  },
+  "section": "卷前・附記",
+  "scope": {
+    "sourceFile": "OEBPS/text00145.html",
+    "fromBlock": "lrs-f145-b0001",
+    "contentFromBlock": "lrs-f145-b0001",
+    "toBlock": "lrs-f145-b0003",
+    "status": "first editorial pass"
+  },
+  "readingUnits": [
+    {
+      "id": "lrs-f145-unit-01",
+      "blocks": [
+        "lrs-f145-b0001",
+        "lrs-f145-b0002",
+        "lrs-f145-b0003"
+      ]
+    }
+  ],
+  "editorialDraftPolicy": {
+    "status": "machine-drafted",
+    "publicStatus": "withhold",
+    "wordingBy": "project-editor",
+    "appliesTo": [
+      "editorialDrafts"
+    ]
+  },
+  "editorialDrafts": {
+    "units": [
+      {
+        "id": "lrs-f145-unit-01",
+        "function": "author-chronology-principles"
+      }
+    ],
+    "sourceBridges": [],
+    "chronology": [],
+    "entities": [
+      {
+        "id": "person-chen-yinke",
+        "label": "陳寅恪",
+        "type": "person",
+        "aliases": [
+          "陳寅恪先生",
+          "陳先生",
+          "寅恪"
+        ]
+      }
+    ],
+    "readerBehaviors": []
+  },
+  "publicAnnotations": [],
+  "annotationAudits": []
+}

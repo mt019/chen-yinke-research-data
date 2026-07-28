@@ -1,0 +1,134 @@
+{
+  "schemaVersion": "2.1.0",
+  "work": "柳如是別傳",
+  "workAuthor": "陳寅恪",
+  "section": "卷前・二〇二〇年出版説明",
+  "textAttribution": {
+    "assertionOwner": "shanghai-ancient-books-press",
+    "displayLabel": "上海古籍出版社",
+    "representation": "publisher-preface"
+  },
+  "scope": {
+    "sourceFile": "OEBPS/text00143.html",
+    "fromBlock": "lrs-f143-b0001",
+    "contentFromBlock": "lrs-f143-b0001",
+    "toBlock": "lrs-f143-b0007",
+    "status": "first editorial pass"
+  },
+  "readingUnits": [
+    {
+      "id": "lrs-front-2020-01",
+      "blocks": [
+        "lrs-f143-b0001",
+        "lrs-f143-b0002",
+        "lrs-f143-b0003",
+        "lrs-f143-b0004",
+        "lrs-f143-b0005",
+        "lrs-f143-b0006",
+        "lrs-f143-b0007"
+      ]
+    }
+  ],
+  "editorialDraftPolicy": {
+    "status": "machine-drafted",
+    "publicStatus": "withhold",
+    "wordingBy": "project-editor",
+    "appliesTo": [
+      "editorialDrafts"
+    ]
+  },
+  "editorialDrafts": {
+    "units": [
+      {
+        "id": "lrs-front-2020-01",
+        "function": "publisher-edition-statement"
+      }
+    ],
+    "sourceBridges": [],
+    "chronology": [],
+    "entities": [
+      {
+        "id": "person-chen-yinke",
+        "label": "陳寅恪",
+        "type": "person",
+        "aliases": [
+          "陳寅恪先生",
+          "陳先生"
+        ]
+      },
+      {
+        "id": "person-jiang-tianshu",
+        "label": "蔣天樞",
+        "type": "person",
+        "aliases": [
+          "蔣天樞先生"
+        ]
+      },
+      {
+        "id": "org-shanghai-ancient-books-press",
+        "label": "上海古籍出版社",
+        "type": "organization",
+        "aliases": [
+          "我社"
+        ]
+      }
+    ],
+    "readerBehaviors": []
+  },
+  "publicAnnotations": [
+    {
+      "id": "lrs-ann-front-2020-heading",
+      "annotationType": "editorial-heading",
+      "displayLabel": "編者分段",
+      "text": "二〇二〇年新版出版説明",
+      "target": {
+        "unitId": "lrs-front-2020-01",
+        "placement": "heading"
+      },
+      "attribution": {
+        "assertionOwner": "project-editor",
+        "wordingBy": "project-editor",
+        "representation": "editorial-heading"
+      },
+      "basis": [
+        "lrs-f143-b0001",
+        "lrs-f143-b0007"
+      ],
+      "review": {
+        "status": "draft-disclosed",
+        "authorizedBy": "user",
+        "authorizedAt": "2026-07-29"
+      },
+      "publicStatus": "public"
+    },
+    {
+      "id": "lrs-ann-front-2020-note",
+      "annotationType": "editorial-note",
+      "displayLabel": "編者說明",
+      "text": "本篇由上海古籍出版社署名，說明二〇二〇年重排本的出版沿革、校改原則與所據底本；不是陳寅恪正文。",
+      "target": {
+        "unitId": "lrs-front-2020-01",
+        "placement": "note"
+      },
+      "attribution": {
+        "assertionOwner": "project-editor",
+        "wordingBy": "project-editor",
+        "representation": "editorial-note"
+      },
+      "basis": [
+        "lrs-f143-b0002",
+        "lrs-f143-b0004",
+        "lrs-f143-b0005",
+        "lrs-f143-b0006",
+        "lrs-f143-b0007"
+      ],
+      "review": {
+        "status": "draft-disclosed",
+        "authorizedBy": "user",
+        "authorizedAt": "2026-07-29"
+      },
+      "publicStatus": "public"
+    }
+  ],
+  "annotationAudits": []
+}
